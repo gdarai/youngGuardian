@@ -1,0 +1,7758 @@
+{
+	"Actors": {
+		"01_Jakub": {
+			"name": "Jakub",
+			"nickname": "",
+			"profile": ""
+		},
+		"02_Jan": {
+			"name": "Jan",
+			"nickname": "",
+			"profile": ""
+		},
+		"03_Sabrina": {
+			"name": "Sabrina",
+			"nickname": "",
+			"profile": ""
+		}
+	},
+	"Armors": {
+		"01_Kozenebrneni": {
+			"description": "",
+			"name": "Kožené brnění"
+		},
+		"02_Kozenacapka": {
+			"description": "",
+			"name": "Kožená čapka"
+		},
+		"03_Tunika": {
+			"description": "",
+			"name": "Tunika"
+		},
+		"04_PrstenUniku": {
+			"description": "",
+			"name": "Prsten Uniku"
+		},
+		"05_Supinovebrneni": {
+			"description": "",
+			"name": "Šupinové brnění"
+		},
+		"06_Supinovacapka": {
+			"description": "",
+			"name": "Šupinová čapka"
+		},
+		"07_Drevenystit": {
+			"description": "",
+			"name": "Dřevěný štít"
+		},
+		"08_PrstenRegenerace": {
+			"description": "",
+			"name": "Prsten Regenerace"
+		},
+		"09_Krouzkovebrneni": {
+			"description": "",
+			"name": "Kroužkové brnění"
+		},
+		"10_Krouzkovacapka": {
+			"description": "",
+			"name": "Kroužková čapka"
+		},
+		"11_Kyrys": {
+			"description": "",
+			"name": "Kyrys"
+		},
+		"12_Zeleznahelma": {
+			"description": "",
+			"name": "Železná helma"
+		},
+		"13_Kouzelnebrneni": {
+			"description": "",
+			"name": "Kouzelné brnění"
+		},
+		"14_Kouzelnacapka": {
+			"description": "",
+			"name": "Kouzelná čapka"
+		},
+		"15_Kovovystit": {
+			"description": "",
+			"name": "Kovový štít"
+		},
+		"16_Rytirskystit": {
+			"description": "",
+			"name": "Rytířský štít"
+		},
+		"17_Kouzelnakoruna": {
+			"description": "",
+			"name": "Kouzelná koruna"
+		}
+	},
+	"Classes": {
+		"01_Hrdina": {
+			"name": "Hrdina"
+		},
+		"02_Lesnik": {
+			"name": "Lesník"
+		},
+		"03_Kouzelnice": {
+			"name": "Kouzelnice"
+		}
+	},
+	"CommonEvents": {
+		"001_BlackKnightBattle": {
+			"dialog_000": [
+				"Další odvážlivec. Jen pojď, takových",
+				"jako jsi ty dnes hodlám zabít alespoň sto.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Takhle tady umřu. Tím princezně nepomůžu.",
+				"Musím ustoupit.",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Zbabělče, zůstaň a bojuj. Tvůj úkol",
+				"je zemřít pro svou princeznu,",
+				"tak ho splň.",
+				""
+			]
+		},
+		"003_LvlUp": {
+			"dialog_002": [
+				"Ve výcviku ochránců nás učili i základy",
+				"kouzlení. Možná je načase to zkusit",
+				"v praxi?",
+				""
+			],
+			"dialog_010": [
+				"Trénink v boji se vyplácí.",
+				"Myslím, že jsem se naučil novou fintu.",
+				"",
+				""
+			]
+		},
+		"005_TentacleBattle": {
+			"dialog_007": [
+				"Fialová bažina. Samozřejmě s chapadly.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Dobře, tentokrát ne.",
+				"",
+				"",
+				""
+			]
+		},
+		"006_VillageShop": {
+			"dialog_000": [
+				"Mohu ti s něčím pomoci? Máme otevřeno.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Volný pokoj mám nahoře v patře.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_026": [
+				"Potkal jsem Marka a Jana a jsem z nich",
+				"trochu zmatený. Můžeš mi o nich něco říct?",
+				"",
+				""
+			],
+			"dialog_032": [
+				"Budu se tvářit jako že tu nejsem.",
+				"",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Co říct. Jsou to bratři. Jan je takový",
+				"víc samotářský, ale jinak se mají rádi.",
+				"Marek se stará o maják a loděnici a Jan",
+				"zásobuje vesnici dřevem."
+			],
+			"dialog_046": [
+				"Kateřina je vaše starostka, že?",
+				"Jaká je?",
+				"",
+				""
+			],
+			"dialog_051": [
+				"Kateřina je prima a spravedlivá ženská.",
+				"Co řekne, to je pravda, dá se jí věřit.",
+				"Starostku už nám dělá druhým rokem",
+				"a nemáme si na co stěžovat."
+			],
+			"dialog_058": [
+				"Ta bažina, co mi o ní můžeš říct?",
+				"Můžeš mi poradit, co tam kde najdu?",
+				"A můžeš mi připomenout ty verše,",
+				"co odemykají bránu?"
+			],
+			"dialog_063": [
+				"No, když projdeš branou, rozděluje se",
+				"bažina na západ k táboru goblinů a",
+				"na sever k pohřebišti. Pozor, některé",
+				"části bažiny jsou jedovaté."
+			],
+			"dialog_068": [
+				"Říká se, že uprostřed bažiny se skrývá",
+				"prastarý portál, ale jediný, kdo se kdy",
+				"o něj víc zajímal, byl nějaký královský",
+				"archeolog, Petr se tuším jmenoval."
+			],
+			"dialog_073": [
+				"Co se týče veršů, já si to pamatuju takto:",
+				"1) Bráno z břečťanu,",
+				"2) Po stezkách,",
+				"3) Lucerny."
+			],
+			"dialog_080": [
+				"Lidé mluví o pohřebišti a hrobě šamana.",
+				"Nevis co se o tom povídá?",
+				"",
+				""
+			],
+			"dialog_085": [
+				"No, slyšela jsem, že šamanův hrob, spíž",
+				"hrobka, je střežená třemi mrtvými strážci.",
+				"Ale nevím, co to znamená, asi že tam",
+				"můžeš potkat tři duchy."
+			],
+			"dialog_090": [
+				"Jinak samotné pohřebiště je v bažině,",
+				"když se vydáš na sever, za jedovou",
+				"bažinu a pak ještě dál.",
+				""
+			],
+			"dialog_097": [
+				"Přicestoval jsem do bažiny vlastně omylem",
+				"starým portálem. A potkal u něj",
+				"archeologa Petra, tak ať tu někdo ví,",
+				"že je pořád naživu."
+			],
+			"dialog_102": [
+				"To je skvělá zpráva, díky.",
+				"Upozorním městskou stráž, třeba mu",
+				"pošlou někoho na pomoc.",
+				""
+			],
+			"dialog_111": [
+				"Máme vybavení i výzbroj.",
+				"Také vykupujeme, pokud chceš prodat.",
+				"",
+				""
+			],
+			"dialog_143": [
+				"Na shledanou.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Odpočinek",
+				"Informace",
+				"Obchod",
+				"Půjdu"
+			],
+			"option_024": [
+				"Marek a Jan",
+				"Kateřina",
+				"Bažina",
+				"Pohřebiště",
+				"Archeolog"
+			],
+			"option_116": [
+				"Vybavení",
+				"Výzbroj",
+				"Potřebuji prodat"
+			]
+		},
+		"007_JournalShowText": {
+			"scroll_001": [
+				"Tohle je strážní deník,",
+				"",
+				"pište sem všechno co je zásadní,",
+				"ať se ve službě neztrapníme."
+			],
+			"scroll_009": [
+				"Neodcházej do služby beze zbraně.",
+				"",
+				"Podívej se \\C[10]do skříně\\C[0], vezmi si z ní meč.",
+				"",
+				"Když se něco děje,",
+				"měj meč připravený a \\C[10]ne v batohu\\C[0]."
+			],
+			"scroll_019": [
+				"Prchl jsem před Černým Rytířem, který hlídal před",
+				"pokojem naší princezny. Co se dělo uvnitř, si můžu",
+				"jen s hrůzou domyslet. Musím se tam vrátit.",
+				"",
+				"Propadl jsem se ale nějakým portálem a teď jsem",
+				"na ostrově Lodníkův Kout, asi 50 mil daleko.",
+				"Potkal jsem archeologa Petra. Prý je tu vesnice,",
+				"třeba mi tam pomůžou."
+			],
+			"scroll_031": [
+				"Musím projít bažinou.",
+				"Archeolog Petr se zdá se zajímá o nějaké \\C[10]žluté",
+				"plody\\C[0], co tu prý v bažině rostou.",
+				"Překonal jsem jeskyni, kde se stačilo držet",
+				"zvuku kapající vody.",
+				"",
+				"K druhé jeskyni je prý dobré mít \\C[10]mapu\\C[0], která je v Petrově",
+				"starém táboře, a vstoupit \\C[10]starou studnou\\C[0]."
+			],
+			"scroll_043": [
+				"Potkal jsem Jana, lesníka, co žije v bažině.",
+				"Prý pokud chci z bažiny ven, musím najít",
+				"všechny \\C[10]tři kusy kouzla\\C[0], co otevírá bránu,",
+				"a ve správném pořadí je pak u brány odrecitovat.",
+				"",
+				"Jeden je prý u starého \\C[10]vykotlaného stromu\\C[0] na sever",
+				"od lesníkova domu."
+			],
+			"scroll_054": [
+				"Ať tvé lucerny svítí za zeď,",
+				"Bráno z břečťanu, otevři teď!",
+				"",
+				"Po temných stezkách se chci dnes dát,",
+				"Za tajemstvím bažiny nebudu se bát.",
+				"",
+				"Bráno z břečťanu, vyzývám tě,",
+				"Kouzelná sílo, probuď svou moc."
+			],
+			"scroll_066": [
+				"Loďař Marek mi rád pomůže,",
+				"ale nemá dřevo.",
+				"To mu může dodat jeho \\C[10]bratr Jan\\C[0].",
+				"Toho už znám. Bydlí na samotě",
+				"\\C[10]na západě bažiny\\C[0].",
+				"",
+				"Jan prý potřebuje pomoc",
+				"s majákem, co stojí na severu bažiny."
+			],
+			"scroll_078": [
+				"Pomoc si ode mě vyžádala i starostka",
+				"Kateřina. Prý \\C[10]zastavit šamanovo prokletí\\C[0].",
+				"",
+				"Šamanova hrobka je \\C[10]na sever od fialové bažiny\\C[0].",
+				"Nejprve je potřeba \\C[10]porazit tři strážce\\C[0].",
+				"Pak i samotného šamanova ducha."
+			],
+			"scroll_088": [
+				"Z Dubového Údolí odjíždím s Janem.",
+				"Míříme do blízkého města Stříbrné Ústí.",
+				"",
+				"Snad tam najdeme dopravu",
+				"po řece do hlavního města."
+			],
+			"scroll_097": [
+				"Před branami Stříbrného Ústí",
+				"je tábor pirátů.",
+				"",
+				"Musíme se jím proplížit,",
+				"pokud chceme do města.",
+				"",
+				"Prý se dá přes hradby dostat stokou,",
+				"která ústí pod starým stromem u hradeb."
+			],
+			"scroll_109": [
+				"Ve městě je problém se ubytovat.",
+				"",
+				"Hostinská Jiřina nám poradila, že",
+				"kramářka nás u sebe nechá.",
+				"",
+				"Musíme se k ní ale nejprve vetřít.",
+				"Je to domek na \\C[10]jižní straně\\C[0] města,",
+				"ten co má \\C[10]zavřená všechna okna\\C[0].",
+				"Klíč schovává před vchodem pod květináčem."
+			],
+			"scroll_122": [
+				"Velitel hlídky Václav má problém,",
+				"žádný zvěd se mu z pirátského tábora nevrátil.",
+				"A my se mu potřebujeme zavděčit.",
+				"",
+				"Projdeme tedy tábor za ně a \\C[11]nakoukneme do všech",
+				"stanů\\C[0], co tam mají.",
+				"\\C[17]Zatím jsme jich prošli \\V[12]\\C[0].",
+				"A nenecháme se u toho chytit."
+			],
+			"scroll_134": [
+				"Aneta má prý nápad,",
+				"jak nás dostat na loď dál.",
+				"",
+				"Ale potřebuje si ověřit něco",
+				"v knihovně v paláci.",
+				"",
+				"Náhradní klíč má schovaný ve",
+				"svém \\C[10]krámku u východní brány\\C[0].",
+				"Pozor, toulají se tam lupiči.",
+				"",
+				"Až budeme mít klíč, máme jí potkat u",
+				"branky do palácové zahrady."
+			],
+			"scroll_150": [
+				"Podle baronových zápisků",
+				"je velitelka pirátů Kamila",
+				"v městském vězení.",
+				"",
+				"Kdo tedy velí pirátskému obléhání?",
+				"A proč?",
+				"",
+				"To by nám mohla sama \\C[10]Kamila\\C[0] prozradit,",
+				"pokud nás k ní \\C[10]Václav pustí\\C[0].",
+				"Nezbývá než se ho jít zeptat."
+			],
+			"scroll_164": [
+				"Pokud chceme propustku k pirátce",
+				"ve vězení, musíme pomoci hlídce.",
+				"",
+				"Potřebují průzkumníky, aby",
+				"našli ztracený konvoj.",
+				"",
+				"Stráž u východní brány nás",
+				"pustí z města až budem",
+				"připraveni vyrazit."
+			],
+			"scroll_177": [
+				"Sedlák nám prozradil, že konvoj viděl.",
+				"Prý ho přepadli lupiči a odvezli do své skrýše.",
+				"",
+				"Ta je v zřícenině hradu",
+				"v severovýchodní části lesa",
+				"a dá se k ní dostat od jihu",
+				"lesní pěšinou.",
+				"",
+				"Až to tam prozkoumáme,",
+				"vrátíme se za Václavem."
+			],
+			"scroll_191": [
+				"Musíme jít do vězení a promluvit si",
+				"s bývalou velitelkou pirátů \\C[10]Kamilou\\C[0].",
+				"",
+				"Třeba nám pomůže vymyslet, jak se zbavit",
+				"pirátského obléhání.",
+				"",
+				"Vězení je kamenná budova v centru města.",
+				"Na náměstí na sever od velké věže.",
+				"Má vyvěšený štít s mečem."
+			],
+			"scroll_204": [
+				"Velitelka pirátů \\C[10]Kamila\\C[0]",
+				"byla prý sesazena, protože neubránila",
+				"pirátskou zátoku před \\C[10]rybáky\\C[0].",
+				"",
+				"Musíme zátoku od rybáků vyčistit.",
+				"Když si za to ona bude moct připsat",
+				"zasloužený úspěch, začnou ji piráti",
+				"zase poslouchat.",
+				"",
+				"Pak je odvede od města pryč."
+			],
+			"scroll_218": [
+				"Jsme v zátoce a kus od nás",
+				"sídlí celý kmen rybáků.",
+				"",
+				"Naštěstí se drží v \\C[10]Hlavní Jeskyni\\C[0].",
+				"Tam tedy spíš nepůjdeme.",
+				"Potřebujeme to tu nejprve prozkoumat.",
+				"",
+				"Začneme tím, že založíme \\C[10]alespoň 6 tábořišť\\C[0].",
+				"Zatím jich máme \\V[12].",
+				"Na každé tábořiště potřebujeme \\C[10]Dřevo\\C[0]."
+			],
+			"scroll_232": [
+				"V jeskyních už se vyznáme.",
+				"S rybáky jsme bojovali a",
+				"vyhýbáme se \\C[10]Hlavní Jeskyni\\C[0].",
+				"",
+				"Sabrina s Janem navrhli plán.",
+				"Znepříjemnit rybákům život, aby jeskyni opustili.",
+				"",
+				"Začneme tím, že jim podpálíme tábor.",
+				"Vezmeme další \\C[10]Dřevo na podpal\\C[0] a",
+				"použijeme ho na \\C[10]stany v Zadních Síních \\C[0].",
+				"Teď hoří \\V[12] ze 4."
+			],
+			"scroll_247": [
+				"Rybákům hoří tábory.",
+				"Přes Zadní Síně se teď nedá chodit.",
+				"A náš další cíl jsou jejich \\C[10]zásoby",
+				"ve Skladovacích Síních\\C[0].",
+				"",
+				"Sabrina do nich chce nalít",
+				"\\C[10]návnadu pro krysy\\C[0].",
+				"Aby ji mohla uvařit,",
+				"potřebuje \\C[10]3 růžové květy\\C[0]."
+			],
+			"scroll_260": [
+				"Návnadu pro krysy tedy máme.",
+				"Teď ji nastražit.",
+				"",
+				"Ve Skladovacích Síních jsou",
+				"\\C[10]4 hromady zásob\\C[0].",
+				"Rozmístíme ji ke každé z nich.",
+				"Zatím jsme umístili \\V[12]."
+			],
+			"scroll_271": [
+				"Poslední krok plánu.",
+				"Porazíme vůdce rybáků.",
+				"",
+				"Rada sídlí ve stanu",
+				"v \\C[10]severní části Velké Síně\\C[0].",
+				"",
+				"Velkou Síní se ale nedá projít,",
+				"rybáků je tam zkrátka moc.",
+				"",
+				"Ale pokud do Velké Síně přijdeme",
+				"\\C[10]od Skladovacích Síní\\C[0],",
+				"mohli bychom si ten problém",
+				"o hodně zjednodušit."
+			],
+			"scroll_288": [
+				"Pirátské doupě je opět volné.",
+				"Piráti můžou ukončit blokádu",
+				"a vrátit se domů.",
+				"",
+				"Tedy pokud jim to někdo řekne.",
+				"Teď je na nás \\C[10]dojednat s Kamilou",
+				"a s Václavem\\C[0], aby byla Kamila",
+				"propuštěná a mohla zase",
+				"pirátům velet."
+			],
+			"scroll_301": [
+				"Dorazili jste na Sluneční Hrad,",
+				"hlavní město království.",
+				"",
+				"Město se zdá být jak na jehlách.",
+				"V ulicích patrolují vojáci, nikdo",
+				"nevychází. Zdá se, že zlo, co zaútočilo",
+				"na palác, tam pořád je.",
+				"",
+				"Založili jsme tábor u Jakubova",
+				"bratra \\C[10]Roberta\\C[0].",
+				"",
+				"Sabrina navrhla, ať prozkoumáme dům",
+				"jejího mistra v \\C[10]podhradí na Severovýchodě\\C[0].",
+				"",
+				"Jan se mezitím odpojil a jde prozkoumat",
+				"okolí hradu."
+			],
+			"scroll_321": [
+				"Dům Sabrinina mistra je celý pobořený.",
+				"Zjevně je mistr pryč, ale pořád je naší",
+				"nejlepší šancí to tu prozkoumat.",
+				"",
+				"Mistr má \\C[10]skrytou pracovnu\\C[0], do které se",
+				"chodilo z knihovny na konci chodby.",
+				"",
+				"Pokud bude někde nějaké vodítko k tomu,",
+				"co se stalo, tak tam.",
+				"",
+				"Až se tam dostaneme, Sabrina bude vědět",
+				"\\C[10]jak pracovnu otevřít\\C[0]."
+			],
+			"scroll_337": [
+				"Tajná pracovna se otevírá",
+				"alchymistickým kouzlem.",
+				"",
+				"Pokud seženeme obě tinktury, které",
+				"se nachází někde \\C[10]v ložnici nebo čítárně\\C[0],",
+				"tak ji můžeme otevřít.",
+				"",
+				"Stačí pak nalít \\C[10]modrou tinkturu do pravého",
+				"a červenou do levého\\C[0] jezírka v knihovně",
+				"a pronést správné zaklínadlo."
+			],
+			"scroll_351": [
+				"Máme pro co jsme přišli. Sice nevíme,",
+				"co se stalo s mistrem, ale víme,",
+				"že přišel na to, jak projít bariérou",
+				"do zámku.",
+				"",
+				"Sejdeme se s Janem \\C[10]u Roberta\\C[0].",
+				"",
+				"Pak zamíříme najít \\C[10]portálovou trhlinu\\C[0],",
+				"která se nachází ve staré chodbě pod městem.",
+				"",
+				"Vstup do chodeb je",
+				"v \\C[10]severozápadní části\\C[0] města."
+			],
+			"scroll_367": [
+				"Jsme uvnitř v kouzle.",
+				"Zasekli jsme se napůl mezi životem",
+				"a smrtí v kouzle, které obklopuje zámek.",
+				"",
+				"Věž uprostřed labyrintu symbolizuje",
+				"naši cestu ven. Musíme pomoct",
+				"Sabrině najít \\C[10] čtyři pyramidy\\C[0].",
+				"",
+				"Prý je v každé pyramidě amulet,",
+				"a když budeme mít všechny čtyři,",
+				"tak Sabrina rozbije tohle kouzlo,",
+				"odemkne tu věž a my...",
+				"",
+				"My se dostaneme do zámku."
+			]
+		},
+		"008_JournalControl": {
+			"dialog_004": [
+				"Jsi na stránce \\V[8] z \\V[9]",
+				"",
+				"",
+				""
+			],
+			"option_009": [
+				"Na začátek",
+				"O jednu zpět",
+				"Ještě jednou",
+				"O jednu dál",
+				"Na konec",
+				"Zavřít deník"
+			]
+		},
+		"010_CapturedbyPirates": {
+			"dialog_003": [
+				"A máme vás holomci.",
+				"",
+				"",
+				""
+			]
+		},
+		"011_CitySewersGuard": {
+			"dialog_000": [
+				"Hej, stůj.",
+				"Nahlas se.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Průzkumná skupina.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Potřebujeme projít stokami.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Tak ale opatrně.",
+				"Krysy jsou dneska dost hladové.",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Míříme do města.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Tak se hlaste v hostinci u hlídky.",
+				"A bacha, je málo stráží,",
+				"tak ať vás někdo neokrade cestou.",
+				""
+			],
+			"option_010": [
+				"Do stok",
+				"Do města"
+			]
+		},
+		"012_CityInnGuard": {
+			"dialog_000": [
+				"Kdo to je! Hlas se.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"To jsme jen my.",
+				"Procházíme.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Pustíš nás do hospody?",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Jestli tam velitel vede nějaké jednání,",
+				"tak ho moc nerušte. A nedělejte bordel.",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Dostali jsme úkol ve městě.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Tak bacha na lapky.",
+				"",
+				"",
+				""
+			],
+			"dialog_037": [
+				"Sháníme pro jedny hosty ubytování.",
+				"Netušíš, kde by mohli spát?",
+				"",
+				""
+			],
+			"dialog_042": [
+				"V hospodě je plno, teď když tu máme",
+				"hlavní stan. A lidi se bojí, takže ne,",
+				"nevím.",
+				""
+			],
+			"option_010": [
+				"Do Hospody",
+				"Do Města",
+				"Ubytování"
+			]
+		},
+		"014_CityShopkeep": {
+			"dialog_000": [
+				"Vítejte.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Půjdeme si odpočinout.",
+				"Nashledanou zítra.",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Dobrou.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Odpocinek obnovil vaše síly.",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Potřebujeme si najmout loď a plout",
+				"do hlavního města. Ale to bez svolení",
+				"kapitána asi nepůjde, co?",
+				""
+			],
+			"dialog_033": [
+				"Kdyby to bylo jen o něm.",
+				"Podle mě se mu musíte vloudit do přízně",
+				"a pomoci mu zbavit se těch pirátů.",
+				"Jinak se odtud nehnete."
+			],
+			"dialog_038": [
+				"A jak máme udělat tohle?",
+				"",
+				"",
+				""
+			],
+			"dialog_043": [
+				"To netuším. Na to asi budete muset teprve",
+				"přijít. Doporučuju začít tím, že se budete",
+				"ochomýtat v hospodě, třeba uslyšíte",
+				"co vojáci potřebují a pomůžete."
+			],
+			"dialog_048": [
+				"Pozdravujte ode mě Jiřinku.",
+				"",
+				"",
+				""
+			],
+			"dialog_056": [
+				"Tak si představ, že prý máme jít",
+				"k pirátům do tábora vyzvídat.",
+				"Velitel hlídky potřebuje vědět, jak jsou",
+				"na tom se zásobami."
+			],
+			"dialog_061": [
+				"Hmm, zajímavé. Hlavně opatrně. A ať",
+				"vas ve stoce nechytne ta příšera, co",
+				"tam bydlí.",
+				""
+			],
+			"dialog_069": [
+				"Dobré ráno.",
+				"",
+				"",
+				""
+			],
+			"dialog_075": [
+				"Teď potřebujeme projít branou",
+				"na západ odsud do paláce a dostat",
+				"se do knihovny.",
+				""
+			],
+			"dialog_082": [
+				"Anetu napadlo, jak nás dostat z města,",
+				"ale potřebuje si něco ověřit.",
+				"Musí se dostat do paláce.",
+				"Má klíč, ale musíme jí pomoct ho najít."
+			],
+			"dialog_087": [
+				"Aha... a jak?",
+				"",
+				"",
+				""
+			],
+			"dialog_092": [
+				"Předně máme jít do jejího zavřeného",
+				"krámku a donést jí ten klíč, vím kde je.",
+				"Ten kramek je u východní brány.",
+				"Anetu pak potkáme u zámecké branky."
+			],
+			"dialog_103": [
+				"Ahoj. Jsme děsně napjatí,",
+				"co jsi to tam vlastně hledala.",
+				"",
+				""
+			],
+			"dialog_108": [
+				"Baron měl čílé styky s piráty.",
+				"A piráti nikdy na město nezaútočili.",
+				"Tak jsem si říkala, že by tam mohla",
+				"být nápověda, co se stalo."
+			],
+			"dialog_113": [
+				"A byla? Tohle je napínavé!",
+				"",
+				"",
+				""
+			],
+			"dialog_118": [
+				"Byla. Pirátům dle barona velí totiž",
+				"žena, nějaká \\C[10]Kamila\\C[0]. Ale...",
+				"ta je teď podle knihy v městském vězení.",
+				"Kdo tedy velí pirátům?"
+			],
+			"dialog_123": [
+				"Takže doporučuji, zajděte za Vaclavem,",
+				"at vás s ní nechá promluvit a třeba",
+				"tomu přijdete na kloub.",
+				""
+			],
+			"dialog_132": [
+				"Tak jsme domluveni s Václavem.",
+				"Jdeme najít konvoj, co se mu ztratil",
+				"v lese na sever od města.",
+				""
+			],
+			"dialog_137": [
+				"Tam je to samá lupičská banda. Ale klid,",
+				"nejvíce se zdržujou ve svých táborech.",
+				"Vyhněte se táborům a máte vyhráno.",
+				"A bacha na troly pod mostem."
+			],
+			"dialog_145": [
+				"Konvoj jsme našli, bandity pobili.",
+				"",
+				"",
+				""
+			],
+			"dialog_150": [
+				"Byla to vážně legrace.",
+				"",
+				"",
+				""
+			],
+			"dialog_155": [
+				"Jsem ráda, že jste v pořádku.",
+				"Už to ví Václav? Zajděte za ním.",
+				"",
+				""
+			],
+			"dialog_163": [
+				"Tak co, už jste byli ve vězení za",
+				"tou pirátskou velitelkou Kamilou?",
+				"Vězení je ta budova na náměstí",
+				"nad velkou věží. "
+			],
+			"dialog_171": [
+				"Ahoj Aneto,",
+				"potřebujem si půjčit člun, ať můžem",
+				"přejet podél pobřeží k pirátské",
+				"zatoce."
+			],
+			"dialog_176": [
+				"To by vám mohl poradit strážný u brány.",
+				"Pokud vím, tak hlídka má pár člunů",
+				"schovaných venku za hradbami.",
+				""
+			],
+			"dialog_185": [
+				"Je čas jít dělat něco užitečného.",
+				"",
+				"",
+				""
+			],
+			"dialog_190": [
+				"Tak tedy hodně zdaru.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Odpočinek",
+				"Co dál",
+				"Půjdeme"
+			]
+		},
+		"015_CityGetMagician": {
+			"dialog_015": [
+				"Co to bylo?",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Že by zase lupiči?",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Tamhle za sochou jako bych něco viděl.",
+				"",
+				"",
+				""
+			],
+			"dialog_033": [
+				"A zase!",
+				"",
+				"",
+				""
+			],
+			"dialog_041": [
+				"A znova.",
+				"Jakube, někdo nás sleduje,",
+				"Nekecám.",
+				""
+			],
+			"dialog_049": [
+				"Já ti říkám, že sem někoho viděl.",
+				"",
+				"",
+				""
+			],
+			"dialog_054": [
+				"Chi chi.",
+				"",
+				"",
+				""
+			],
+			"dialog_062": [
+				"Tamhle v tom okně toho domu",
+				"s červenou střechou.",
+				"",
+				""
+			],
+			"dialog_067": [
+				"Hej ty! Stůj!",
+				"Proč nás sleduješ?",
+				"",
+				""
+			],
+			"dialog_072": [
+				"No dobře, chytili jste mě.",
+				"",
+				"",
+				""
+			],
+			"dialog_077": [
+				"Kdo jsi, co nám chceš?",
+				"",
+				"",
+				""
+			],
+			"dialog_082": [
+				"Jsem Sabrina. Aneta mě požádala,",
+				"abych na vás dohlížela.",
+				"Pry že se vám ruka kouzelnice navíc",
+				"bude hodit."
+			],
+			"dialog_087": [
+				"Pomoc neodmítnem, ale to co děláme",
+				"může být nebezpečné.",
+				"",
+				""
+			],
+			"dialog_092": [
+				"Já vím. A děláte to protože potřebujete",
+				"do hlavního města. Já tam chci také.",
+				"Takže vlastně máme společný cíl.",
+				""
+			]
+		},
+		"018_CityInnShop": {
+			"dialog_000": [
+				"Chcete něco z baru?",
+				"",
+				"",
+				""
+			]
+		},
+		"019_CityCommander": {
+			"dialog_001": [
+				"Vítejte, už jsem vás hledal.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Ahoj. Já jsem Jakub, tohle je Jan a",
+				"Sabrina. Potřebovali bychom od tebe",
+				"povolenku navštívit vězně.",
+				""
+			],
+			"dialog_011": [
+				"Zajímavé. A o jakého vězně by se jednalo?",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"No, prý máš ve vězení nějakou pirátku.",
+				"Mohla by být klíčem k prolomení té",
+				"blokády.",
+				""
+			],
+			"dialog_021": [
+				"Dobrá, proč ne.",
+				"Ale nejdřív od vás potřebuju práci.",
+				"Máme na cestě konvoj se zásobami.",
+				"Bojím se, že se jim mohlo něco stát."
+			],
+			"dialog_026": [
+				"Už měli dávno dorazit a zatím žádné",
+				"zprávy nejsou. Zjistěte co se dá a já",
+				"vám vyřídím tu propustku.",
+				""
+			],
+			"dialog_031": [
+				"Domluveno.",
+				"",
+				"",
+				""
+			],
+			"dialog_036": [
+				"Upozornil jsem stráž u východní brány.",
+				"Až budete připraveni, pustí vás ven",
+				"z města.",
+				""
+			],
+			"dialog_047": [
+				"Hlídka u východní brány vás pustí.",
+				"Přineste mi ty informace",
+				"o ztraceném konvoji.",
+				""
+			],
+			"dialog_056": [
+				"A, jste zpět. To je dobře.",
+				"",
+				"",
+				""
+			],
+			"dialog_061": [
+				"Víme co se stalo s tvým konvojem.",
+				"Zlikvidovali jsme tábor banditů co ti ho",
+				"přepadli. Hlídce u brány jsme už řekli",
+				"kde ten jejich tábor byl."
+			],
+			"dialog_066": [
+				"Skvěle, nařídím ať to někdo přebere.",
+				"Díky za pomoc.",
+				"Vy ste za odměnu chtěli přístup k vězení.",
+				"Můžu se zeptat proč?"
+			],
+			"dialog_071": [
+				"Myslíme si, že tam máš bývalou velitelku",
+				"pirátů. Chceme se jí zeptat, proč přišla",
+				"o velení. Třeba by ti mohla pomoci",
+				"s blokádou."
+			],
+			"dialog_076": [
+				"Vážně? Zajímavé.",
+				"No dobře, dám vědět lidem ve věznici,",
+				"aby vás k ní pustili. Dejte vědět,",
+				"pokud na něco přijdete."
+			],
+			"dialog_087": [
+				"Ve vězení už o vás vědí.",
+				"Když na něco přijdete, dejte mi vědět.",
+				"",
+				""
+			],
+			"dialog_092": [
+				"Taky je tam naše \\C[10]zbrojnice\\C[0], dal jsem",
+				"zbrojíři instrukce že když budete chtít,",
+				"můžete si tam něco koupit.",
+				""
+			],
+			"dialog_101": [
+				"Hlídka mě už informovala.",
+				"Potřebujete člun a jedete",
+				"do pirátské zátoky.",
+				""
+			],
+			"dialog_106": [
+				"Jsi dobře informován.",
+				"",
+				"",
+				""
+			],
+			"dialog_111": [
+				"Dal jsem vědět k bráně, ať vám",
+				"jeden klidně půjčí.",
+				"",
+				""
+			],
+			"dialog_120": [
+				"Hlídka mě už informovala.",
+				"Jak to šlo v pirátské skrýši?",
+				"",
+				""
+			],
+			"dialog_125": [
+				"Byla plná rybáků a teď",
+				"už tam není ani jeden.",
+				"Zajdeme za tou pirátkou",
+				"a domluvíme, co dál."
+			],
+			"dialog_134": [
+				"Ahoj Václave. Tak prý když Kamilu",
+				"pustíš s náma k pirátům,",
+				"tak tě toho obležení zbaví.",
+				""
+			],
+			"dialog_139": [
+				"Hmm... nemyslím, že tím můžeme",
+				"moc ztratit. Tak to zkusíme.",
+				"\\C[10]Vyřiďte si ve městě, co potřebujete\\C[0]",
+				"a pak přijděte a dáme se do toho."
+			],
+			"dialog_149": [
+				"Jste připraveni vyrazit?",
+				"\\C[10](Už se do města znovu nevrátíte)\\C[0]",
+				"",
+				""
+			],
+			"dialog_156": [
+				"Ahoj Veliteli.",
+				"Tak pojď, roztočíme spolu",
+				"kolo pirátské štěstěny.",
+				""
+			],
+			"option_154": [
+				"Jdeme na to",
+				"Ještě se vrátíme"
+			]
+		},
+		"021_ForrestCamp": {
+			"dialog_001": [
+				"Chceš abych z nějakých těch žlutých",
+				"plodů udělal lektvar?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Jdu na to.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Dobře, tak zatím ne.",
+				"",
+				"",
+				""
+			],
+			"dialog_027": [
+				"Mám z těch květů vyextrahovat",
+				"kouzelnou sůl?",
+				"",
+				""
+			],
+			"dialog_034": [
+				"S radostí.",
+				"",
+				"",
+				""
+			],
+			"dialog_043": [
+				"Dobře, tak zatím ne.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Ano",
+				"Ne"
+			],
+			"option_032": [
+				"Ano",
+				"Ne"
+			]
+		},
+		"023_BayCamp": {
+			"dialog_000": [
+				"Dáme si odpočinek.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Máme nějaké zásoby?",
+				"",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Mám teplý čaj a namazal jsem nám chleby.",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Polévka, suchary, malý salátek.",
+				"Dobrou chuť.",
+				"",
+				""
+			],
+			"dialog_029": [
+				"Mám tu sušené maso a udělal jsem nám",
+				"velký salát.",
+				"",
+				""
+			],
+			"dialog_037": [
+				"Ulovil jsem rybu a už se peče na ohni.",
+				"",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Takže ke strategii.",
+				"V první řadě, nemůžeme jen tak zaútočit",
+				"na jejich tábor. Je jich tam jak much.",
+				"Potřebujeme je nějak vypudit."
+			],
+			"dialog_052": [
+				"Už jsem udělal průzkum okolí.",
+				"Vypadá to, že většina kmene se drží",
+				"v hlavních síních a ve zbytku chodeb",
+				"narazíme jen sem tam na někoho."
+			],
+			"dialog_057": [
+				"Dobře. Navrhuju tohle. Potřebujeme se",
+				"stát duchy tohohle místa. Prozkoumáme",
+				"to tu. Postavíme si tábořiště i v jiných",
+				"částech jeskyně a pak vymyslíme plán."
+			],
+			"dialog_062": [
+				"Dobře, takže první cíl bude zorientovat",
+				"se tu a založit tábory i v dalších",
+				"částech jeskyně. Jdem se na to vyspat.",
+				""
+			],
+			"dialog_074": [
+				"Dobře, takže první cíl je zorientovat",
+				"se tu a založit tábory i v dalších",
+				"částech jeskyně.",
+				""
+			],
+			"dialog_079": [
+				"Chce jich to alespoň 6.",
+				"Teď máme \\V[12].",
+				"",
+				""
+			],
+			"dialog_086": [
+				"Výborně, myslím že už se tu vyznáme",
+				"celkem dost. My jsme se Sabrinou mezitím",
+				"pracovali na strategii.",
+				""
+			],
+			"dialog_091": [
+				"Podle mě stojí místní komunita rybáků",
+				"na třech pilířích. Pocitu bezpečí,",
+				"Dostatku zásob a Velení, co je ujišťuje,",
+				"že se tu mají dobře."
+			],
+			"dialog_096": [
+				"A my je o všechny tři postupně připravíme.",
+				"A začneme tím pocitem bezpečí.",
+				"V Zadních Síních mají tábořiště.",
+				"Plánujeme se tam vplížit."
+			],
+			"dialog_101": [
+				"Vzít si sebou dost dřeva",
+				"a část toho tábořiště jim podpálit.",
+				"Zítra.",
+				""
+			],
+			"dialog_116": [
+				"Plánujeme přepadnout jejich tábořiště",
+				"v \\C[10]Zadních Síních\\C[0]. Vezmeme sebou dřevo",
+				"na podpal a \\C[10]podpálíme jim tam stany\\C[0].",
+				""
+			],
+			"dialog_121": [
+				"Stany jsou tam 4.",
+				"Zatím jsme jich podpálili \\V[12].",
+				"",
+				""
+			],
+			"dialog_128": [
+				"Výborně. Náš další cíl budou jejich",
+				"zásoby. A chceme na to jít přes magii.",
+				"Znám lektvar, co umí přivábit krysy.",
+				"Vyrobíme ho a nalejeme jim ho tam."
+			],
+			"dialog_133": [
+				"Mám na něj všechny suroviny až na ty",
+				"růžové kytky. Ty tu naštěstí sem tam",
+				"rostou. Aspoň 3 prosím natrhej",
+				"a budou se divit."
+			],
+			"dialog_149": [
+				"Abych mohla namíchat lákadlo pro krysy,",
+				"potřebuju sehnat alespoň 3 ty",
+				"\\C[10]Růžové květy\\C[0].",
+				"Zatím máme \\V[12]."
+			],
+			"dialog_156": [
+				"Dobře, to stačí, už těch kytek máme",
+				"dost. Tak já se pustím do přípravy",
+				"té návnady pro krysy a ráno",
+				"jí budeš mít."
+			],
+			"dialog_161": [
+				"Další cíl tedy bude vplížit se do",
+				"\\C[10]Skladovacích Síní\\C[0] a tu návnadu tam",
+				"nastražit u všech zásob, co tam mají.",
+				""
+			],
+			"dialog_176": [
+				"Je potřeba tu návnadu pro krysy",
+				"umístit ve \\C[10]Skladovacích Síních\\C[0].",
+				"Jsou tam 4 hromady zásob,",
+				"zatím jsme označili \\V[12]."
+			],
+			"dialog_183": [
+				"Perfektní, všechny návnady jsou umístěné.",
+				"Ti se budou ráno divit.",
+				"",
+				""
+			],
+			"dialog_188": [
+				"Tak dál k poslednímu kroku našeho plánu.",
+				"Velení rybáků táboří v severní části",
+				"Velké Síně. Zítra se jim vkrademe",
+				"do stanů a zlikvidujeme je."
+			],
+			"dialog_193": [
+				"Ale pozor. Skrz velkou síň se nedá projít,",
+				"je tam rybáků moc. Navrhuju tedy",
+				"projít Skladovací Síní a přijít",
+				"do Velké Síně rovnou od severu."
+			],
+			"dialog_209": [
+				"Máme zase nějaké květy, vyrobím",
+				"čichací sůl.",
+				"",
+				""
+			],
+			"dialog_219": [
+				"Nasbíral jsem nějaké žluté plody.",
+				"Zpracuju je zas na lektvar.",
+				"",
+				""
+			],
+			"dialog_235": [
+				"Dobrou noc.",
+				"",
+				"",
+				""
+			],
+			"option_044": [
+				"Probereme strategii",
+				"Zpracujeme suroviny",
+				"Jdem rovnou spát"
+			]
+		},
+		"024_BayBarrel": {
+			"dialog_000": [
+				"Otevřeme ho?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Získal jsi jídlo",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Získal jsi nějaké zlato",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"Vyhrnuly se krysy",
+				"",
+				"",
+				""
+			],
+			"dialog_040": [
+				"Jsou tu žluté plody",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Ano",
+				"Ne"
+			]
+		},
+		"025_BayJar": {
+			"dialog_000": [
+				"Otevřeme Jí?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Získal jsi jídlo",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Získal jsi nějaké zlato",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"Získal jsi lektvar",
+				"",
+				"",
+				""
+			],
+			"dialog_040": [
+				"Získal jsi čichací sůl",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Ano",
+				"Ne"
+			]
+		},
+		"029_CapFireplace": {
+			"dialog_000": [
+				"Odpočinek u ohně",
+				"",
+				"",
+				""
+			]
+		},
+		"031_CapBarrel": {
+			"dialog_000": [
+				"Otevřeme ho?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Získal jsi jídlo",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Je tu čichací sůl",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Vyhrnuly se krysy",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Ano",
+				"Ne"
+			]
+		},
+		"032_CapJar": {
+			"dialog_000": [
+				"Otevřeme jí?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Získal jsi jídlo",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Je tu čichací sůl",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Ano",
+				"Ne"
+			]
+		},
+		"033_CapnoPass": {
+			"dialog_002": [
+				"Ten portál nás zatím skrz nepustí.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Nejdřív ten průchod musíme aktivovat.",
+				"",
+				"",
+				""
+			],
+			"dialog_018": [
+				"Kdybychom do něj vstoupili teď, ztratili",
+				"bychom se v interdimenzionální prázdnotě.",
+				"",
+				""
+			]
+		},
+		"034_CaponCrystals": {
+			"dialog_000": [
+				"Co to je za krystal?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"To je aktivační krystal. Dokážu ho kouzlem",
+				"probudit a zase uspat. Podle mě bude",
+				"magicky spojený s některým průchodem,",
+				"nebo věží na tomhle místě."
+			]
+		},
+		"035_CaponTrap": {
+			"dialog_013": [
+				"Když se do pasti zavřu i já sám, už tu",
+				"zůstanu navždycky. To nejde, musím",
+				"vymyslet něco jiného.",
+				""
+			],
+			"dialog_018": [
+				"A nebo se vrátit do našeho tábora",
+				"a zavolat ostatní, a pak něco vymyslíme",
+				"spolu.",
+				""
+			],
+			"dialog_026": [
+				"Tak kdo vstoupí dovnitř?",
+				"",
+				"",
+				""
+			],
+			"dialog_034": [
+				"Nenech mě tady dlouho.",
+				"",
+				"",
+				""
+			],
+			"dialog_049": [
+				"Věřím ti.",
+				"",
+				"",
+				""
+			],
+			"dialog_064": [
+				"Ach jo.",
+				"",
+				"",
+				""
+			],
+			"dialog_072": [
+				"No tak jo.",
+				"",
+				"",
+				""
+			],
+			"dialog_086": [
+				"Tohle jsou Jakube pasti duší. Někdo z nás",
+				"tu bude muset zůstat. Až se budeme chtít",
+				"zase sejít, půjde to \\C[10]od našeho táborového",
+				"ohně\\C[0] díky svolávacímu kouzlu."
+			],
+			"dialog_091": [
+				"Jak to myslíš zůstat?",
+				"",
+				"",
+				""
+			],
+			"dialog_096": [
+				"No, aby se tahle věž aktivovala,",
+				"bude ji muset na chvíli někdo z nás",
+				"půjčit duši. Neboj, je to bezpečné...",
+				"teda myslím."
+			],
+			"option_001": [
+				"Vstoupit",
+				"Vysvětlit"
+			],
+			"option_032": [
+				"Jan",
+				"Nikdo"
+			],
+			"option_047": [
+				"Sabrina",
+				"Nikdo"
+			],
+			"option_062": [
+				"Jan",
+				"Sabrina",
+				"Nikdo"
+			]
+		},
+		"036_BlackKnightforreal": {
+			"dialog_000": [
+				"A už jde. Do střehu!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"Enemies": {
+		"01_Cernyrytir": {
+			"name": "Černý rytíř"
+		},
+		"02_Obrisrsen": {
+			"name": "Obří sršeň"
+		},
+		"03_Goblin": {
+			"name": "Goblin"
+		},
+		"04_Bilyduch": {
+			"name": "Bílý duch"
+		},
+		"05_Vlk": {
+			"name": "Vlk"
+		},
+		"06_Bazinnachapadla": {
+			"name": "Bažinná chapadla"
+		},
+		"07_Rudyduch": {
+			"name": "Rudý duch"
+		},
+		"08_Bazinnaobluda": {
+			"name": "Bažinná obluda"
+		},
+		"09_Obristonozka": {
+			"name": "Obří stonožka"
+		},
+		"10_Priserazestoky": {
+			"name": "Příšera ze stoky"
+		},
+		"11_Hejnokrys": {
+			"name": "Hejno krys"
+		},
+		"12_Mestskylupic": {
+			"name": "Městský lupič"
+		},
+		"13_Zkusenylupic": {
+			"name": "Zkušený lupič"
+		},
+		"14_Nizinnyvlk": {
+			"name": "Nížinný vlk"
+		},
+		"15_LesniGoblin": {
+			"name": "Lesní goblin"
+		},
+		"16_RybakVojak": {
+			"name": "Rybák voják"
+		},
+		"17_RybakKouzelnik": {
+			"name": "Rybák kouzelník"
+		},
+		"18_RybakBerserk": {
+			"name": "Rybák berserk"
+		},
+		"19_RybakVelitel": {
+			"name": "Rybák velitel"
+		},
+		"20_MalyOhnivyImp": {
+			"name": "Malý ohnivý imp"
+		},
+		"21_MalyLedovyImp": {
+			"name": "Malý ledový imp"
+		},
+		"22_OhnivyImp": {
+			"name": "Ohnivý imp"
+		},
+		"23_LedovyImp": {
+			"name": "Ledový imp"
+		},
+		"24_SampionOhnivychImpu": {
+			"name": "Šampion ohnivých impů"
+		},
+		"25_SampionLedovychImpu": {
+			"name": "Šampion ledových impů"
+		},
+		"26_Cernyrytir": {
+			"name": "Černý rytíř"
+		},
+		"27_Cernycarodej": {
+			"name": "Černý čaroděj"
+		},
+		"28_": {
+			"name": ""
+		},
+		"29_": {
+			"name": ""
+		},
+		"30_": {
+			"name": ""
+		}
+	},
+	"Items": {
+		"01_LecivyLektvar": {
+			"description": "Doplň zdraví i trochu many",
+			"name": "Léčivý lektvar"
+		},
+		"02_ZlutePlody": {
+			"description": "Dá se z nich uvařit léčivý lektvar",
+			"name": "Žluté plody"
+		},
+		"03_Sit": {
+			"description": "Chytí nepřítele a znemožní mu uhýbat",
+			"name": "Síť"
+		},
+		"04_Kuze": {
+			"description": "Čerstvá",
+			"name": "Kůže"
+		},
+		"05_Svecenavoda": {
+			"description": "Na vysvěcení hrobu",
+			"name": "Svěcená voda"
+		},
+		"06_Supiny": {
+			"description": "Z nějakého zvířete",
+			"name": "Šupiny"
+		},
+		"07_Jidlo": {
+			"description": "Doplňí půl zdraví všem ale jen mimo boj",
+			"name": "Jídlo"
+		},
+		"08_Dennik": {
+			"description": "Přečti si mě, poradím",
+			"name": "Deník"
+		},
+		"09_NahradniKlic": {
+			"description": "Od domku krámkářky",
+			"name": "Náhradní klíč"
+		},
+		"10_KlicodZahrady": {
+			"description": "Od zahrady městského paláce",
+			"name": "Klíč od zahrady"
+		},
+		"11_Cichacisul": {
+			"description": "Doplní magenergii mimo boj",
+			"name": "Čichací sůl"
+		},
+		"12_Ruzovekvety": {
+			"description": "Dá se z nich namíchat kouzelná sůl",
+			"name": "Růžové květy"
+		},
+		"13_Drevonapodpal": {
+			"description": "Dostatek na založení jednoho tábořiště",
+			"name": "Dřevo na podpal"
+		},
+		"14_KlicodKnihovny": {
+			"description": "Od knihovny v domě Sabrinina mistra",
+			"name": "Klíč od knihovny"
+		},
+		"15_ModraTinktura": {
+			"description": "Přísada do alchymistického kouzla",
+			"name": "Modrá tinktura"
+		},
+		"16_CervenaTinktura": {
+			"description": "Přísada do alchymistického kouzla",
+			"name": "Červená tinktura"
+		},
+		"17_TezkaKlada": {
+			"description": "",
+			"name": "Těžká kláda"
+		},
+		"18_": {
+			"description": "",
+			"name": ""
+		},
+		"19_": {
+			"description": "",
+			"name": ""
+		},
+		"20_": {
+			"description": "",
+			"name": ""
+		}
+	},
+	"Skills": {
+		"01_Seknuti": {
+			"description": "Základní útok na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Seknutí"
+		},
+		"02_Obrana": {
+			"description": "Základní obrana, dočasně zvyšuje obranné číslo.",
+			"message1": " brání.",
+			"message2": "",
+			"name": "Obrana"
+		},
+		"03_DvojitySek": {
+			"description": "Útok na dva náhodné nepřátele",
+			"message1": " dvakrát útočí!",
+			"message2": "",
+			"name": "Dvojitý sek"
+		},
+		"04_Streh": {
+			"description": "Zvyšuje úhyb a zvedá dočasně útok i obranu",
+			"message1": " zaujímá obranné postavení!",
+			"message2": "",
+			"name": "Střeh"
+		},
+		"05_DvojitaStrela": {
+			"description": "Střela na dva náhodné nepřátele",
+			"message1": " dvakrát střílí!",
+			"message2": "",
+			"name": "Dvojitá střela"
+		},
+		"06_Utek": {
+			"description": "",
+			"message1": " utíká z boje.",
+			"message2": "",
+			"name": "Útěk"
+		},
+		"07_Cekani": {
+			"description": "",
+			"message1": " čeká.",
+			"message2": "",
+			"name": "Čekání"
+		},
+		"08_MaleUzdraveni": {
+			"description": "Léčí jednoho spojence",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Malé uzdravení"
+		},
+		"09_Ohen": {
+			"description": "Útok ohněm na jednoho nepřítele",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Oheň"
+		},
+		"10_Dotekducha": {
+			"description": "",
+			"message1": " sesílá %1!",
+			"message2": "",
+			"name": "Dotek ducha"
+		},
+		"11_Kousnuti": {
+			"description": "",
+			"message1": "",
+			"message2": "",
+			"name": "Kousnutí"
+		},
+		"12_CilenaStrela": {
+			"description": "",
+			"message1": " střílí.",
+			"message2": "",
+			"name": "Cílená střela"
+		},
+		"13_MagickyStit": {
+			"description": "",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Magický štít"
+		},
+		"14_Blesk": {
+			"description": "Blesk z čistého nebe",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Blesk"
+		},
+		"15_Ohnivastena": {
+			"description": "Stěna ohně co zasáhne všechny nepřátele",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Ohnivá stěna"
+		},
+		"16_DvojiteKousnuti": {
+			"description": "Kousnutí od nepřítele",
+			"message1": " dvakrát útočí!",
+			"message2": "",
+			"name": "Dvojité kousnutí"
+		},
+		"17_Strela": {
+			"description": "Základní střela na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Střela"
+		},
+		"18_Uder": {
+			"description": "Základní útok na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Úder"
+		},
+		"19_Bodnuti": {
+			"description": "Pokročilý útok na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Bodnutí"
+		},
+		"20_SilnyUder": {
+			"description": "Základní útok na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Silný úder"
+		},
+		"21_DvojityUder": {
+			"description": "Útok na dva náhodné nepřátele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Dvojitý úder"
+		},
+		"22_OhniveSeknuti": {
+			"description": "Magický útok na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Ohnivé seknutí"
+		},
+		"23_LedovySip": {
+			"description": "Magická střela na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Ledový šíp"
+		},
+		"24_BleskovyUder": {
+			"description": "Magický útok na jednoho nepřítele",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Bleskový úder"
+		},
+		"25_BojovyTanec": {
+			"description": "Zvyšuje úhyb a zvedá dočasně útok i obranu, uzdravuje",
+			"message1": " zaujímá obranné postavení!",
+			"message2": "",
+			"name": "Bojový tanec"
+		},
+		"26_KrytiSpojence": {
+			"description": "Zvyšuje úhyb spojence a zvedá dočasně útok i obranu",
+			"message1": " zaujímá obranné postavení!",
+			"message2": "",
+			"name": "Krytí spojence"
+		},
+		"27_Soustredeni": {
+			"description": "Obnovuje životy a staminu",
+			"message1": "",
+			"message2": "",
+			"name": "Soustředění"
+		},
+		"28_Veleni": {
+			"description": "Zvedá útok a obranu celého týmu",
+			"message1": "",
+			"message2": "",
+			"name": "Velení"
+		},
+		"29_ObrannaFormace": {
+			"description": "Zvedá obranu a staminu celého týmu",
+			"message1": "",
+			"message2": "",
+			"name": "Obranná formace"
+		},
+		"30_BojoveLeceni": {
+			"description": "Léčí a obnovuje staminu celého týmu",
+			"message1": "",
+			"message2": "",
+			"name": "Bojové léčení"
+		},
+		"31_KulovyBlesk": {
+			"description": "Blesk co zasáhne všechny nepřátele",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Kulový blesk"
+		},
+		"32_Ledovastrela": {
+			"description": "Střela čistého mrazu",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Ledová střela"
+		},
+		"33_Ledovaboure": {
+			"description": "Mrazivá bouře co trefí všechny nepřátele",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Ledová bouře"
+		},
+		"34_VelkeUzdraveni": {
+			"description": "Léčí jednoho spojence, obnovuje i staminu",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Velké uzdravení"
+		},
+		"35_PlosneUzdraveni": {
+			"description": "Léčí všechny spojence, obnovuje i staminu",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Plošné uzdravení"
+		},
+		"36_Regenerace": {
+			"description": "Vyvolá regeneraci života a staminy jednoho spojence",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Regenerace"
+		},
+		"37_PlosnaRegenerace": {
+			"description": "Vyvolá regeneraci života a staminy spojenců",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Plošná regenerace"
+		},
+		"38_Oziveni": {
+			"description": "Zcela obnoví spojence, který byl vyražen z boje",
+			"message1": " vyvolává %1!",
+			"message2": "",
+			"name": "Oživení"
+		},
+		"39_ZurivyUtok": {
+			"description": "Vyčerpávající útok na jednoho nepřítele.\nPotřebuješ na něj plnou staminu.",
+			"message1": " útočí!",
+			"message2": "",
+			"name": "Zuřivý útok"
+		}
+	},
+	"States": {
+		"01_Knockout": {
+			"message1": " padnul!",
+			"message2": " byl poražený!",
+			"message3": "",
+			"message4": " byl oživen!",
+			"name": "Vyřazený"
+		},
+		"02_Obranna": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": "Obrana"
+		},
+		"03_Immortal": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": "Nesmrtelný"
+		},
+		"04_Poison": {
+			"message1": " je otráven!",
+			"message2": " je otráven!",
+			"message3": "",
+			"message4": " už není otráven!",
+			"name": "Jed"
+		},
+		"05_Blind": {
+			"message1": " je oslepen!",
+			"message2": " je oslepen!",
+			"message3": "",
+			"message4": " už není oslepen!",
+			"name": "Slepota"
+		},
+		"06_Silence": {
+			"message1": " je umlčen!",
+			"message2": " je umlčen!",
+			"message3": "",
+			"message4": " už není umlčen!",
+			"name": "Mlčení"
+		},
+		"07_Rage": {
+			"message1": " je rozzuřen!",
+			"message2": " je rozzuřen!",
+			"message3": "",
+			"message4": " už není rozzuřen!",
+			"name": "Zuřivost"
+		},
+		"08_Confusion": {
+			"message1": " je zmaten!",
+			"message2": " je zmaten!",
+			"message3": "",
+			"message4": " už není zmaten!",
+			"name": "Zmatení"
+		},
+		"09_Fascination": {
+			"message1": " je fascinován!",
+			"message2": " je fascinován!",
+			"message3": "",
+			"message4": " už není fascinován!",
+			"name": "Fascinace"
+		},
+		"10_Sleep": {
+			"message1": " usne!",
+			"message2": " usne!",
+			"message3": " spí.",
+			"message4": " probudí se!",
+			"name": "Spánek"
+		},
+		"11_Chycen": {
+			"message1": " je chycen!",
+			"message2": " je chycen!",
+			"message3": " je chycen.",
+			"message4": "se uvolní!",
+			"name": "Chycení"
+		},
+		"12_Hori": {
+			"message1": " začal hořet!",
+			"message2": " začal hořet!",
+			"message3": " hoří!",
+			"message4": " se uhasil.",
+			"name": "Hoří"
+		},
+		"13_Obrannystreh": {
+			"message1": " je ve střehu.",
+			"message2": " je ve střehu.",
+			"message3": "",
+			"message4": " zrušil střeh.",
+			"name": "Obranný střeh"
+		},
+		"14_MagickyStit": {
+			"message1": " je chráněn štítem.",
+			"message2": " je chráněn štítem.",
+			"message3": "",
+			"message4": " přišel o štít.",
+			"name": "Magický štít"
+		},
+		"15_Zmrznuti": {
+			"message1": " zmrznul.",
+			"message2": " zmrznul.",
+			"message3": " je zmražený.",
+			"message4": " rozmrznul.",
+			"name": "Zmražení"
+		},
+		"16_Motivace": {
+			"message1": " je ve střehu.",
+			"message2": " je ve střehu.",
+			"message3": "",
+			"message4": " zrušil střeh.",
+			"name": "Motivace"
+		},
+		"17_ElektrickaParalyza": {
+			"message1": " dostal zásah bleskem.",
+			"message2": " dostal zásah bleskem.",
+			"message3": " je paralyzován bleskem.",
+			"message4": "",
+			"name": "Elektrická paralýza"
+		},
+		"18_Regenerace": {
+			"message1": " se regeneruje.",
+			"message2": " se regeneruje.",
+			"message3": " se regeneruje.",
+			"message4": "",
+			"name": "Regenerace"
+		},
+		"19_": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": ""
+		},
+		"20_": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": ""
+		}
+	},
+	"System": {
+		"armorTypes": {
+			"0": "Oblečení",
+			"1": "Kouzelná zbroj",
+			"2": "Lehká zbroj",
+			"3": "Těžká zbroj",
+			"4": "Malý štít",
+			"5": "Velký štít"
+		},
+		"currency": "Zl",
+		"elements": {
+			"0": "Fyzický",
+			"1": "Oheň",
+			"2": "Led",
+			"3": "Blesk",
+			"4": "Voda",
+			"5": "Země",
+			"6": "Vítr",
+			"7": "Světlo",
+			"8": "Tma"
+		},
+		"equipTypes": {
+			"0": "Zbraň",
+			"1": "Štít",
+			"2": "Hlava",
+			"3": "Tělo",
+			"4": "Šperk"
+		},
+		"gameTitle": "Strážce koruny",
+		"messages": {
+			"actionFailure": "%1: Efekt selhal!",
+			"actorDamage": "%1 dostal zásah za %2!",
+			"actorDrain": "%1 ztratil odsátím %2 %3!",
+			"actorGain": "%1 získal %2 %3!",
+			"actorLoss": "%1 ztratil %2 %3!",
+			"actorNoDamage": "%1 vyvázl bez zranění.",
+			"actorNoHit": "Vedle! %1 vyvázl bez zranění!",
+			"actorRecovery": "%1 si uzdravil %2 %3!",
+			"alwaysDash": "Vždy utíkej",
+			"bgmVolume": "Hlasitost bitvy 1",
+			"bgsVolume": "Hlasitost bitvy 2",
+			"buffAdd": "%1 získal posílení %2!",
+			"buffRemove": "%1: Status %2 přestal účinkovat!",
+			"commandRemember": "Pamatuj si příkaz",
+			"counterAttack": "%1 udělal protiútok!",
+			"criticalToActor": "To dost bolelo!!",
+			"criticalToEnemy": "Skvělý zásah!!",
+			"debuffAdd": "%1 získal postih %2!",
+			"defeat": "%1 byl poražený.",
+			"emerge": "Potkal jsi %1",
+			"enemyDamage": "%1 dostal zranění za %2!",
+			"enemyDrain": "%1 ztratil odsátím %2 %3!",
+			"enemyGain": "%1 získal %2 %3!",
+			"enemyLoss": "%1 ztratil %2 %3!",
+			"enemyNoDamage": "%1 vyvázl bez zranění.",
+			"enemyNoHit": "Vedle! %1 vyvázl bez zranění!",
+			"enemyRecovery": "%1 si obnovil %2 %3!",
+			"escapeFailure": "Ale ústup se nezdařil.",
+			"escapeStart": "%1 se pokouší o ústup!",
+			"evasion": "%1 uhnul útoku!",
+			"expNext": "Chybí %1",
+			"expTotal": "Nyní %1",
+			"file": "Pozice",
+			"levelUp": "%1 je nyní %2 %3!",
+			"loadMessage": "Načíst z pozice?",
+			"magicEvasion": "%1 zneutralizoval působení kouzla!",
+			"magicReflection": "%1 odrazil kouzlo!",
+			"meVolume": "Hlasitost 1",
+			"obtainExp": "Získal jsi %1 %2.",
+			"obtainGold": "Našel jsi %1\\G.",
+			"obtainItem": "Našel jsi %1.",
+			"obtainSkill": "Nyní umíš %1!",
+			"partyName": "%1 a družina",
+			"possession": "Vlastnictví",
+			"preemptive": "%1 má teď navrch!",
+			"saveMessage": "Uložit pozici?",
+			"seVolume": "Hlasitost 2",
+			"substitute": "%1 chránil %2!",
+			"surprise": "%1 byl nemile překvapen!",
+			"useItem": "%1 použil %2!",
+			"victory": "%1 vyhrál boj."
+		},
+		"skillTypes": {
+			"0": "Kouzlo",
+			"1": "Speciální",
+			"2": "Útok"
+		},
+		"terms": {
+			"basic": {
+				"0": "Úroveň",
+				"1": "Lv",
+				"2": "Životy",
+				"3": "Žvt",
+				"4": "Magie",
+				"5": "Mg",
+				"6": "Stamina",
+				"7": "St",
+				"8": "Zkušenosti",
+				"9": "Zk"
+			},
+			"commands": {
+				"0": "Bojuj",
+				"1": "Uteč",
+				"10": "Konec hry",
+				"11": "Nastavení",
+				"12": "Zbraň",
+				"13": "Brnění",
+				"14": "Klíčová věc",
+				"15": "Použij",
+				"16": "Optimalizuj",
+				"17": "Nic",
+				"18": "Nová hra",
+				"19": "Pokračovat",
+				"2": "Zaútoč",
+				"20": "Konec hry",
+				"21": "Zpět",
+				"22": "Kup",
+				"23": "Prodej",
+				"3": "Ochrana",
+				"4": "Předmět",
+				"5": "Dovednost",
+				"6": "Vybav se",
+				"7": "Status",
+				"8": "Formace",
+				"9": "Ulož"
+			},
+			"params": {
+				"0": "Max Žvt",
+				"1": "Max MG",
+				"2": "Útok",
+				"3": "Obrana",
+				"4": "Kouzlo",
+				"5": "Protikouzlo",
+				"6": "Obratnost",
+				"7": "Štěstí",
+				"8": "Zásah",
+				"9": "Úhyb"
+			}
+		},
+		"weaponTypes": {
+			"0": "Krátká čepel",
+			"1": "Dlouhá čepel",
+			"10": "Kopí",
+			"2": "Řetězová zbraň",
+			"3": "Sekera",
+			"4": "Bič",
+			"5": "Hůl",
+			"6": "Luk",
+			"7": "Kuše",
+			"8": "Palná zbraň",
+			"9": "Drápy"
+		}
+	},
+	"Troops": {
+		"027_Velenirybaku_pg0": {
+			"dialog_000": [
+				"Ha! Kdo jste! Zavoláme stráž!",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Na ně! Ať už je po nich!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m01_CastleChambers": {
+		"ev01_GuardDoor_pg0": {
+			"dialog_002": [
+				"Jo, jasně, než odejdu ze strážnice,",
+				"měl bych si \\C[10]vyndat Deník\\C[0] a podívat se,",
+				"co jsem zapomněl udělat.",
+				""
+			],
+			"dialog_010": [
+				"Vždy, když si nejsi jistý, pamatuj si,",
+				"\\C[10]podívat se do deníku\\C[0] pomáhá.",
+				"",
+				""
+			]
+		},
+		"ev02_SuspiciousNoises_pg1": {
+			"dialog_000": [
+				"Co to je za hluk? Ozývá se to od komnat",
+				"princezny. Musím se tam podívat.",
+				"",
+				""
+			]
+		},
+		"ev07_Sword_pg0": {
+			"dialog_000": [
+				"Ha meč. Já vím, nedávat ho do batohu,",
+				"mít ho v ruce.",
+				"",
+				""
+			]
+		}
+	},
+	"m02_SwampIsland": {
+		"ev03_Archeologist_pg0": {
+			"dialog_003": [
+				"Ahoj. Teda, takhle aktivovat ten starý",
+				"portál jsem ještě neviděl. Jsi v pořádku?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Uf. Díky, ani ne. Jmenuji se Jakub a ani",
+				"sem nevěděl, že tam je portál, natož kam",
+				"vede. Kde to vlastně jsem?",
+				""
+			],
+			"dialog_013": [
+				"Já jsem Petr a jsem archeolog.",
+				"Tady ten starý portál už pár dní studuju.",
+				"Jsi na ostrově Lodníkův Kout,",
+				"pár mil od hlavního města."
+			],
+			"dialog_022": [
+				"Vítej zpátky, Jakube.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Čichám, čichám a cítím žluté plody.",
+				"Chceš? Namíchám ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_042": [
+				"Mohu si u tebe odpočinout?",
+				"Měl jsem toho teď hodně a trocha spánku",
+				"by mi prospěla.",
+				""
+			],
+			"dialog_053": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_061": [
+				"V Bažině na ostrově Lodníkův kout.",
+				"Asi 50 mil od hlavního města.",
+				"Je tu starý magický portál a vesnice.",
+				""
+			],
+			"dialog_069": [
+				"Mapu mám, vstoupím do studny a projdu",
+				"jeskyní duchů.",
+				"Máš představu, co mě čeká dál?",
+				""
+			],
+			"dialog_074": [
+				"Dál je území goblinů, hlavně jim nevlez",
+				"do tábora.",
+				"A pak tě čeká magická brána.",
+				""
+			],
+			"dialog_079": [
+				"Goblini. Jasně.",
+				"Brána. Eee... jaká brána?",
+				"Jak ji otevřu?",
+				""
+			],
+			"dialog_084": [
+				"Brána, co chrání vesnici před",
+				"nájezdy goblinů. Otevírá se správnou",
+				"recitací kouzla. Musíš nejprve najít",
+				"všechny 3 verše."
+			],
+			"dialog_089": [
+				"Pokud vím, tak tam v bažině",
+				"na území goblinů jsou.",
+				"Stačí je najít a správně seřadit.",
+				""
+			],
+			"dialog_097": [
+				"Ještě jsem tu pro tebe připravil síť.",
+				"Stěžoval sis, že tam je obří hmyz.",
+				"Tohle na ně hoď a mělo by je to zpomalit.",
+				""
+			],
+			"dialog_109": [
+				"Našel jsem kus na sever stan.",
+				"Ale utábořili se v něm dva goblini.",
+				"",
+				""
+			],
+			"dialog_114": [
+				"Můj starý stan? Mé vybavení? Má mapa!",
+				"To jsem sice nechtěl ještě pár týdnů řešit,",
+				"ale pokud to za mě vyřešíš ty,",
+				"odměním se."
+			],
+			"dialog_119": [
+				"Jaké vybavení a mapa?",
+				"",
+				"",
+				""
+			],
+			"dialog_124": [
+				"No, když sem sem šel, věděl jsem, že mě",
+				"čeká průchod jeskyní duchů. Ale koupil",
+				"jsem ve vesnici mapu.",
+				"Můj tábor pak přepadli goblini."
+			],
+			"dialog_129": [
+				"Z téhle strany je vstup vyschlou studnou,",
+				"normální jeskyně je jen z druhé strany.",
+				"",
+				""
+			],
+			"dialog_134": [
+				"Aha, takže pokud chci do vesnice já,",
+				"tu mapu budu potřebovat.",
+				"",
+				""
+			],
+			"dialog_144": [
+				"Na sever odtud je nějaká jeskyně. Zdá se",
+				"mi to nebo je doopravdy průchodná?",
+				"",
+				""
+			],
+			"dialog_149": [
+				"To se ti nezdá. Zajímavé na ní je, že",
+				"když chceš projít na druhou stranu,",
+				"stačí se držet zvuku kapající vody.",
+				""
+			],
+			"dialog_158": [
+				"Už jsi se rozhlédl, jak jsem ti radil?",
+				"Až najdeš něco zajímavého, dej mi vědět.",
+				"",
+				""
+			],
+			"dialog_166": [
+				"Potřebuju se vrátit na svůj hrad,",
+				"nevíš, jak odtud?",
+				"",
+				""
+			],
+			"dialog_171": [
+				"Mladej, ty jsi nějakej hrr. Tak dobře, vím,",
+				"že tu v okolí je někde vesnice.",
+				"Třeba ti tam pomůžou.",
+				"Rozhlédni se tu."
+			],
+			"option_039": [
+				"Odpočinek",
+				"Kde to jsem",
+				"Jak odtud"
+			]
+		}
+	},
+	"m03_MainIntro": {
+		"ev01_Intro_pg0": {
+			"dialog_002": [
+				"Západ slunce nad bitevním polem.",
+				"Krásná krajina, každý měsíc jiná,",
+				"krvácející protože jsme přišli my.",
+				""
+			],
+			"dialog_009": [
+				"",
+				"",
+				"Třeba tak může básník popsat život vojáka,",
+				"který táhne od bitvy k bitvě."
+			],
+			"dialog_020": [
+				"Večery pak tráví se svými bratry u vítězných ohňů.",
+				"A nebo také ne.",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Čím víc těch západů slunce je, tím víc jeho bratrů",
+				"na jednom z takových bitevních polí skončilo.",
+				"",
+				""
+			],
+			"dialog_030": [
+				"A tím víc lidí zde je pro něj vlastně spíš jen",
+				"cizími, které dnes večer náhodou potkal.",
+				"",
+				""
+			],
+			"dialog_037": [
+				"\\C[4]Občas kolem nich projdu bez povšimnutí",
+				"a občas se mi to nepovede.\\C[0]",
+				"",
+				""
+			],
+			"dialog_042": [
+				"\\C[4]Zvlášť když se z nenenadání objeví ona.\\C[0]",
+				"",
+				"",
+				""
+			],
+			"dialog_049": [
+				"\\C[27]Hej! Jakube! Proč tu zase chodíš jako duch?\\C[0]",
+				"",
+				"",
+				""
+			],
+			"dialog_056": [
+				"Vojáci klesají na kolena, aby se poklonili.",
+				"\\C[27]Princezna Zuzana\\C[0] se zjeví jako duch a propluje",
+				"mezi námi. Ještě stále ve svém brnění, umazaná",
+				"od stejného bláta jako my."
+			],
+			"dialog_061": [
+				"Nikdo si nepamatuje, že bychom někdy",
+				"měli princeznu, co táhne do války se svou",
+				"armádou, teď ji ale máme.",
+				""
+			],
+			"dialog_068": [
+				"\\C[27]Ptala jsem se, proč tu chodíš jako duch?",
+				"Nechceš slavit vítězství? Pojď,",
+				"pro mého nejvěrnějšího je u mého stolu",
+				"vždy místa dost\\C[0]."
+			],
+			"dialog_073": [
+				"\\C[4]Děkuji, má paní. Je první večer po bitvě.\\C[0]",
+				"",
+				"",
+				""
+			],
+			"dialog_078": [
+				"\\C[4]Víš, že jsem u tvého stolu rád, ale tento večer",
+				"chci být s vojáky. Projdu-li dnes víc táborových ohňů,",
+				"budu zítra vědět, jak moc odvahy naší armádu",
+				"ta bitva stála.\\C[0]"
+			],
+			"dialog_085": [
+				"Usměje se, pokývne mi rukou a tím svým",
+				"tanečním krokem zase zmizí v šeru večera.",
+				"Vojáci jen zírají, když se otočím a sedám si",
+				"k jejich ohni."
+			],
+			"dialog_092": [
+				"Ze začátku neschopní slov. Ale postupně se osmělí",
+				"a padají ty samé otázky jako už mnohokrát.",
+				"Když jim odpovím na pár základních,",
+				"vylákají ze mě příběh."
+			],
+			"dialog_098": [
+				"Dnes to je tento. O tom, jak se syn obyčejného lovce",
+				"stal osobním strážcem princezny.",
+				"",
+				""
+			],
+			"dialog_108": [
+				"Příběh se odehrál asi před deseti lety.",
+				"",
+				"",
+				""
+			],
+			"dialog_115": [
+				"Můj otec byl lovec a měli jsme poblíž přístavu dům.",
+				"",
+				"Byl jsem čtvrtým synem a nemohl jsem se spolehnout",
+				"na to, že otcovo řemeslo uživí i mě."
+			],
+			"dialog_120": [
+				"A tehdy jsem se dostal k palácové stráži.",
+				"",
+				"",
+				""
+			],
+			"dialog_131": [
+				"Otec doufal, že to bude snadná služba a třeba",
+				"mi práce u dvora změní život.",
+				"",
+				""
+			],
+			"dialog_136": [
+				"Měl pravdu. Jednoho dne se stalo nemyslitelné.",
+				"A já měl zrovna stráž.",
+				"",
+				""
+			],
+			"dialog_145": [
+				"A můj život se velmi, velmi změnil.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m04_SwampOverworld": {
+		"ev02_DarkCave_pg0": {
+			"dialog_002": [
+				"Dobře, nebudu se toho víc bát.",
+				"Jdu se tam podívat.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Bylo to tak strašné, jak sem si to",
+				"představoval. Ale cestu sem nenašel.",
+				"Třeba mi ten děda poradí.",
+				""
+			],
+			"dialog_019": [
+				"Ne. To teda ne. Bojím se. Zkusím se",
+				"nejdřív rozhlédnout okolo a třeba",
+				"naberu víc odvahy.",
+				""
+			]
+		},
+		"ev02_DarkCave_pg1": {
+			"dialog_000": [
+				"Sem říkal, že se půjdu zeptat toho",
+				"archeologa, co?",
+				"",
+				""
+			]
+		},
+		"ev02_DarkCave_pg2": {
+			"dialog_000": [
+				"Tak jdeme na to.",
+				"Držet se zvuku kapající vody.",
+				"",
+				""
+			]
+		},
+		"ev05_FloversA_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev07_FloversB_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev08_FloversC_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev09_FloversD_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Tent_pg0": {
+			"dialog_000": [
+				"Hmm... kolem stanu se toulají dva",
+				"goblini. S těma se do křížku nepustím,",
+				"dokud nebudu vědět proč to dělám.",
+				""
+			]
+		},
+		"ev10_Tent_pg1": {
+			"dialog_000": [
+				"Třeba by to zajímalo toho",
+				"archeologa.",
+				"",
+				""
+			]
+		},
+		"ev10_Tent_pg2": {
+			"dialog_000": [
+				"Dobře... mapu. Rozumím.",
+				"Ale pořád tu jsou ti goblini, ty budu",
+				"muset asi porazit.",
+				""
+			],
+			"dialog_010": [
+				"Ha, Mapu teda mám.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Uf... utekl jsem na poslední chvíli.",
+				"Ale tu mapu potřebuju.",
+				"Uzdravím se, trochu posílím a zkusím",
+				"to znovu."
+			],
+			"option_005": [
+				"Jít bojovat s gobliny",
+				"Zatím se stáhnout"
+			]
+		},
+		"ev10_Tent_pg3": {
+			"dialog_000": [
+				"Nic dalšího užitečného už tu není.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Tent_pg4": {
+			"dialog_001": [
+				"Ahoj Jakube, ten maják co hledáme je",
+				"na sever od jeskyně duchů.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ahoj Jakube, utáboříme se?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Koukám že máš žluté plody.",
+				"Uvařím ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Žádné žluté plody nemáš.",
+				"Přines nějaké a uvařím ti lektvar.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Ano, vykoupím od tebe kůži.",
+				"Umím z nich vyrobit helmu i brnění.",
+				"Chceš?",
+				""
+			],
+			"dialog_055": [
+				"Máš 5 kůží, mohu ti vyrobit",
+				"kožené brnění.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"Máš 2 kůže, mohu ti vyrobit",
+				"koženou čapku. Chceš?",
+				"",
+				""
+			],
+			"option_016": [
+				"Odpočinek",
+				"Žluté plody",
+				"Kůže",
+				"Teď nic"
+			],
+			"option_060": [
+				"Ano, děkuji.",
+				"A co tu koženou čapku?",
+				"Nechci nic."
+			],
+			"option_081": [
+				"Ano, děkuji.",
+				"Nechci nic."
+			]
+		},
+		"ev11_HutwithAxe_pg0": {
+			"dialog_004": [
+				"Tak. A teď to tu v klidu můžu prohledat.",
+				"Je hele, sekera, to se hodí.",
+				"",
+				""
+			],
+			"option_000": [
+				"Prohledat chajdu",
+				"Ne"
+			]
+		},
+		"ev12_GhostCave_pg0": {
+			"dialog_000": [
+				"Vyschlá studna? No, můžu tam zkusit",
+				"hodit kámen.",
+				"jedna... dva... tři...",
+				""
+			],
+			"dialog_005": [
+				"Bum.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev12_GhostCave_pg1": {
+			"dialog_001": [
+				"Tak deme na to.",
+				"Hlavně bacha na duchy.",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Uff, to bylo až příliš strašidelné.",
+				"",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Mapu mám, studnu jsem našel. Ale stejně",
+				"nevím co pak dál. Měl bych ještě jednou",
+				"zajít za tím dědou a zeptat se.",
+				""
+			]
+		},
+		"ev13_GhostCaveBack_pg0": {
+			"dialog_000": [
+				"Tak deme na to.",
+				"Hlavně bacha na duchy.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Uff, to bylo až příliš strašidelné.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev14_GoblinCamp_pg0": {
+			"dialog_000": [
+				"To asi není rozumné potloukat se",
+				"u gobliního tábora.",
+				"",
+				"Aby mě tu nechytila hlídka."
+			]
+		},
+		"ev15_GoblinCamp_pg0": {
+			"dialog_000": [
+				"To asi není rozumné potloukat se",
+				"u gobliního tábora.",
+				"",
+				"Aby mě tu nechytila hlídka."
+			]
+		},
+		"ev16_FloversE_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev17_FloversF_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_FloversG_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_FloversH_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev20_VerseA_pg0": {
+			"dialog_000": [
+				"Je tu něco vyškrábáno, to asi bude",
+				"první kus toho kouzla k otevření brány.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Po temných stezkách se chci dnes dát,",
+				"Za tajemstvím bažiny nebudu se bát.",
+				"",
+				"hmm... je to vůbec začátek?"
+			]
+		},
+		"ev21_VerseB_pg0": {
+			"dialog_000": [
+				"Je tu něco vyškrábáno, to asi bude",
+				"druhý kus toho kouzla k otevření brány.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Ať tvé lucerny svítí za zeď,",
+				"Bráno z břečťanu, otevři teď!",
+				"",
+				"hmm... no, dobře."
+			]
+		},
+		"ev22_VerseC_pg0": {
+			"dialog_000": [
+				"Je tu něco vyškrábáno, to asi bude",
+				"třetí kus toho kouzla k otevření brány.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Bráno z břečťanu, vyzývám tě,",
+				"Kouzelná sílo, probuď svou moc.",
+				"",
+				"zajímavé."
+			]
+		},
+		"ev23_SwampTower_pg0": {
+			"dialog_004": [
+				"Tak jdeme na to",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Ať tvé lucerny svítí za zeď,",
+				"Bráno z břečťanu, otevři teď!",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Bráno z břečťanu, vyzývám tě,",
+				"Kouzelná sílo, probuď svou moc.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Po temných stezkách se chci dnes dát,",
+				"Za tajemstvím bažiny nebudu se bát.",
+				"",
+				""
+			],
+			"dialog_055": [
+				"Dobře, fungovalo to",
+				"",
+				"",
+				""
+			],
+			"dialog_068": [
+				"Hm, nic se nestalo.",
+				"Že bych to seřadil špatně?",
+				"",
+				""
+			],
+			"dialog_082": [
+				"Ještě nemám všechny verše kouzla.",
+				"",
+				"",
+				""
+			],
+			"option_011": [
+				"Ať tvé lucerny svítí za zeď...",
+				"Bráno z břečťanu, vyzývám tě...",
+				"Po temných stezkách se chci dnes dát..."
+			]
+		},
+		"ev24_TraderHouse_pg1": {
+			"dialog_001": [
+				"Ahoj Jakube, ten maják co hledáme je",
+				"na sever od jeskyně duchů.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ahoj Jakube, utáboříme se?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Koukám, že máš žluté plody.",
+				"Uvařím ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Žádné žluté plody nemáš.",
+				"Přines nějaké a uvařím ti lektvar.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Ano, vykoupím od tebe kůže.",
+				"Umím z nich vyrobit helmu i brnění.",
+				"Chceš?",
+				""
+			],
+			"dialog_055": [
+				"Máš 5 kůží, můžu ti vyrobit",
+				"kožené brnění.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"Máš 2 kůže, můžu ti vyrobit",
+				"koženou čapku. Chceš?",
+				"",
+				""
+			],
+			"option_016": [
+				"Odpočinek",
+				"Žluté plody",
+				"Kůže",
+				"Teď nic"
+			],
+			"option_060": [
+				"Ano, děkuji.",
+				"A co tu koženou čapku?",
+				"Nechci nic."
+			],
+			"option_081": [
+				"Ano, děkuji.",
+				"Nechci nic."
+			]
+		},
+		"ev25_BridgeR_pg0": {
+			"dialog_000": [
+				"Tahle věž ovládá most.",
+				"Když porazím hlídku, můžu ho pak používat.",
+				"",
+				""
+			]
+		},
+		"ev25_BridgeR_pg1": {
+			"dialog_000": [
+				"Ha. Zkratka přes most.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev27_BridgeL_pg0": {
+			"dialog_000": [
+				"Most ovládá ta druhá věž, musím tam.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev27_BridgeL_pg1": {
+			"dialog_000": [
+				"Ha. Zkratka přes most.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev28_Taboriste_pg0": {
+			"dialog_000": [
+				"Opuštěné tábořiště, mohu si tu odpočinout.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Odpočinek",
+				"Ne, děkuji"
+			]
+		},
+		"ev28_Taboriste_pg1": {
+			"dialog_001": [
+				"Ahoj Jakube, ten maják, co hledáme, je",
+				"na sever od jeskyně duchů.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ahoj Jakube, utáboříme se?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Koukám, že máš žluté plody.",
+				"Uvařím ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Žádné žluté plody nemáš.",
+				"Přines nějaké a uvařím ti lektvar.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Ano, vykoupím od tebe kůže.",
+				"Umím z nich vyrobit helmu i brnění.",
+				"Chceš?",
+				""
+			],
+			"dialog_055": [
+				"Máš 5 kůží, můžu ti vyrobit",
+				"kožené brnění.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"Máš 2 kůže, můžu ti vyrobit",
+				"koženou čapku. Chceš?",
+				"",
+				""
+			],
+			"option_016": [
+				"Odpočinek",
+				"Žluté plody",
+				"Kůže",
+				"Teď nic"
+			],
+			"option_060": [
+				"Ano, děkuji.",
+				"A co tu koženou čapku?",
+				"Nechci nic."
+			],
+			"option_081": [
+				"Ano, děkuji.",
+				"Nechci nic."
+			]
+		},
+		"ev29_Taboriste_pg0": {
+			"dialog_000": [
+				"Opuštěné tábořiště, mohu si tu odpočinout.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Odpočinek",
+				"Ne, děkuji"
+			]
+		},
+		"ev29_Taboriste_pg1": {
+			"dialog_001": [
+				"Ahoj Jakube, ten maják co hledáme je",
+				"na sever od jeskyně duchů.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ahoj Jakube, utáboříme se?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Koukám, že máš žluté plody.",
+				"Uvařím ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Žádné žluté plody nemáš.",
+				"Přines nějaké a uvařím ti lektvar.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Ano, vykoupím od tebe kůže.",
+				"Umím z nich vyrobit helmu i brnění.",
+				"Chceš?",
+				""
+			],
+			"dialog_055": [
+				"Máš 5 kůží, můžu ti vyrobit",
+				"kožené brnění.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"Máš 2 kůže, můžu ti vyrobit",
+				"koženou čapku. Chceš?",
+				"",
+				""
+			],
+			"option_016": [
+				"Odpočinek",
+				"Žluté plody",
+				"Kůže",
+				"Teď nic"
+			],
+			"option_060": [
+				"Ano, děkuji.",
+				"A co tu koženou čapku?",
+				"Nechci nic."
+			],
+			"option_081": [
+				"Ano, děkuji.",
+				"Nechci nic."
+			]
+		},
+		"ev41_Watchtower_pg0": {
+			"dialog_000": [
+				"Tak jsme tady. Teď to tu vyčistíme",
+				"a pak můžeme maják znova zapálit.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Dobrá práce. Díky za pomoc.",
+				"Maják zase bude svítit.",
+				"Pojďme za Markem.",
+				""
+			],
+			"dialog_015": [
+				"Dobře, napoprvé to nevyšlo.",
+				"Odpočinu si a zkusíme to znova.",
+				"",
+				""
+			]
+		},
+		"ev42_Taboriste_pg0": {
+			"dialog_000": [
+				"Opuštěné tábořiště, mohu si tu odpočinout.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Odpočinek",
+				"Ne, děkuji"
+			]
+		},
+		"ev42_Taboriste_pg1": {
+			"dialog_001": [
+				"Ahoj Jakube, ten maják co hledáme je",
+				"na sever od jeskyně duchů.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ahoj Jakube, utáboříme se?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Koukám, že máš žluté plody.",
+				"Uvařím ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Žádné žluté plody nemáš.",
+				"Přines nějaké a uvařím ti lektvar.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Ano, vykoupím od tebe kůže.",
+				"Umím z nich vyrobit helmu i brnění.",
+				"Chceš?",
+				""
+			],
+			"dialog_055": [
+				"Máš 5 kůží, můžu ti vyrobit",
+				"kožené brnění.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"Máš 2 kůže, můžu ti vyrobit",
+				"koženou čapku. Chceš?",
+				"",
+				""
+			],
+			"option_016": [
+				"Odpočinek",
+				"Žluté plody",
+				"Kůže",
+				"Teď nic"
+			],
+			"option_060": [
+				"Ano, děkuji.",
+				"A co tu koženou čapku?",
+				"Nechci nic."
+			],
+			"option_081": [
+				"Ano, děkuji.",
+				"Nechci nic."
+			]
+		},
+		"ev45_BonyardGate_pg0": {
+			"dialog_000": [
+				"Bez vážného důvodu sem rozhodně",
+				"nepůjdu.",
+				"",
+				""
+			]
+		},
+		"ev45_BonyardGate_pg1": {
+			"dialog_000": [
+				"Goblinní pohřebiště.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev46_FloversI_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev47_GraveyardTower_pg0": {
+			"dialog_000": [
+				"Tak jsme tady. Musím přiznat, že jsem tu",
+				"nikdy nebyl, takže netuším, co dál.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"No, nejdřív se musíme dostat přes tyhle",
+				"dveře. Dokážeš to přečíst?",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Jo, to je místní dialekt. Píše se tu cosi",
+				"o \\C[10]3 strážcích\\C[0], co hlídají i po",
+				"smrti hrob svého šamana.",
+				""
+			],
+			"dialog_015": [
+				"Nerad to říkám, ale asi bychom se měli",
+				"podívat do těch hrobů tady v okolí.",
+				"",
+				""
+			]
+		},
+		"ev47_GraveyardTower_pg1": {
+			"dialog_000": [
+				"Už ty dveře jdou. Mám za ně vzít?",
+				"",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Vítězství. Chvílemi jsem ani nedoufal.",
+				"",
+				"",
+				""
+			],
+			"dialog_014": [
+				"Jdu vyřešit tu svěcenou vodu, ať to máme",
+				"za sebou.",
+				"",
+				""
+			],
+			"option_005": [
+				"Jdem na to",
+				"Ještě radši ne"
+			]
+		},
+		"ev47_GraveyardTower_pg2": {
+			"dialog_000": [
+				"Tady máme hotovo.",
+				"A navíc mi stejně došla svěcená voda.",
+				"Jdeme za starostkou.",
+				""
+			]
+		},
+		"ev48_GoblinGraveEmpty_pg1": {
+			"dialog_000": [
+				"Takže co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Tak tady nic není.",
+				"Teda skoro nic.",
+				"",
+				""
+			],
+			"option_005": [
+				"Kopat",
+				"Vycouvat"
+			]
+		},
+		"ev49_GoblinGrave_pg1": {
+			"dialog_000": [
+				"Takže co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"To vypadá, že je jeden z nich.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"To už jsou tři. Tak snad už ta brána",
+				"od věže povolí.",
+				"",
+				""
+			],
+			"option_005": [
+				"Kopat",
+				"Vycouvat"
+			]
+		},
+		"ev50_GoblinGrave_pg1": {
+			"dialog_000": [
+				"Takže co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"To vypadá, že je jeden z nich.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"To už jsou tři. Tak snad už ta brána",
+				"od věže povolí.",
+				"",
+				""
+			],
+			"option_005": [
+				"Kopat",
+				"Vycouvat"
+			]
+		},
+		"ev51_GoblinGrave_pg1": {
+			"dialog_000": [
+				"Takže co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"To vypadá, že je jeden z nich.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"To už jsou tři. Tak snad už ta brána",
+				"od věže povolí.",
+				"",
+				""
+			],
+			"option_005": [
+				"Kopat",
+				"Vycouvat"
+			]
+		},
+		"ev52_GoblinGraveEmpty_pg1": {
+			"dialog_000": [
+				"Takže co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Tak tady nic není.",
+				"Teda skoro nic.",
+				"",
+				""
+			],
+			"option_005": [
+				"Kopat",
+				"Vycouvat"
+			]
+		},
+		"ev53_GoblinGraveEmpty_pg1": {
+			"dialog_000": [
+				"Takže co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Tak tady nic není.",
+				"Teda skoro nic.",
+				"",
+				""
+			],
+			"option_005": [
+				"Kopat",
+				"Vycouvat"
+			]
+		},
+		"ev54_EV054_pg0": {
+			"dialog_009": [
+				"Trochu zlata a celkem nový luk.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev55_SwampMonserDen_pg0": {
+			"dialog_001": [
+				"Jeskyně. A ozývá se z ní mlaskání.",
+				"Tam nejdu ani omylem.",
+				"",
+				""
+			]
+		},
+		"ev55_SwampMonserDen_pg1": {
+			"dialog_001": [
+				"Říká se, že v ní žije nějaká příšera.",
+				"Pokud máme rozum, nepůjdeme tam.",
+				"",
+				""
+			]
+		},
+		"ev55_SwampMonserDen_pg2": {
+			"dialog_001": [
+				"Říká se, že v ní žije nějaká příšera.",
+				"Ale dost, určitě to je ta jeskyně,",
+				"o které mluvila Tereza.",
+				"Tak jdeme?"
+			],
+			"dialog_010": [
+				"Upravdě jsem chvíli myslel,",
+				"že je po nás.",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Dobře, jsme venku.",
+				"",
+				"",
+				""
+			],
+			"dialog_024": [
+				"Viděl jsi tu hromadu kostí?",
+				"To by asi Tereze jako informace",
+				"mohlo stačit, ne?",
+				""
+			],
+			"dialog_029": [
+				"Snad jo.",
+				"Jestli dovnitř její bratr šel,",
+				"jinde než na té hromadě skončit nemohl.",
+				""
+			],
+			"dialog_037": [
+				"To se mi ulevilo.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Jdeme dovnitř",
+				"Zatím raději ne"
+			]
+		},
+		"ev55_SwampMonserDen_pg3": {
+			"dialog_001": [
+				"Myslíš, že jich tam je víc?",
+				"Podruhé už tam určitě nejdu.",
+				"",
+				""
+			]
+		}
+	},
+	"m05_SwampTrader": {
+		"ev01_Woodsman_pg0": {
+			"dialog_000": [
+				"Vítej. Jsi v pořádku? Sem do bažiny moc",
+				"často nikdo nechodí. Já jsem Jan",
+				"a bydlím tady.",
+				""
+			],
+			"dialog_005": [
+				"Já jsem Jakub. Potřebuju se dostat do",
+				"vesnice. Vím, že mám hledat kusy kouzla.",
+				"Můžeš mi poradit? Znáš je?",
+				""
+			],
+			"dialog_010": [
+				"No, vím, že jeden z těch veršů, co hledáš,",
+				"je vyrytý u starého padlého stromu",
+				"na sever odtud.",
+				"Pokud budeš cokoliv potřebovat, řekni."
+			]
+		},
+		"ev01_Woodsman_pg1": {
+			"dialog_000": [
+				"Ahoj Jakube, vítej zpátky.",
+				"",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Mohu si u tebe odpočinout?",
+				"Měl jsem toho teď hodně a trocha spánku",
+				"by mi pospěla.",
+				""
+			],
+			"dialog_020": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_029": [
+				"Koukám, že máš žluté plody.",
+				"Uvařím ti z nich léčivý lektvar.",
+				"",
+				""
+			],
+			"dialog_038": [
+				"Žádné žluté plody nemáš.",
+				"Přines nějaké a uvařím ti lektvar.",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Ano, vykoupím od tebe kůže.",
+				"Umím z nich vyrobit helmu i brnění.",
+				"Chceš?",
+				""
+			],
+			"dialog_054": [
+				"Máš 5 kůží, můžu ti vyrobit",
+				"kožené brnění.",
+				"",
+				""
+			],
+			"dialog_075": [
+				"Máš 2 kůže, můžu ti vyrobit",
+				"koženou čapku. Chceš?",
+				"",
+				""
+			],
+			"option_006": [
+				"Odpočinek",
+				"Žluté plody",
+				"Kůže",
+				"Teď nic"
+			],
+			"option_059": [
+				"Ano, děkuji.",
+				"A co tu koženou čapku?",
+				"Nechci nic."
+			],
+			"option_080": [
+				"Ano, děkuji.",
+				"Nechci nic."
+			]
+		},
+		"ev01_Woodsman_pg2": {
+			"dialog_000": [
+				"Ahoj Jakube, vítej zpátky.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Ahoj Jane, mám na tebe důležitou otázku.",
+				"Potkal jsem Marka a říkal, že pokud chci",
+				"od něj loď, on potřebuje od tebe dřevo.",
+				"Pomohl bys mi?"
+			],
+			"dialog_010": [
+				"To není tak snadné, já se s bratrem",
+				"pohádal, protože ta jeho poslední loď",
+				"se potopila kvůli rozbitému majáku tady",
+				"v bažině. Nevrátím se k němu."
+			],
+			"dialog_015": [
+				"A kdybych ti pomohl ten maják opravit?",
+				"Pak bys mi pomohl?",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Jsi fajn člověk. Dobrá, pomůžu ti.",
+				"Začneme tím majákem a uvidíme, jak",
+				"daleko spolu dojdeme.",
+				""
+			]
+		}
+	},
+	"m06_SwampWillage": {
+		"ev08_Guard_pg0": {
+			"dialog_002": [
+				"Vítej cizinci do Dubového Údolí.",
+				"Jsem David a mám dnes hlídku.",
+				"Ať už přicházíš proč chceš, chovej se k",
+				"lidem slušně, ať s tebou nemám potíže."
+			],
+			"dialog_007": [
+				"Ahoj. Jsem Jakub a přicestoval jsem přes",
+				"bažinu. Potřebuju pomoc dostat se",
+				"z ostrova. Poradíš mi?",
+				""
+			],
+			"dialog_012": [
+				"S tím by ti asi mohl pomoci náš loďař,",
+				"jmenuje se Marek a bydlí u přístaviště.",
+				"Kdybys cokoliv potřeboval, obchod vede",
+				"má sestřenice Tereza."
+			]
+		},
+		"ev08_Guard_pg1": {
+			"dialog_002": [
+				"Pamatuj, Loďař Marek, bydlí u vody.",
+				"Obchodnice Tereza první dům na pravo.",
+				"Starostka Kateřina, dům nalevo.",
+				"Chovej se slušně."
+			],
+			"dialog_007": [
+				"Rozumím.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev09_Shipwright_pg0": {
+			"dialog_002": [
+				"Ahoj, ty jsi Marek? Jmenuju se Jakub",
+				"a potřeboval bych loďku,",
+				"abych se mohl dostat z ostrova.",
+				"Pomohl bys mi?"
+			],
+			"dialog_007": [
+				"To jsem já. Rád bych, ale nejde to.",
+				"Poslední loď, co jsem měl, je pryč a abych",
+				"udělal novou, potřebuju dobré dřevo a to",
+				"mi dodá jen lesník Jan."
+			],
+			"dialog_012": [
+				"Dobře, půjdu tedy za ním. Pak bys mi",
+				"pomohl?",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Pomohl. Ale nebude to tak snadné.",
+				"S Honzou jsme se pohádali a on utekl do",
+				"bažiny. Nevím, jestli ho přesvědčíš.",
+				""
+			],
+			"dialog_022": [
+				"Světe div se, toho už jsem potkal.",
+				"Nezdál se nijak moc naštvaný. Tak já za",
+				"ním zajdu.",
+				""
+			]
+		},
+		"ev09_Shipwright_pg1": {
+			"dialog_002": [
+				"Musím přivést Jana.",
+				"Marek mi nemůže pomoct, dokud mu Jan",
+				"nedodá dřevo na stavbu.",
+				""
+			]
+		},
+		"ev09_Shipwright_pg2": {
+			"dialog_002": [
+				"Ahoj Marku, tak jsme tady.",
+				"Doufám, že teď už vše půjde.",
+				"Můžu vám s tou stavbou nějak pomoci?",
+				""
+			],
+			"dialog_007": [
+				"Ahoj bratře. Tak jsme spravili ten maják.",
+				"Sliboval jsem, že budu tady Jakubovi",
+				"k ruce na pár dní.",
+				""
+			],
+			"dialog_012": [
+				"Ahoj Jane, hlavně že jsi v pořádku zpět.",
+				"Bohužel mi Kateřina zakázala pro vás",
+				"udělat loď, prý že chce s Jakubem",
+				"nejdřív mluvit."
+			]
+		},
+		"ev09_Shipwright_pg3": {
+			"dialog_002": [
+				"Vyřešte si to prosím s Kateřinou,",
+				"Já nemůžu jít proti rozhodnutí",
+				"naší starostky.",
+				""
+			]
+		},
+		"ev09_Shipwright_pg4": {
+			"dialog_002": [
+				"Loďku jsem přistavil k molu.",
+				"Hodně štěstí a Jane, vrať se v pořádku.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Až se vrátím, budu ti vyprávět.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_Sign_pg0": {
+			"dialog_000": [
+				"== Naše Dubové Údolí ==",
+				" Nekráast, Nepoškozovat",
+				"        Zdravit",
+				""
+			]
+		},
+		"ev12_Mayor_pg0": {
+			"dialog_002": [
+				"Ahoj, jsem Jakub, hledám, jak se dostat",
+				"z ostrova.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Já jsem Kateřina, starostka Dubového Údolí.",
+				"Máme lodě, hlavní loďař se jmenuje Marek.",
+				"Už jsi s ním mluvil?",
+				""
+			]
+		},
+		"ev12_Mayor_pg1": {
+			"dialog_002": [
+				"Pokud potřebuješ poradit, zajdi za Markem,",
+				"co bydlí u vody. Pokud potřebuješ vybavení,",
+				"zajdi za Terezou, vede obchod.",
+				""
+			]
+		},
+		"ev12_Mayor_pg2": {
+			"dialog_002": [
+				"Slyšela jsem, že jsi šikovný a potřebuješ",
+				"naši pomoc. Ráda bych od tebe také na",
+				"oplátku pomoc pro vesnici.",
+				""
+			],
+			"dialog_007": [
+				"Opravdu to musí být? Potřebuju jen odjet.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Když nevyužijeme, že tu jsi, bude nás to",
+				"sužovat, bůh ví, jak dlouho. Pomoz a loď",
+				"bude tvá.",
+				""
+			],
+			"dialog_017": [
+				"Když umíral goblinní šaman, seslal na",
+				"naši vesnici prokletí, které k nám táhne",
+				"vlky z okolí. Polij jeho hrob touhle",
+				"svěcenou vodou a bude po potížích."
+			],
+			"dialog_022": [
+				"V tom bude určitě nějaký háček.",
+				"",
+				"",
+				""
+			],
+			"dialog_027": [
+				"Jo. Pohřebiště je dost hluboko v bažině",
+				"a okolí šamanova hrobu se hemží duchy.",
+				"Ale neboj, půjdu s tebou.",
+				"Je to na sever od fialové bažiny."
+			]
+		},
+		"ev12_Mayor_pg3": {
+			"dialog_002": [
+				"Pokud chceš pomoci, pomoz nejdřív vesnici.",
+				"Polij hrob Goblinního šamana touhle",
+				"svěcenou vodou a budeme vyrovnáni.",
+				""
+			],
+			"dialog_007": [
+				"Jo. Pohřebiště je dost hluboko v bažině",
+				"a okolí šamanova hrobu se hemží duchy.",
+				"Ale neboj, jdu s tebou.",
+				"Je to \\C[10]na sever od fialové bažiny\\C[0]."
+			]
+		},
+		"ev12_Mayor_pg4": {
+			"dialog_002": [
+				"Děkuji ti na tisíckrát.",
+				"Jak jsem slíbila, loďka už na vás",
+				"u mola čeká.",
+				""
+			]
+		},
+		"ev13_VillageBoat_pg1": {
+			"dialog_002": [
+				"Za dobrodružstvím.",
+				"",
+				"",
+				""
+			],
+			"option_000": [
+				"Odjet z ostrova",
+				"Ještě neodjíždět"
+			]
+		},
+		"ev14_Inn_pg0": {
+			"dialog_002": [
+				"Ahoj. Jsem Tereza, vedu hostinec a obchod.",
+				"Tebe ještě neznám, jsi tu nový?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Ahoj. Já jsem Jakub a ano, jsem tu poprvé.",
+				"Nevíš, kde bydlí Marek? Prý je to loďař.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Tamhle přes ulici. Nemůžeš to minout,",
+				"jsme malá vesnice.",
+				"",
+				""
+			]
+		},
+		"ev14_Inn_pg1": {
+			"dialog_002": [
+				"Ahoj Jakube, chtěla jsem tě požádat",
+				"o pomoc. Ale je to nebezpečné.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"No, dobře. Povídej.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Kdybys někdy cestoval přes",
+				"Jedovatou bažinu, je tam jeskyně.",
+				"Kdysi v ní zmizel můj mladší bratr.",
+				"Mohl by ses podívat, co se s ním stalo?"
+			],
+			"dialog_017": [
+				"Tam jsem už byl. Bažina je plná oblud.",
+				"Nejspíš nebude naživu. Ale pokud budu",
+				"moci, tak tu jeskyni prohledám.",
+				""
+			],
+			"dialog_022": [
+				"Pokud nežije, tak nežije, ale ráda bych",
+				"to věděla. Děkuji, ale buď opatrný.",
+				"",
+				""
+			]
+		},
+		"ev14_Inn_pg2": {
+			"dialog_002": [
+				"Ahoj Jakube, připomínám jeskyni v",
+				"Jedovaté bažině. Pokud budeš moci, prosím,",
+				"podívej se po mém bratrovi.",
+				""
+			],
+			"dialog_008": [
+				"Plnou oblud. Nejspíš najdeme jen kosti",
+				"a něco, co je bude ohlodávat.",
+				"",
+				""
+			],
+			"dialog_013": [
+				"I informace je dost.",
+				"Samozřejmě nabízím odměnu.",
+				"",
+				""
+			]
+		},
+		"ev14_Inn_pg3": {
+			"dialog_002": [
+				"Tak jsem tam byl.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"V té jeskyni? Jsem ráda, že ses vrátil",
+				"v pořádku. Našel jsi něco?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Obludu, jak jsem předpovídal.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Bohužel. Obludu a brloh plný lidských",
+				"ostatků. Tvůj bratr nebyl jediný,",
+				"co za ta léta sežrala.",
+				""
+			],
+			"dialog_022": [
+				"To nevadí. Věděla jsem, že to tak bude.",
+				"I tak děkuji a tady je tvá slíbená",
+				"odměna.",
+				""
+			]
+		},
+		"ev14_Inn_pg4": {
+			"dialog_002": [
+				"Ahoj Jakube.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m07_City": {
+		"ev03_Init_pg0": {
+			"dialog_013": [
+				"Tak to bychom měli. Co teď?",
+				"",
+				"",
+				""
+			],
+			"dialog_018": [
+				"Teď zajdeme za tou pirátkou",
+				"\\C[10]Kamilou\\C[0] do vězení.",
+				"A uvidíme, co z toho vzejde.",
+				""
+			]
+		},
+		"ev08_DoorShop_pg0": {
+			"dialog_000": [
+				"Jsme tu správně.",
+				"Pst, teď potichu.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Jen pojďte dál.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Dobře, to šlo trochu jinak než jsem",
+				"čekala, ale také v pořádku.",
+				"Hele, mám ten klíč.",
+				""
+			]
+		},
+		"ev11_DoorShopkeeper_pg1": {
+			"dialog_000": [
+				"Potřebujeme nejdřív najít ten klíč.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_DoorShopkeeper_pg2": {
+			"dialog_000": [
+				"Klíč pasuje.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Jdeme teda dál?",
+				"",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Je někdo doma?",
+				"Dobrý den. Háló!",
+				"",
+				""
+			],
+			"dialog_018": [
+				"Tohle je můj domov. Okamžitě jděte pryč,",
+				"nebo zavolám stráže.",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Omlouváme se, poradila nám hostinská, paní",
+				"Jiřina, že pokud potřebujeme na pár nocí",
+				"útočiště, můžeme zkusit vás. Nezlobte se.",
+				""
+			],
+			"dialog_028": [
+				"Pokud vás poslala Jiřka, tak o vás musela",
+				"mít slušné mínění. Dobře, ale jen na pár",
+				"nocí. Jmenuji se Anneta. A vy?",
+				""
+			],
+			"dialog_033": [
+				"Děkujeme. Já jsem Jakub a tohle je Jan.",
+				"",
+				"",
+				""
+			],
+			"option_010": [
+				"Jdeme",
+				"Raději ne"
+			]
+		},
+		"ev11_DoorShopkeeper_pg4": {
+			"dialog_004": [
+				"No konečně vás mám.",
+				"",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Panové, představuji vám Sabrinu.",
+				"Je to má známá a také hledá cestu",
+				"do hlavního města.",
+				"Tak jsem vás doporučila."
+			],
+			"dialog_014": [
+				"Předpokládám, že se vám kouzelnice do",
+				"party bude hodit.",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Upřímně, budeme rádi za každou pomoc.",
+				"A když tě doporučuje Anneta, to nám",
+				"rozhodně stačí. Tak vítej.",
+				""
+			]
+		},
+		"ev16_DoorPrison_pg0": {
+			"dialog_000": [
+				"Haló, je tam někdo?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Tady je vězení. Když nemáte propustku,",
+				"nemáte tu co dělat.",
+				"A vy propustku nemáte.",
+				""
+			]
+		},
+		"ev16_DoorPrison_pg1": {
+			"dialog_000": [
+				"Haló, je tam někdo? Máme propustku",
+				"od velitele.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Jo, o vás už nám řekli.",
+				"Tak pojďte dál.",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Tak tady je.",
+				"Naše slavná vězenkyně.",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Návštěva. Pojďte dál,",
+				"počkejte, připravím svůj porcelánový",
+				"servis.",
+				""
+			],
+			"dialog_026": [
+				"Prosím?",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"Aj, já zapomněla, že tu jsem vlastně vězeň.",
+				"No tak to budete muset porcelán donést vy.",
+				"Co ode mě vlastně chcete?",
+				""
+			],
+			"dialog_036": [
+				"Přišli jsme se s tebou dohodnout.",
+				"Podle záznamu by si jako bývalá velitelka",
+				"mohla vědět hodně o tom, proč teď",
+				"najednou piráti dělají blokádu města."
+			],
+			"dialog_041": [
+				"Tady si někdo udělal domácí úkol.",
+				"Samozřejmě, že to vím. Ale z toho,",
+				"že vám to povím, mi nic nekouká.",
+				""
+			],
+			"dialog_046": [
+				"Řekni, co bys chtěla, a třeba ti budeme",
+				"ku pomoci. Chceme se jen dostat na loď",
+				"z města ven. Pokud dáme dohromady plán,",
+				"pomůžeme ti ho uskutečnit."
+			],
+			"dialog_051": [
+				"Zajímavé. Tak poslouchejte. Piráti mají",
+				"skrýš v zátoce na jih od města.",
+				"A tu skrýš jim obsadil klan rybích lidí.",
+				"Můj zástupce to prohlásil za mou chybu"
+			],
+			"dialog_056": [
+				"a sesadil mě.",
+				"Nakukal velitelům posádek, že když nám",
+				"obsadili rybáci základnu, tak piráti",
+				"si obsadí město."
+			],
+			"dialog_061": [
+				"Aha! Takže když ty přijdeš s tím, že",
+				"je vaše základna zase vaše, vrátí ti",
+				"hodnost a piráti odtáhnou domů.",
+				""
+			],
+			"dialog_066": [
+				"To zní jako dost práce,",
+				"ale nic, co bychom nezvládli.",
+				"Asi.",
+				""
+			],
+			"dialog_071": [
+				"Když se vám to podaří, dejte vědět.",
+				"Udělám si na vás ve svém nabitém",
+				"programu čas.",
+				""
+			],
+			"dialog_077": [
+				"Velitel říkal, že vám mám umožnit přístup",
+				"do zbrojnice. Chcete se tam podívat?",
+				"",
+				""
+			],
+			"option_082": [
+				"Jo, rádi",
+				"Teď ne"
+			]
+		},
+		"ev16_DoorPrison_pg2": {
+			"dialog_000": [
+				"Haló, je tam někdo?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Pro dnešek už do věznice nemůžete,",
+				"ale do zbrojnice vás pořád pustit můžu.",
+				"",
+				""
+			],
+			"option_012": [
+				"Jo, rádi",
+				"Teď ne"
+			]
+		},
+		"ev16_DoorPrison_pg3": {
+			"dialog_000": [
+				"Haló, je tam někdo? Můžem zase",
+				"navštívit vězně?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Tak pojďte dál.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Moc se s ní nepárejte.",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Jste zpátky? To je milé překvapení.",
+				"",
+				"",
+				""
+			],
+			"dialog_026": [
+				"Jsme a neseme dobré zprávy.",
+				"Vaše doupě je od rybáků vyčištěné.",
+				"",
+				""
+			],
+			"dialog_031": [
+				"To je... úžasná zpráva.",
+				"Kdybych se s touhle zprávou teď dostala",
+				"do pirátského tábora, byla by do večera",
+				"blokáda pryč."
+			],
+			"dialog_036": [
+				"Zajdeme za \\C[10]Václavem\\C[0] a uvidíme,",
+				"jestli už nám bude věřit a pustí tě.",
+				"",
+				""
+			],
+			"dialog_041": [
+				"Díky, držím vám palce.",
+				"",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Potřebujete se podívat do zbrojnice?",
+				"",
+				"",
+				""
+			],
+			"option_052": [
+				"Jo, rádi",
+				"Teď ne"
+			]
+		},
+		"ev16_DoorPrison_pg4": {
+			"dialog_000": [
+				"Haló, je tam někdo?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Pro dnešek už do věznice nemůžete,",
+				"ale do zbrojnice vás pořád pustit můžu.",
+				"",
+				""
+			],
+			"option_012": [
+				"Jo, rádi",
+				"Teď ne"
+			]
+		},
+		"ev18_DoorGarden_pg0": {
+			"dialog_000": [
+				"Tohle je brána k zámecké zahradě.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_DoorGarden_pg1": {
+			"dialog_000": [
+				"Nesete klíč? Báječně. Tak pojďte dál.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"A vzhůru na nejstrašidelnější místo,",
+				"co tu ve městě je.",
+				"",
+				""
+			],
+			"dialog_026": [
+				"Kam že to jdeme?",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"Do knihovny. Baron si tam ukryl své",
+				"tajné záznamy a já se teď do nich",
+				"potřebuju podívat.",
+				""
+			],
+			"dialog_036": [
+				"A jak najdeme ty jeho tajné záznamy?",
+				"Předpokládám, že to asi nebude vitrína",
+				"uprostřed knihovny, co?",
+				""
+			],
+			"dialog_041": [
+				"No, to nebude. A také doufám, že nás",
+				"při tom hledání nic nesežere.",
+				"Ono to tam bez lidí je fakt dost",
+				"strašidelné."
+			],
+			"dialog_049": [
+				"Počkej prosím chvíli, hned jsme zpátky.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Jdeme do zahrady.",
+				"Počkej ještě chvíli."
+			]
+		},
+		"ev20_WhereIsInn_pg0": {
+			"dialog_000": [
+				"Vítej ve Stříbrném Ústí.",
+				"Že ty netušíš, kde je hospoda?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Ne. Jsem tu poprvé a spoléhám na tvůj",
+				"skvělý orientační smysl.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Tak na sever, do přístavu.",
+				"Je to velká budova s praporem.",
+				"",
+				""
+			]
+		},
+		"ev23_ThePot_pg1": {
+			"dialog_000": [
+				"No jo, fakt je tu klíč.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev24_CityPriest_pg1": {
+			"dialog_002": [
+				"Vypadáš, že by se tvému tělu hodila",
+				"trocha péče. Chceš? Naše sestřičky ti to",
+				"ošetří.",
+				""
+			],
+			"dialog_009": [
+				"Děkuji, to ti budeme vděční.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Zásah kněze částečně uzdravil tvá zranění.",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Jsi hodný knězi, ale máme naspěch.",
+				"Zvládneme to.",
+				"",
+				""
+			],
+			"option_007": [
+				"Děkuji.",
+				"Ne, děkuji"
+			]
+		},
+		"ev25_GateGuard_pg0": {
+			"dialog_000": [
+				"Vy jste ta nová hlídka, co?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Jo, to jsme my.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Prý nás pustíš z města ven.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Jo jo, mám vás na seznamu",
+				"povolených osob. Hodně zdaru.",
+				"",
+				""
+			],
+			"option_010": [
+				"Potřebujeme ven",
+				"Ještě přijdem"
+			]
+		},
+		"ev25_GateGuard_pg1": {
+			"dialog_000": [
+				"Ahoj, zase do divočiny?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Potřebujeme si půjčit člun a pádlovat",
+				"kus podél pobřeží.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Dobře,",
+				"pár jich tu máme pro takovou potřebu",
+				"připravených. Tak si jeden půjčte.",
+				""
+			],
+			"option_005": [
+				"Potřebujeme na člun",
+				"Ještě ne"
+			]
+		}
+	},
+	"m08_SwampIntro": {
+		"ev01_TheIntro_pg0": {
+			"dialog_001": [
+				"Zdá se, že jsem utekl.",
+				"Byl já jsem vůbec někdy tady v té chodbě?",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Jen aby mě nedohnal.",
+				"Jau... a abych se tu nezabil sám.",
+				"Tady je ale tma.",
+				""
+			],
+			"dialog_011": [
+				"A co je tady tohle?",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m09_CityIntro": {
+		"ev01_OnEnter_pg0": {
+			"dialog_000": [
+				"To je ono. Naše město Stříbrné Ústí.",
+				"Ale něco není v pořádku.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Máš pravdu, to město je dost tmavé.",
+				"A naopak jsou ohně okolo, skoro jako",
+				"by kolem něj byla nějaká armáda.",
+				""
+			],
+			"dialog_010": [
+				"Mám tu v zátoce jednoho známého.",
+				"Místo ve městě, zakotvíme raději u něj",
+				"a zjistíme, co se děje.",
+				""
+			]
+		}
+	},
+	"m10_CityCove": {
+		"ev04_Fisherman_pg0": {
+			"dialog_000": [
+				"Z komína se kouří, takže tu asi je.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev04_Fisherman_pg1": {
+			"dialog_000": [
+				"Jane? Vítej, už je to pár měsíců,",
+				"co jsem tě viděl naposledy.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Ahoj Ondro, máš pravdu, měl bych jezdit",
+				"častěji. Teď, když máme u nás zase maják",
+				"v pořádku, to snad půjde.",
+				"Tohle je Jakub. Potřebujeme do města."
+			],
+			"dialog_010": [
+				"To jste si nevybrali dobrou dobu.",
+				"Místní piráti se zbláznili a obsadili",
+				"předměstí. Přes ten jejich tábor se dá",
+				"proplížit, když se nedáš chytit."
+			],
+			"dialog_015": [
+				"Ale jednoduché to není.",
+				"Cesta starou stokou je zatím volná.",
+				"Pod dubem u srázu, pamatuješ si to?",
+				"Samozřejmě, bacha na škodnou tam dole."
+			]
+		},
+		"ev04_Fisherman_pg2": {
+			"dialog_000": [
+				"Raději už jděte, děti mi spí.",
+				"Tak ať mi je neprobudíte.",
+				"",
+				""
+			]
+		},
+		"ev05_Exit_pg0": {
+			"dialog_000": [
+				"Nejdřív bych si měl promluvit",
+				"s tím \\C[10]rybářem\\C[0].",
+				"",
+				""
+			]
+		},
+		"ev05_Exit_pg1": {
+			"dialog_000": [
+				"Tak vzhůru do pirátského tábora.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m11_CityCamp": {
+		"ev01_Init_pg0": {
+			"dialog_002": [
+				"Bacha na stráže a extra bacha na",
+				"hlídací psy. Když nás chytí, budeme",
+				"mít průšvih.",
+				""
+			],
+			"dialog_007": [
+				"Kdyby něco, vždycky můžem zkusit utéct.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev02_PirateDog2_pg0": {
+			"dialog_004": [
+				"Haf! Haf!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev07_SafeHaven_pg0": {
+			"dialog_004": [
+				"Tady jsme v bezpečí, snad.",
+				"Kdyby hrozilo, že nás vystopujou psi,",
+				"zkusíme utéct sem.",
+				""
+			]
+		},
+		"ev09_PirateDog9_pg0": {
+			"dialog_004": [
+				"Haf! Haf!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_PirateDog13_pg0": {
+			"dialog_004": [
+				"Haf! Haf!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev14_Thorns_pg0": {
+			"dialog_002": [
+				"Jau, trny",
+				"",
+				"",
+				""
+			]
+		},
+		"ev15_Thorns_pg0": {
+			"dialog_002": [
+				"Aaaau, to bolí. Kdybych se neplížil,",
+				"tak zařvu nahlas.",
+				"",
+				""
+			]
+		},
+		"ev16_Thorns_pg0": {
+			"dialog_002": [
+				"Ty trny budu vytahovat ještě zítra.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_ToSewers_pg0": {
+			"dialog_002": [
+				"A dolů do stoky.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m12_CitySewers": {
+		"ev01_ToCamp_pg0": {
+			"dialog_004": [
+				"Tak jak na tom jsme s těmi stany?",
+				"Zatím jsme prohledali \\V[12].",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Už je máme prohledané všechny.",
+				"Měli by sme jít za velitelem stráže.",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Zatím jsme neprohledali žádný stan.",
+				"",
+				"",
+				""
+			],
+			"dialog_027": [
+				"Chceš si to projít, nebo je ti jasné,",
+				"co musíme udělat?",
+				"",
+				""
+			],
+			"dialog_034": [
+				"Prohledat všechny stany.",
+				"Nenechat se chytit.",
+				"Je mi to jasné.",
+				""
+			],
+			"dialog_041": [
+				"Nahoře jsou 4 stany. Ke každému musíme",
+				"přijít tak, aby nás nechytli.",
+				"Když budem u stanu, třeba i zezadu,",
+				"vlezu do něj a prozkoumám ho."
+			],
+			"dialog_046": [
+				"Když je budeme mít prozkoumané všechny,",
+				"vrátíme se sem, dáme si dohromady",
+				"poznámky a vrátíme se na strážnici.",
+				""
+			],
+			"dialog_051": [
+				"Asi rozumím.",
+				"\\C[10]Prozkoumat čtyři stany\\C[0].",
+				"",
+				""
+			],
+			"dialog_060": [
+				"Tak jdeme nahoru do tábora?",
+				"",
+				"",
+				""
+			],
+			"option_032": [
+				"Je mi to jasné",
+				"Povídej"
+			],
+			"option_065": [
+				"Tak jo, jdeme",
+				"Nejdřív odpočinek",
+				"Ee... teď ne"
+			]
+		},
+		"ev02_Init_pg0": {
+			"dialog_007": [
+				"Už je máme prohledané všechny.",
+				"Takže jak na tom jsme?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Tady je dost alkoholu, jídlo skoro žádné.",
+				"Tady něco je, tady byl materiál ale jídlo",
+				"ne a tady bylo, tak na pár dní.",
+				""
+			],
+			"dialog_017": [
+				"To vypadá že toho moc nemají.",
+				"No, je načase předat informace",
+				"veliteli stráže.",
+				""
+			],
+			"dialog_024": [
+				"Ještě to není, co? Máme prohledat",
+				"čtyři stany.",
+				"Zatím jsme prohledali \\V[12].",
+				""
+			]
+		},
+		"ev03_ToCity_pg0": {
+			"dialog_000": [
+				"Vylezeme po žebříku do města?",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Jdeme na to",
+				"Ještě ne"
+			]
+		},
+		"ev04_Amfora_pg0": {
+			"dialog_000": [
+				"Stará Amfora.",
+				"Mám ji rozbít?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ze zbytku jsem vyhrabal nějaké peníze.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Tak jo",
+				"Radši ne"
+			]
+		},
+		"ev05_Barrel_pg0": {
+			"dialog_000": [
+				"Starý sud.",
+				"Mám ho rozbít?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ze zbytku jsem vyhrabal nějaké peníze.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Tak jo",
+				"Radši ne"
+			]
+		},
+		"ev06_BarrelwithCetrip_pg0": {
+			"dialog_000": [
+				"Starý hnijící sud.",
+				"Mám ho rozbit?",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Ze zbytku jsem vyhrabal nějaké peníze.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Tak jo",
+				"Radši ne"
+			]
+		},
+		"ev07_AmforawithRats_pg0": {
+			"dialog_000": [
+				"Pár amfor.",
+				"Mám je rozbit?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Krysy... krysy!!",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Tak jo",
+				"Radši ne"
+			]
+		},
+		"ev08_Rats_pg0": {
+			"dialog_000": [
+				"Krysy... krysy!!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev09_Amforawithtrap_pg0": {
+			"dialog_000": [
+				"Krysy... krysy!!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_SewerMonster_pg0": {
+			"dialog_000": [
+				"Jsi si jistý, že sem chceš?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Ne. Ale ten krystal vypadá důležitě.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"No, já slyšela cosi o",
+				"chapadlaté příšeře ve stoce.",
+				"Myslíte že to je tudy?",
+				""
+			],
+			"dialog_020": [
+				"A sakra.",
+				"",
+				"",
+				""
+			],
+			"option_018": [
+				"Dotknout se krystalu",
+				"Odejít"
+			]
+		}
+	},
+	"m13_CityCapturedPirates": {
+		"ev01_MainEvent_pg0": {
+			"dialog_002": [
+				"Teď je s váma veta.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Jen potřebujem projít.",
+				"A můžeme se nějak dohodnout?",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Za 20 zlatých.",
+				"A můžete jít.",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Tak zmizte ať už vás podruhé nechytnem.",
+				"",
+				"",
+				""
+			],
+			"dialog_034": [
+				"Na to nemáte.",
+				"",
+				"",
+				""
+			],
+			"dialog_041": [
+				"Zbavte se jich.",
+				"",
+				"",
+				""
+			],
+			"option_018": [
+				"Zaplatit",
+				"Nezaplatíme"
+			]
+		}
+	},
+	"m14_CityInn": {
+		"ev06_InnPersonA_pg0": {
+			"dialog_002": [
+				"Ahoj krasavci, chce mě některý z vás",
+				"vyzvat k tanci?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Rádi by sme, ale mame toho teď moc.",
+				"Potřebovali bychom poradit.",
+				"Nevíte prosím, kde by se dalo",
+				"ve městě ubytovat?"
+			],
+			"dialog_012": [
+				"Hmm... nudní a navíc něco chtěj.",
+				"Když něco chceš, zařiď si to sám.",
+				"",
+				""
+			]
+		},
+		"ev07_InnPersonA_pg0": {
+			"dialog_002": [
+				"Ahoj krasavci, vypadáte ztraceně.",
+				"Chcete dámě koupit skleničku?",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Skleničku pro dámu prosím.",
+				"Mohla byste nám poradit? Sháníme",
+				"kde by sme se mohli ubytovat.",
+				""
+			],
+			"dialog_016": [
+				"No tady v hostinci nejspíš ne.",
+				"Mají to tu celé zabrané vojáci.",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Bohužel teď ne. Mohla byste nám",
+				"prosím poradit kde se můžem ubytovat?",
+				"",
+				""
+			],
+			"dialog_028": [
+				"No tady v hostinci nejspíš ne.",
+				"Mají to tu celé zabrané vojáci.",
+				"",
+				""
+			],
+			"dialog_037": [
+				"Bohužel teď ne. Mohla byste nám",
+				"prosím poradit kde se můžeme ubytovat?",
+				"",
+				""
+			],
+			"dialog_042": [
+				"No tady v hostinci nejspíš ne.",
+				"Mají to tu celé zabrané vojáci.",
+				"",
+				""
+			],
+			"option_008": [
+				"Tady máte",
+				"Bohužel ne"
+			]
+		},
+		"ev12_InnGuard_pg0": {
+			"dialog_000": [
+				"Tady je to rezervované pro městskou",
+				"hlídku. Takže pro vás je tu zákaz vstupu.",
+				"",
+				""
+			]
+		},
+		"ev12_InnGuard_pg1": {
+			"dialog_000": [
+				"Můžem mluvit s Václavem?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Velitel je uvnitř, klidně tam jděte.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_Innkeeper_pg0": {
+			"dialog_000": [
+				"Nová tvář, vítejte ve Stříbrném Ústí.",
+				"Já jsem Jiřinka a vedu hospodu.",
+				"Místo na sednutí máme, volné pokoje",
+				"bohužel ne."
+			],
+			"dialog_008": [
+				"Ahoj. Děkujeme, ale my bychom",
+				"ubytování vážně moc potřebovali.",
+				"prosím poraď.",
+				""
+			],
+			"dialog_013": [
+				"Ráda bych, ale vážně všechno zabrali",
+				"vojáci. Potom co se za hradbama usídlili",
+				"piráti to místní šlechta zabalila",
+				"a utekla."
+			],
+			"dialog_018": [
+				"Zůstal jen velitel stráže a ten",
+				"si zřídil hlavní stan tady u mě.",
+				"Takže, je mi líto.",
+				""
+			],
+			"dialog_025": [
+				"Máme toho za sebou hodně, táborem",
+				"pirátů i stokou jsme se už prošli. Jen",
+				"potřebujem místo na odpočinek. Nechceme",
+				"to zadarmo."
+			],
+			"dialog_034": [
+				"Prosím, poraďte.",
+				"",
+				"",
+				""
+			],
+			"dialog_042": [
+				"No, pokud vám nevadí si to",
+				"odpracovat, mám za hospodou hromadu dřeva",
+				"co si říká o pozornost.",
+				""
+			],
+			"dialog_051": [
+				"No, že byste zrovna měli peněz na",
+				"rozhazování na to nevypadáte.",
+				"",
+				""
+			],
+			"dialog_056": [
+				"Pokud vám nevadí si to",
+				"odpracovat, mám za hospodou hromadu dřeva",
+				"co si říká o pozornost.",
+				""
+			],
+			"dialog_067": [
+				"Po hodně únavné práci.",
+				"",
+				"",
+				""
+			],
+			"dialog_087": [
+				"Dobrá, tady je má rada. Z lidí ve městě",
+				"vám neotevře dobrovolně nikdo. Ale je",
+				"tu kramářka. Bydlí v tom domku co má",
+				"\\C[10]všechna okna zavřená\\C[0]."
+			],
+			"dialog_092": [
+				"Kousek od jejích dveří je květináč",
+				"a pod ním schovává náhradní klíč.",
+				"Když se k ní větřete a řeknete že sem",
+				"vás poslala já, snad pomůže."
+			],
+			"option_006": [
+				"Vyjednává Jakub",
+				"Vyjednává Jan",
+				"Nákup"
+			],
+			"option_031": [
+				"Zaplatit",
+				"Nezaplatit"
+			],
+			"option_063": [
+				"Pomoci prací",
+				"Zdráhat se"
+			]
+		},
+		"ev13_Innkeeper_pg2": {
+			"dialog_000": [
+				"Ahoj kluci. Tak co, už bydlíte u Annety?",
+				"Nebo vás vyhodila? Já vám pokoje fakt",
+				"nedám.",
+				""
+			],
+			"dialog_005": [
+				"Všechno v pořádku, díky za tip.",
+				"Máme ale jiný problém a Anneta říkala",
+				"že bys mohla pomoct.",
+				""
+			],
+			"dialog_010": [
+				"Ne.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Pěkně prosím.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Tak povídejte.",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Potřebujeme se zavděčit veliteli hlídky.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"Jmenuje se Václav a je celkem férový.",
+				"Tak doufám že ho nepodrazíte.",
+				"",
+				""
+			],
+			"dialog_035": [
+				"To ne. Potřebujeme od něj pomoc",
+				"se nalodit na loď a odplout.",
+				"",
+				""
+			],
+			"dialog_040": [
+				"A tak holt potřebujeme nejdřív",
+				"jeho pozornost.",
+				"",
+				""
+			],
+			"dialog_045": [
+				"Tak dobře. Sednete si tu, donesu vám",
+				"něco k pití ať vám to víc utíká.",
+				"",
+				""
+			],
+			"dialog_051": [
+				"Po nějaké době vysedávání v baru.",
+				"",
+				"",
+				""
+			],
+			"dialog_056": [
+				"To nejde. Musíme vědět jak na tom jsou.",
+				"Celé naše plánování na tom záleží.",
+				"",
+				""
+			],
+			"dialog_061": [
+				"Ha, tohle vypadá že by mohla být",
+				"naše šance.",
+				"",
+				""
+			],
+			"dialog_066": [
+				"Pst, poslouchej.",
+				"",
+				"",
+				""
+			],
+			"dialog_071": [
+				"Rozumím veliteli, ale žádný zvěd se",
+				"odtamtud zatím nevrátil.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"A víme proč? Copak to je tak nemožné",
+				"se proplížit táborem a zjistit stav",
+				"jejich zásob?",
+				""
+			],
+			"dialog_081": [
+				"No, zatím jsme to zkusili třikrát.",
+				"Nevrátil se nikdo a jak chytili posledního",
+				"zvěda prý viděli z hradeb.",
+				""
+			],
+			"dialog_086": [
+				"Takže potřebujou vědět, jak jsou na tom",
+				"piráti se zásobami. Dobře.",
+				"Uděláme si tedy výpravu",
+				"do \\C[10]pirátského tábora\\C[0]."
+			],
+			"dialog_091": [
+				"Bál jsem se že to řekneš.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_Innkeeper_pg3": {
+			"dialog_001": [
+				"Jste zpátky! To je skvělé. Jak to šlo?",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Informace máme. Tady jsme to s Janem",
+				"sepsali. Mohla bys to s naším věnováním",
+				"předat Václavovi prosím?",
+				""
+			],
+			"dialog_011": [
+				"Jasně. Jdu na to.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Prý mi neseš informace o pirátských",
+				"zásobách. Mám se ptát jak si k nim přišla?",
+				"",
+				""
+			],
+			"dialog_022": [
+				"Klidně můžeš. Mám ve městě pár nových",
+				"známých. Docela se vyznají. A hledají",
+				"jestli by si nemohli zarezervovat cestu",
+				"na lodi do hlavního města."
+			],
+			"dialog_027": [
+				"Tak že jim za informace děkuju.",
+				"Bohužel jak vidíš dokud budem v obležení,",
+				"žádná loď se z přístavu nedostane.",
+				""
+			],
+			"dialog_032": [
+				"Rozumím. No, dokud se to nevyřeší tak",
+				"odjet nemůžou. Takže když budeš chtít,",
+				"dej vědět a budou ti k dispozici.",
+				""
+			],
+			"dialog_037": [
+				"Budu na to myslet. Vyřiď jim ode mě dík.",
+				"",
+				"",
+				""
+			],
+			"dialog_045": [
+				"Bezte si odpočinout. Prý děkuje",
+				"a když bude něco potřebovat, dá vědět.",
+				"",
+				""
+			],
+			"dialog_053": [
+				"Tak co, dozvěděli jste se něco zajímavého?",
+				"",
+				"",
+				""
+			],
+			"dialog_058": [
+				"Jo. Prý shánějí informace o zásobách",
+				"co pirátům zbývají a mají problém je",
+				"získat. Tak jim zkusíme pomoct.",
+				""
+			],
+			"option_063": [
+				"Obchod",
+				"Zatím nic"
+			]
+		},
+		"ev13_Innkeeper_pg4": {
+			"dialog_007": [
+				"Běžte si odpočinout. Václav děkuje",
+				"a když bude něco potřebovat, dá vědět.",
+				"",
+				""
+			],
+			"option_000": [
+				"Obchod",
+				"Zatím nic"
+			]
+		},
+		"ev13_Innkeeper_pg5": {
+			"dialog_000": [
+				"Ahoj. S čím můžu pomoct?",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Potřebujeme mluvit s Václavem, můžeš nám",
+				"zase pomoct?",
+				"",
+				""
+			],
+			"dialog_016": [
+				"K tomu mě už nepotřebujete, chce s váma",
+				"taky mluvit. Řekněte tamhle stráži.",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Tak prozatím ahoj.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Obchod",
+				"Potřebujeme Václava",
+				"Zatím nic"
+			]
+		}
+	},
+	"m15_CityLibrary": {
+		"ev02_Init_pg0": {
+			"dialog_001": [
+				"Takže. Co nejméně hluku, co nejvíc",
+				"hledat. Podle mě tu je někde",
+				"tajná příhradka.",
+				""
+			]
+		},
+		"ev06_SecretValut_pg1": {
+			"dialog_001": [
+				"No skvěle, tady to máme.",
+				"Výborně družino. Vyznamenali jste se.",
+				"Jdeme, doma to prostuduju.",
+				""
+			]
+		},
+		"ev07_Monsters_pg0": {
+			"dialog_006": [
+				"U-už jdou!",
+				"",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Hele, všimli jste si, že se s těma",
+				"sochama dá hýbat?",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Hmm, čtyři sochy.",
+				"Že by to bylo nějaké heslo?",
+				"",
+				""
+			],
+			"dialog_029": [
+				"Je tu ještě něco čtyřikrát?",
+				"",
+				"",
+				""
+			],
+			"dialog_037": [
+				"No, třeba ty knihy na stolech.",
+				"Zkusila jsem jednou zalistovat a nic",
+				"zajímavého v ní napsané není.",
+				""
+			],
+			"dialog_045": [
+				"A není zajímavé že to jsou čtyři",
+				"úplně STEJNÉ knihy?",
+				"",
+				""
+			],
+			"dialog_053": [
+				"A co kdyby to nebylo o tom co je v nich.",
+				"Co spíš třeba jak jsou",
+				"na stolech položené?",
+				""
+			]
+		}
+	},
+	"m16_CityForrestRoad": {
+		"ev07_FloversA_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev08_Taboriste_pg0": {
+			"dialog_000": [
+				"Tady bychom si asi mohli odpočinout.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Odpočinek",
+				"Ne, děkuji"
+			]
+		},
+		"ev09_FloversB_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_FloversC_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_FloversD_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev12_FloversE_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_FloversF_pg0": {
+			"dialog_000": [
+				"Sebral jsi žluté plody.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev14_Taboriste_pg0": {
+			"dialog_000": [
+				"Tady bychom si asi mohli odpočinout.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Odpočinek",
+				"Ne, děkuji"
+			]
+		},
+		"ev15_Farmer_pg0": {
+			"dialog_000": [
+				"Zdravím. Potřebujete s něčím pomoct?",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Dobrý den.",
+				"Stopujeme vozy se zásobami. Nedorazili",
+				"do cíle. Neviděl jste je náhodou?",
+				""
+			],
+			"dialog_011": [
+				"O vozy se tu před pár dny poprali",
+				"s vojáky místní lupiči.",
+				"Celá banda na ně vlítla.",
+				""
+			],
+			"dialog_016": [
+				"A netušíte prosím kam ty vozy",
+				"mohli odtáhnout?",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Ale samozřejmě že vím.",
+				"Na východ od lesa mají lupiči skrýš",
+				"ve zřícenině starého hradu.",
+				"Ale normální cestou se tam nedostanete."
+			],
+			"dialog_026": [
+				"Mají tam spoustu hlídek. Ale vede tam",
+				"také lesní pěšina podél potoka od jihu.",
+				"Tak to můžete zkusit po ní.",
+				""
+			],
+			"dialog_036": [
+				"Můžeme si u vás odpočinout prosím?",
+				"",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_042": [
+				"Odpočinek",
+				"Půjdeme hned"
+			]
+		},
+		"ev16_Boat_pg0": {
+			"dialog_000": [
+				"Zdravím.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Ahoj rybáři, mohl bys nás přeplavit",
+				"na druhý břeh?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"A zaplatíte mi za to?",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Jistě, tady máš 10 zlatých.",
+				"",
+				"",
+				""
+			],
+			"dialog_064": [
+				"Děkuji.",
+				"",
+				"",
+				""
+			],
+			"dialog_071": [
+				"Promiň, teď ne.",
+				"",
+				"",
+				""
+			],
+			"dialog_080": [
+				"Promiň, teď ne.",
+				"",
+				"",
+				""
+			],
+			"dialog_089": [
+				"Zdravím rybáři.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Přeplavit",
+				"Dnes nic"
+			],
+			"option_018": [
+				"Dáme 10 zlatých",
+				"Nemůžeme"
+			]
+		},
+		"ev17_Taboriste_pg0": {
+			"dialog_001": [
+				"Vítejte u Vykotlaného Dubu.",
+				"Jmenuji se Tomáš a vedu",
+				"krámek a hospodu.",
+				""
+			],
+			"dialog_006": [
+				"Jste v pořádku? Okolí vesnice je samý",
+				"bandita. Potřebujete ubytovat?",
+				"",
+				""
+			],
+			"dialog_014": [
+				"Vítejte zpátky.",
+				"Čím vám můžu posloužit tentokrát?",
+				"",
+				""
+			],
+			"dialog_026": [
+				"5 zlatých prosím.",
+				"",
+				"",
+				""
+			],
+			"dialog_035": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"dialog_044": [
+				"5 zlatých prosím.",
+				"",
+				"",
+				""
+			],
+			"dialog_049": [
+				"A je, ale my jsme teď na mizině.",
+				"",
+				"",
+				""
+			],
+			"dialog_054": [
+				"Tak vás nechám přespat alespoň na seníku",
+				"za hospodou.",
+				"",
+				""
+			],
+			"dialog_060": [
+				"Špatný odpočinek ti moc neprospěl.",
+				"",
+				"",
+				""
+			],
+			"dialog_072": [
+				"Ahoj Tomáši.",
+				"Vy místní máte určitě dost zkušeností",
+				"jak se kolem banditů protáhnout.",
+				"Mohl bys nám poradit?"
+			],
+			"dialog_077": [
+				"Rád slečno. Na západ od lesa je stará věž.",
+				"A od ní vede tajná lesní pěšina.",
+				"Ale není to tam dvakrát bezpečné.",
+				"Tak si dejte prosím pozor."
+			],
+			"option_023": [
+				"Odpočinek",
+				"Rada",
+				"Obchod",
+				"Nashledanou"
+			]
+		},
+		"ev18_ThugTower_pg0": {
+			"dialog_000": [
+				"Nějaká stará věž,",
+				"raději se k ní nebudeme moc přibližovat.",
+				"",
+				""
+			]
+		},
+		"ev18_ThugTower_pg1": {
+			"dialog_000": [
+				"Tady by někde měla být ta zkratka.",
+				"Tak snad jsme tu správně.",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Ha! Snadná kořist.",
+				"Na ně chlapi.",
+				"",
+				""
+			],
+			"dialog_014": [
+				"Vyčištěno. Tak jdeme.",
+				"",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Uf, teda utekli jsme jen tak tak.",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Příště sem musíme jít víc připraveni.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_Towerback_pg0": {
+			"dialog_000": [
+				"Teď už je to snadné, když tu cestu",
+				"známe.",
+				"",
+				""
+			]
+		},
+		"ev20_MainCamp_pg0": {
+			"dialog_000": [
+				"Tady je ta pěšina, o které mluvil",
+				"ten sedlák.",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Ale tam už jsme vyřešili",
+				"vše co bylo potřeba.",
+				"Teď se musíme vrátit do města.",
+				""
+			],
+			"dialog_014": [
+				"Tak jdeme na to?",
+				"",
+				"",
+				""
+			],
+			"dialog_024": [
+				"Pozor, hlídka.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"A teď hurá na ně, než se vzpamatujou.",
+				"",
+				"",
+				""
+			],
+			"dialog_038": [
+				"Tak to by bylo.",
+				"Konvoj tu je, velení lupičů",
+				"jsme zlikvidovali. Řeknem Václavovi, kde",
+				"se má pro své vozy stavit."
+			]
+		},
+		"ev21_Taboriste_pg0": {
+			"dialog_000": [
+				"Tady bychom si asi mohli odpočinout.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Odpočinek obnovil část tvého zdraví.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Odpočinek",
+				"Ne, děkuji"
+			]
+		},
+		"ev22_ToCity_pg0": {
+			"dialog_000": [
+				"Tak zpátky za Václavem",
+				"",
+				"",
+				""
+			]
+		},
+		"ev23_Sign_pg0": {
+			"dialog_000": [
+				"Tahle je celá začáraná.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev24_Sign_pg0": {
+			"dialog_000": [
+				"Sever: Větrné Pláně",
+				"Východ: Kolářovo Jezero",
+				"Jih: Stříbrné Ústí",
+				""
+			]
+		},
+		"ev25_Sign_pg0": {
+			"dialog_000": [
+				"Východ: Větrné Pláně",
+				"Západ: Rybář",
+				"Jih: Stříbrné Ústí",
+				""
+			]
+		},
+		"ev26_Sign_pg0": {
+			"dialog_000": [
+				"Sever: Větrné Pláně",
+				"Východ: Lhota",
+				"Jih: Stříbrné Ústí",
+				""
+			]
+		},
+		"ev27_FloversG_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev28_FloversVC_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev29_FloversVA_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev30_FloversVB_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev31_FloversH_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev32_Aboutcollectables_pg0": {
+			"dialog_006": [
+				"Koukám že tu zase rostou ty žluté plody.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"A já tu zahlédla nějaké růžové květy.",
+				"Pokud je natrháme dokázala bych",
+				"z nich extrahovat pár kouzel.",
+				""
+			]
+		},
+		"ev33_BridgeGoblins_pg0": {
+			"dialog_000": [
+				"Co to? Bacha goblini!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m17_BayNarrowCorridors": {
+		"ev02_Init_pg0": {
+			"dialog_006": [
+				"Vstoupil jsi do Úzkých chodeb",
+				"",
+				"",
+				""
+			]
+		},
+		"ev12_CampFire_pg0": {
+			"dialog_017": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		},
+		"ev13_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev14_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev15_FloversC_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m18_BayEntrance": {
+		"ev05_Init_pg0": {
+			"dialog_008": [
+				"Vstoupil jsi do Přístaviště",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_FireUp_pg0": {
+			"dialog_010": [
+				"Pokud to tu máme zvládnout,",
+				"budem si muset připravit tábořiště,",
+				"aby sme si měli vždycky kde odpočinout.",
+				""
+			],
+			"dialog_022": [
+				"Tak, první tábořiště máme.",
+				"Vždycky, když budeš potřebovat",
+				"odpočinout nebo poradit, tak to vyřešíme",
+				"u ohně a večeře."
+			]
+		},
+		"ev15_Driftwood_pg0": {
+			"dialog_000": [
+				"Vidíš to dřevo?",
+				"To by se asi dalo použít",
+				"až budem zakládat další tábor.",
+				""
+			]
+		},
+		"ev16_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev17_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		}
+	},
+	"m19_BayTrainingHalls": {
+		"ev08_Init_pg0": {
+			"dialog_006": [
+				"Vstoupil jsi do Tréninkových Síní",
+				"",
+				"",
+				""
+			]
+		},
+		"ev15_CampFire_pg0": {
+			"dialog_017": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		},
+		"ev21_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev22_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev24_FloversD_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev25_Hole_pg0": {
+			"dialog_002": [
+				"Au, tady pozor.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"No to snad. Au.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Blbý jámy. Au.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev26_Hole_pg0": {
+			"dialog_002": [
+				"Au, tady pozor.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"No to snad. Au.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Blbý jámy. Au.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev27_Hole_pg0": {
+			"dialog_002": [
+				"Au, tady pozor.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"No to snad. Au.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Blbý jámy. Au.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev28_Hole_pg0": {
+			"dialog_002": [
+				"Au, tady pozor.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"No to snad. Au.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Blbý jámy. Au.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev29_Bucket_pg0": {
+			"dialog_002": [
+				"Víte, jak špatně se kouzlí",
+				"s mokrýma botama?",
+				"",
+				""
+			]
+		},
+		"ev30_Bucket_pg0": {
+			"dialog_002": [
+				"Víte, jak špatně se kouzlí",
+				"s mokrýma botama?",
+				"",
+				""
+			]
+		}
+	},
+	"m20_BayCraftmansHalls": {
+		"ev01_Init_pg0": {
+			"dialog_006": [
+				"Vstoupil jsi do Síní řemeslníků",
+				"",
+				"",
+				""
+			]
+		},
+		"ev08_CampFire_pg0": {
+			"dialog_017": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		},
+		"ev09_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev10_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev11_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev12_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev13_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev14_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev20_FloversA_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m21_BayEntangeledPaths": {
+		"ev09_Init_pg0": {
+			"dialog_006": [
+				"Vstoupil jsi do Spletitých chodeb",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_FloversB_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev20_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		},
+		"ev27_CampFire_pg0": {
+			"dialog_017": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		}
+	},
+	"m22_BayRearHalls": {
+		"ev03_Init_pg0": {
+			"dialog_006": [
+				"Vstoupil jsi do Zadních síní",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Ty stany nemůžeme podpálit,",
+				"nemáme u sebe dřevo.",
+				"",
+				""
+			]
+		},
+		"ev10_CampFire_pg0": {
+			"dialog_017": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		}
+	},
+	"m23_BayStoreHalls": {
+		"ev01_Init_pg0": {
+			"dialog_006": [
+				"Vstoupil jsi do Skladovacích síní",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_CampFire_pg0": {
+			"dialog_014": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		}
+	},
+	"m24_BaySprings": {
+		"ev01_Init_pg0": {
+			"dialog_011": [
+				"Vstoupil jsi do Jeskynního pramene",
+				"",
+				"",
+				""
+			]
+		},
+		"ev29_CampFire_pg0": {
+			"dialog_017": [
+				"Tady můžem založit tábořiště,",
+				"pokud teda budem mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		},
+		"ev38_FloversF_pg0": {
+			"dialog_000": [
+				"Sebral jsi růžové květy.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev39_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budem vědět,",
+				"že to tu je."
+			]
+		}
+	},
+	"m25_BayLargeHall": {
+		"ev01_Init_pg0": {
+			"dialog_001": [
+				"Vstoupil jsi do Hlavní síně",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Jakube, tady vážně opatrně.",
+				"Pokud tu budem moc dlouho, chytnou",
+				"nás rybácký vojáci a je s náma veta.",
+				""
+			]
+		},
+		"ev30_Fishfolkleaders_pg0": {
+			"dialog_000": [
+				"Tak jsme to dokázali.",
+				"Velení rybáků je v tomhle stanu.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Tak jdeme na ně. Až se jich",
+				"zbavíme, už nebude nikdo, kdo by tu",
+				"chtěl zůstat.",
+				""
+			],
+			"dialog_016": [
+				"Jdeme odtud.",
+				"Velení je pryč, nechci tu být, až budou",
+				"balit celý tábor.",
+				""
+			],
+			"dialog_021": [
+				"A věci se daly do pohybu rychle.",
+				"Když naše družina odjížděla, rybáci už nakládali",
+				"první lodě. Plán vyšel.",
+				""
+			]
+		}
+	},
+	"m26_PreTitle": {
+		"ev04_Picture_pg0": {
+			"dialog_001": [
+				"",
+				"",
+				"",
+				"Stiskem [SPACE] můžeš přeskočit"
+			]
+		}
+	},
+	"m27_BayCaptured": {
+		"ev01_Init_pg0": {
+			"dialog_000": [
+				"Ha! Vetřelci.",
+				"Odveďte je na výslech.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Ale z výslechu jsme se už nikdy nevrátili.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m28_CityCapturedThugs": {
+		"ev01_MainEvent_pg0": {
+			"dialog_000": [
+				"Nějací průzkumníci.",
+				"Na ně, zlikvidujte je.",
+				"",
+				""
+			]
+		}
+	},
+	"m29_CapitalIntro": {
+		"ev01_Intro_pg0": {
+			"dialog_000": [
+				"S pomocí naší družiny se Kamila dostala do",
+				"tábora pirátů. Když všem popsala, jak vyhnala zlé",
+				"rybáky z jejich doupěte, provolávali jí slávu",
+				"a zvolili ji zase jejich velitelkou."
+			],
+			"dialog_005": [
+				"Kamila dodržela slovo a pirátské obléhání",
+				"ještě ten den skončilo.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Děkuji vám za pomoc, přátelé.",
+				"Ráno vyrazím do hlavního města,",
+				"rád jsem vás poznal.",
+				""
+			],
+			"dialog_015": [
+				"Ne tak hrr hezoune.",
+				"Za prvé, jak jsem řekla, také tam jedu.",
+				"A za druhé, nepustím tě z očí, dokud se",
+				"nepřesvědčím, že jsi doma a v bezpečí."
+			],
+			"dialog_020": [
+				"Je to tak, Jakube.",
+				"Jedeme s tebou až do konce.",
+				"I kdyby to jen mělo znamenat, že se",
+				"přesvědčíme, že jsi dorazil v pořádku."
+			],
+			"dialog_025": [
+				"Nemám slov, děkuji. Samozřejmě budu",
+				"za společnost rád.",
+				"Tak tedy pojďme za Václavem,",
+				"domluvit tu loď."
+			],
+			"dialog_030": [
+				"Hned ráno dal Václav vypravit kurýrní loď",
+				"do hlavního města. Pro zprávy a pro nutné zásoby.",
+				"Odjeli jsme všichni na její palubě.",
+				""
+			],
+			"dialog_035": [
+				"Po pár dnech putování po řece",
+				"jsme dorazili do hlavního města.",
+				"Ve městě vládl zmatek a v ulicích",
+				"byli vojáci."
+			]
+		}
+	},
+	"m30_Capital": {
+		"ev04_Init_pg0": {
+			"dialog_002": [
+				"Tohle nevypadá dobře.",
+				"Všechna okna zavřená, hodně stráží.",
+				"Jako by se město něčeho bálo.",
+				""
+			],
+			"dialog_007": [
+				"Myslíš, že ten záhadný rytíř je",
+				"stále ještě ve vašem paláci?",
+				"Nezeptáme se stráží?",
+				""
+			],
+			"dialog_012": [
+				"Raději ne, ta poslední věc, co teď",
+				"potřebujeme, je aby na nás zbraní mířil",
+				"nervózní voják.",
+				""
+			],
+			"dialog_017": [
+				"Souhlasím.",
+				"Pojďme se proteď vojákům vyhnout",
+				"a zeptat se nejdřív, co se děje.",
+				""
+			],
+			"dialog_022": [
+				"Ten dům na západním konci přístavu.",
+				"Tam v tom průchodu bydlí můj otec.",
+				"Tam se snad něco dozvíme.",
+				""
+			],
+			"dialog_031": [
+				"Mistr bydlí v Severovýchodní části města.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev22_LibraryDoor_pg0": {
+			"dialog_000": [
+				"Tady bydlí můj mistr. Ale teď tam nic",
+				"nepotřebujeme.",
+				"",
+				""
+			]
+		},
+		"ev22_LibraryDoor_pg1": {
+			"dialog_000": [
+				"Takhle si ten dům nepamatuju.",
+				"Vidíš, v jakém je stavu?",
+				"",
+				""
+			]
+		},
+		"ev22_LibraryDoor_pg2": {
+			"dialog_000": [
+				"Tady máme hotovo. Kam dál?",
+				"Zpátky k Robertovi?",
+				"",
+				""
+			]
+		},
+		"ev24_ShopDoor_pg1": {
+			"dialog_011": [
+				"Ahoj, Jakube. Robert povídal, že se",
+				"stavíte. Pojďte dál.",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Ahoj, Matěji. Dlouho jsem tě neviděl.",
+				"Díky, že jsi pro nás otevřel.",
+				"",
+				""
+			],
+			"dialog_022": [
+				"To nic. Rád pomůžu. Tak co potřebujete?",
+				"",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Klidně se zase stavte.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev25_ToSewers_pg0": {
+			"dialog_001": [
+				"Tak jdeme na to.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Dobrodružství vstříc.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m31_CapCaptured": {
+		"ev01_Init_pg0": {
+			"dialog_000": [
+				"Ha! Vetřelci.",
+				"Odvedte je na výslech.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Pár dní nás vyslýchali. Když zjistili, kdo jsem,",
+				"přiřadili nás k obraně města.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Ale pro princeznu už bylo pozdě.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m32_CapHome": {
+		"ev02_Discussion_pg0": {
+			"dialog_001": [
+				"Ahoj, bratře.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Jakube!",
+				"Vítej zpátky, to je úžasné,",
+				"báli jsme se, že tě už nikdy neuvidíme.",
+				""
+			],
+			"dialog_012": [
+				"Roberte, právě jsem přijel lodí ze",
+				"Stříbrného Ústí. To je na dlouhé",
+				"vyprávění. Je tu otec?",
+				""
+			],
+			"dialog_017": [
+				"Otec je na lovu. Nevratí se aspoň",
+				"pár dní. Palác prý zasáhla magie,",
+				"báli jsme se, že tě také dostala.",
+				"Vojáci teď hlídají město."
+			],
+			"dialog_022": [
+				"Všechno ti vysvětlím, jen co bude trochu",
+				"víc času. Pokud je palác stále v moci",
+				"magie, musím nejprve jednat.",
+				""
+			],
+			"dialog_027": [
+				"Jakube, pokud je v tom magie, mohl",
+				"by nám poradit můj mistr. Bydlí tady",
+				"ve městě, vím kde.",
+				""
+			],
+			"dialog_032": [
+				"Dobrá, půjdeme tedy nejprve za ním.",
+				"Můžeme tě, bratře, prosím použít jako",
+				"dočasnou základnu? Ať máme kde bydlet?",
+				""
+			],
+			"dialog_037": [
+				"Jistě, ale pozor. Pokud je ten váš mistr",
+				"čaroděj, tak má nejspíš potíže.",
+				"Na začátku vojáci šli po každém, o kom",
+				"věděli, že má kouzelnou moc."
+			],
+			"dialog_042": [
+				"Jakube, tak ty jdi se Sabrinou a já",
+				"mezitím obhlédnu palác. Sám budu",
+				"nenápadnější a třeba se dozvím víc.",
+				""
+			],
+			"dialog_066": [
+				"Ven jděte raději vedlejším vchodem,",
+				"ať vás stráže nechytí.",
+				"",
+				""
+			]
+		},
+		"ev02_Discussion_pg1": {
+			"dialog_001": [
+				"Tak jsme zpátky, bratře.",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Tak jsem tu také. Jak jste pořídili?",
+				"",
+				"",
+				""
+			],
+			"dialog_026": [
+				"Máme plán, jak se dostat do paláce. Pokud",
+				"se nám tedy podaří najít vchod do",
+				"starých chodeb pod městem.",
+				""
+			],
+			"dialog_031": [
+				"Jeden takový jsem viděl v severozápadní",
+				"části města, u vodního příkopu.",
+				"",
+				""
+			],
+			"dialog_036": [
+				"Tak je to tedy domluveno. Použijeme",
+				"poznámky Sabrinina mistra a pronikneme",
+				"do paláce.",
+				""
+			],
+			"dialog_041": [
+				"Pokud chcete, nejdřív si odpočiňte.",
+				"Na ohni dělám vodu na čaj. Jo, také jsem",
+				"vám domluvil u souseda, co vede krám,",
+				"že se u něj můžete stavit."
+			],
+			"dialog_046": [
+				"Jestli najdete cestu do paláce, možná",
+				"se už \\C[10]nebudete moct vrátit\\C[0]. Tak si",
+				"odpočiňte včas.",
+				""
+			],
+			"dialog_057": [
+				"Ven jděte zase vedlejším vchodem,",
+				"ať vás stráže nechytnou.",
+				"",
+				""
+			]
+		}
+	},
+	"m33_CapLibrary": {
+		"ev02_LRDoor_pg0": {
+			"dialog_017": [
+				"Pozor!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev04_LRDoor_pg0": {
+			"dialog_017": [
+				"Ha, v kuchyni někdo je!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev06_LRDoor_pg0": {
+			"dialog_017": [
+				"Hele, krb. Tady si kdyžtak můžem",
+				"odpočinout.",
+				"",
+				""
+			]
+		},
+		"ev09_LRDoor_pg0": {
+			"dialog_001": [
+				"Zamčeno. Nevíš, kde by mohl být klíč?",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"No, vím, že náhradní klíče měla schované",
+				"hospodyně v kuchyni. To jsou ty první",
+				"dveře napravo u vchodu do domu.",
+				""
+			]
+		},
+		"ev09_LRDoor_pg2": {
+			"dialog_001": [
+				"Já myslím, že máme co potřebujeme.",
+				"Pojď odsud. Zajdeme k Robertovi, sejdeme",
+				"se s Janem a domluvíme plán.",
+				""
+			]
+		},
+		"ev10_Exit_pg0": {
+			"dialog_005": [
+				"Ještě tu nejsme hotovi.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Exit_pg1": {
+			"dialog_000": [
+				"Tak a zpátky k Robertovi.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev16_Init_pg0": {
+			"dialog_001": [
+				"Hm. Tady to vypadá, že tu byli nevítaní",
+				"hosté. Myslíš, že je tvůj mistr pořád tu?",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Šance tu je, ale malá. Hááá-lóó!",
+				"Asi spíš ne. I tak, prohledat to tu je",
+				"naše nejlepší šance.",
+				""
+			],
+			"dialog_011": [
+				"Tady nalevo je sklep, napravo kuchyně.",
+				"Ale my bychom nejspíš stejně měli jít",
+				"rovnou do knihovny na konci chodby.",
+				""
+			],
+			"dialog_016": [
+				"V knihovně měl můj mistr vstup do tajné",
+				"pracovny. Pokud někde najdeme nějaké",
+				"vodítko, tak nejspíš tam.",
+				""
+			],
+			"dialog_022": [
+				"Pozor!",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Dobře, to byl Imp. Možná jich tu bude",
+				"víc. Měli bychom se mít na pozoru.",
+				"",
+				""
+			],
+			"dialog_033": [
+				"Imp. Jako to kouzelné stvoření z pekla,",
+				"co nás jím strašily rodiče? To snad ne.",
+				"",
+				""
+			],
+			"dialog_038": [
+				"No, spíš jako dimenzionální elementál",
+				"ohně, žádné peklo, ale ano. Imp.",
+				"",
+				""
+			],
+			"dialog_043": [
+				"Dime- cože? To je fuk. Zdá se, že sekání",
+				"mečem jim moc nevadilo a z ohně si dělal",
+				"vyloženě srandu.",
+				""
+			]
+		},
+		"ev17_Battle1_pg0": {
+			"dialog_000": [
+				"Nalevo je mistrova studovna a ložnice.",
+				"Napravo pak jídelna. Do knihovny je to",
+				"dál rovně.",
+				""
+			],
+			"dialog_005": [
+				"Pozor, nevítaní hosté!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_Battle2_pg0": {
+			"dialog_000": [
+				"Pozor, nevítaní hosté!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_Battle3_pg0": {
+			"dialog_000": [
+				"Tady jsou schody do horního patra na",
+				"balkóny. A rovně to už jsou dveře od",
+				"knihovny.",
+				""
+			],
+			"dialog_005": [
+				"A ještě uvítací zkupina!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev20_LibraryKey_pg0": {
+			"dialog_000": [
+				"Tady hospodyně schovává náhradní klíče.",
+				"Vezmu klíč od knihovny.",
+				"",
+				""
+			]
+		},
+		"ev21_Battle4_pg0": {
+			"dialog_000": [
+				"Ha, i v knihovně jsou. Na ně!",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Hmm. Koukám, že vchod do pracovny je",
+				"zavřený. Dobře, otevírá se alchymistickým",
+				"kouzlem. A na něj potřebujeme červenou",
+				"a modrou tinkturu."
+			],
+			"dialog_011": [
+				"Většinou je mistr má ve své ložnici,",
+				"nebo v cítárně. To jsou ty místnosti",
+				"nalevo. Když je najdeme, vysvětlím",
+				"co s nima dělat."
+			]
+		},
+		"ev23_FlaskA_pg0": {
+			"dialog_000": [
+				"Výborně, to je jedna z těch tinktur.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Máme tedy obě.",
+				"Tak můžem zpátky do knihovny.",
+				"",
+				""
+			]
+		},
+		"ev24_Loot_pg0": {
+			"dialog_000": [
+				"Hmm, mistrova válečná koruna.",
+				"Myslíš, že si ji můžu vzít?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"No, zjišťujem co se s ním stalo, takže",
+				"ano. Klidně mu ji vrať, až ho najdem,",
+				"pokud ti to udělá dobře.",
+				""
+			]
+		},
+		"ev25_Loot_pg0": {
+			"dialog_000": [
+				"Hmm, jídlem zadarmo se nemá pohrdat.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev26_FlaskA_pg0": {
+			"dialog_000": [
+				"Výborně, to je jedna z těch tinktur.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Máme tedy obě.",
+				"Tak můžem zpátky do knihovny.",
+				"",
+				""
+			]
+		},
+		"ev27_EV027_pg0": {
+			"dialog_008": [
+				"Slušná suma peněz. Půjčíme si je?",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Ale až najdeme mistra, tak mu je",
+				"vrátíme. Jasné?",
+				"",
+				""
+			],
+			"option_013": [
+				"Ano",
+				"Ne"
+			]
+		},
+		"ev28_Loot_pg0": {
+			"dialog_009": [
+				"Krásný luk. Ten se bude Janovi líbit.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev30_LeftPool_pg1": {
+			"dialog_001": [
+				"Tak kterou sem naleju?",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Ne! Nepokaž to!",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Tahle strana je hotová.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Modrou",
+				"Červenou"
+			]
+		},
+		"ev31_TheSpell_pg0": {
+			"dialog_000": [
+				"Takže. Vidíš ty dvě jezírka?",
+				"Do levého červenou, do pravého modrou.",
+				"Stačí ty tinktury nalít trochu.",
+				"Já pak řeknu kouzelnou formuli."
+			]
+		},
+		"ev32_RightPool_pg1": {
+			"dialog_001": [
+				"Tak kterou sem naleju?",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Ne! Nepokaž to!",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Tahle strana je hotová.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Modrou",
+				"Červenou"
+			]
+		},
+		"ev33_Teleport_pg0": {
+			"dialog_011": [
+				"Tak jdeme na to.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"A je to.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev33_Teleport_pg1": {
+			"dialog_000": [
+				"Jen se neboj. Šup dovnitř.",
+				"",
+				"",
+				""
+			],
+			"dialog_014": [
+				"Jsme tu. Teda, tady je ale nepořádek.",
+				"To jsem zvědavý, jak tu něco najdeme.",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Vyznat se v nepořádku je snazší, když víš",
+				"Jak to vypadalo uklizené. Pak víš, že",
+				"například tahle věc je tu nová. Bingo.",
+				""
+			],
+			"dialog_024": [
+				"To vypadá jako výzkumné poznámky. Mistr",
+				"studoval tu bariéru, co obklopila zámek.",
+				"A je tu i jak bariérou proniknout.",
+				"Perfektní. Bereme to a jdeme."
+			]
+		},
+		"ev34_Balcony_pg0": {
+			"dialog_000": [
+				"Tady je dobrý výhled.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Jo, pamatuju si, že sme sem chodili",
+				"dívat se do královských zahrad.",
+				"Pojď, máme práci.",
+				""
+			]
+		},
+		"ev35_Smallchest_pg0": {
+			"dialog_009": [
+				"Malá truhlička. A jsou v ní nějaké",
+				"peníze. To se bude hodit.",
+				"",
+				""
+			]
+		}
+	},
+	"m34_CapSewers": {
+		"ev05_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budeme vědět,",
+				"že to tu je."
+			]
+		},
+		"ev06_CampFire_pg0": {
+			"dialog_013": [
+				"Tady můžeme založit tábořiště,",
+				"pokud teda budeme mít dřevo.",
+				"",
+				""
+			],
+			"option_001": [
+				"Založit tábořiště",
+				"Ušetřit dřevo"
+			]
+		},
+		"ev08_GateA_pg0": {
+			"dialog_000": [
+				"O co se vsadíš, že potřebujeme",
+				"na druhou stranu?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Vidíš tu páku? Třeba tu mříž otevírá.",
+				"Ale ona je tam a my tady.",
+				"",
+				""
+			]
+		},
+		"ev09_Log_pg1": {
+			"option_000": [
+				"Sebrat kládu",
+				"Nechat ležet"
+			]
+		},
+		"ev10_ButtonA_pg0": {
+			"dialog_015": [
+				"Dobře, takže na to potřebujeme položit",
+				"něco těžkého.",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Co třeba ta kláda, co byla před chvílí",
+				"v postranní chodbě?",
+				"",
+				""
+			],
+			"option_001": [
+				"Položit kládu",
+				"zatím nic"
+			]
+		},
+		"ev12_ButtonB_pg0": {
+			"dialog_015": [
+				"Nerikejte mi, že se potřebujeme vrátit",
+				"pro tu kládu.",
+				"",
+				""
+			],
+			"option_001": [
+				"Položit kládu",
+				"zatím nic"
+			]
+		},
+		"ev13_CarryLog_pg0": {
+			"dialog_000": [
+				"Přece tu kládu nebudu sebou tahat",
+				"pořád, že?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"No, pokud ji nést nechceš, určitě ji",
+				"můžeš položit.",
+				"\\C[10](zkus inventář)\\C[0]",
+				""
+			]
+		},
+		"ev14_GateB_pg0": {
+			"dialog_000": [
+				"Myslíte, že na druhé straně bude zase",
+				"někde páka?",
+				"",
+				""
+			]
+		},
+		"ev16_GateC_pg0": {
+			"dialog_000": [
+				"A do třetice.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev17_ButtonC_pg0": {
+			"dialog_015": [
+				"Aha, tady je třetí tlačítko.",
+				"",
+				"",
+				""
+			],
+			"option_001": [
+				"Položit kládu",
+				"zatím nic"
+			]
+		},
+		"ev18_Portal_pg0": {
+			"dialog_000": [
+				"Tak jsme to dokázali. Jsme tu.",
+				"Můžu začít s kouzlem a nebo mám ještě",
+				"počkat?",
+				""
+			],
+			"dialog_017": [
+				"A je to. Můžeme jít.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Čaruj",
+				"Počkat"
+			]
+		},
+		"ev22_FireWood_pg0": {
+			"dialog_001": [
+				"Dřevo teď máme.",
+				"Nemůžeme sebou tahat všechno.",
+				"Ale až nám zase dojde, tak budeme vědět,",
+				"že to tu je."
+			]
+		},
+		"ev23_BrokenLever_pg0": {
+			"dialog_000": [
+				"Hmm, tahle páka je rozbitá, ani se nehne.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev33_Treasure_pg0": {
+			"dialog_009": [
+				"Kroužková čapka!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev34_Treasure_pg0": {
+			"dialog_009": [
+				"Prsten úniku!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev35_Treasure_pg0": {
+			"dialog_009": [
+				"Prsten regenerace!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev37_Treasure_pg0": {
+			"dialog_009": [
+				"Helma!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m35_CapBetween": {
+		"ev09_Init_pg1": {
+			"dialog_007": [
+				"Už jsem zpátky.",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Úplně bezpečně.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Lever1_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev17_Lever2_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev19_Lever3_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev28_CentralCamp_pg0": {
+			"option_011": [
+				"Svolat zpátky",
+				"Zatím ne"
+			],
+			"option_023": [
+				"Odpočinek",
+				"Pojďme dál"
+			]
+		},
+		"ev36_Lever6_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev42_Lever4_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev43_Lever1_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev44_Lever8_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev54_Lever11_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev63_Lever13_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev64_Lever14_pg0": {
+			"option_000": [
+				"Aktivovat",
+				"Vysvětlit"
+			]
+		},
+		"ev68_DialogInit_pg0": {
+			"dialog_000": [
+				"Teda to byla jízda.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Jak koukám, ta jízda ještě nezkončila.",
+				"Sabrino, tohle není palác. Kde to jsme?",
+				"",
+				""
+			],
+			"dialog_010": [
+				"V pořádku, to jsem čekala. Nebojte se.",
+				"Zkráceně jsme uvnitř v tom kouzle,",
+				"co obklopuje palác.",
+				""
+			],
+			"dialog_015": [
+				"Kouzlo se brání prolomení, a vyrábí pro",
+				"mé pronikací formule labyrint z magie.",
+				"No a to, co vidíme, je snaha mých smyslů,",
+				"to co nás obklopuje, pochopit."
+			],
+			"dialog_020": [
+				"Dobrá. A co budeš potřebovat od nás?",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Vlastně budu potřebovat pomoc. V téhle",
+				"reprezentaci se skrývají čtyři pyramidy,",
+				"které předemnou to kouzlo ukrylo.",
+				"Čtyři pyramidy a v každé amulet."
+			],
+			"dialog_030": [
+				"Pokud pozbíráme všechny amulety, kouzlo",
+				"prolomím a budeme v paláci.",
+				"",
+				""
+			],
+			"dialog_035": [
+				"A co je tady ta věž?",
+				"",
+				"",
+				""
+			],
+			"dialog_040": [
+				"To je právě symbol toho uzamčeného zámku.",
+				"Až budeme mít amulety, půjdeme sem a tu věž",
+				"s nima odemknu.",
+				"Pozor, impové tu asi budou také."
+			]
+		},
+		"ev69_PyramidA_pg0": {
+			"dialog_001": [
+				"Máme ho!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev70_PyramidB_pg0": {
+			"dialog_001": [
+				"Hurá, amulet!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev71_PyramidC_pg0": {
+			"dialog_001": [
+				"No jo, vážně tu je. Máme Amulet.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev72_PyramidD_pg0": {
+			"dialog_001": [
+				"Skvělé. Máme Amulet.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev73_CentralTower_pg0": {
+			"dialog_000": [
+				"Tuhle věž odemknu, když získáme všechny",
+				"čtyři amulety. Zatím máme \\V[19].",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Amulety jsou v pyramidách, někde v tomhle",
+				"labyrintu.",
+				"",
+				""
+			]
+		},
+		"ev73_CentralTower_pg1": {
+			"dialog_011": [
+				"Tak amulety už máme všechny.",
+				"Jste připraveni vtrhnout do paláce?",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Tak amulety už máme všechny.",
+				"Ale nejprve bych měl svolat zpět družinu.",
+				"",
+				""
+			],
+			"option_016": [
+				"Hrr na ně",
+				"Moment prosím"
+			]
+		}
+	},
+	"m36_CastleChambersFin": {
+		"ev01_GuardDoor_pg0": {
+			"dialog_000": [
+				"Tak jdeme na to.",
+				"Možná, naproti je zbrojnice, mohli",
+				"bychom se tam ještě rychle stavit.",
+				""
+			]
+		},
+		"ev02_Init_pg0": {
+			"dialog_000": [
+				"Tak co, jaká jsem?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Přesná. Tohle je hned vedle komnat",
+				"princezny. Stačí jít na chodbu a vlevo.",
+				"",
+				""
+			]
+		},
+		"ev05_ArmoryA_pg0": {
+			"dialog_000": [
+				"Kouzelná zbroj? Berem.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev07_ArmoryB_pg0": {
+			"dialog_000": [
+				"Kouzelná sekera? Tak jo.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m37_Outro": {
+		"ev01_Init_pg0": {
+			"dialog_000": [
+				"Vyhrál jsi",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m38_BattleTest": {
+		"ev01_Battle_pg0": {
+			"dialog_002": [
+				"Tak s kým?",
+				"",
+				"",
+				""
+			],
+			"option_007": [
+				"Hornet",
+				"Centrip",
+				"Two Hornets",
+				"Ghost",
+				"Goblin",
+				"Two Goblins"
+			]
+		},
+		"ev02_Shop_pg0": {
+			"dialog_000": [
+				"Tak co pak potřebuješ?",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Peníze",
+				"Zkušenosti",
+				"Vybavení",
+				"Zbraně a Brnění"
+			]
+		},
+		"ev03_Reset_pg0": {
+			"dialog_000": [
+				"Resetování úrovní",
+				"",
+				"",
+				""
+			]
+		},
+		"ev04_Give_pg0": {
+			"dialog_003": [
+				"Tady to máš",
+				"",
+				"",
+				""
+			]
+		}
+	}
+}

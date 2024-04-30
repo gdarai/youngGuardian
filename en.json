@@ -1,0 +1,7758 @@
+{
+	"Actors": {
+		"01_Jakub": {
+			"name": "Jakob",
+			"nickname": "",
+			"profile": ""
+		},
+		"02_Jan": {
+			"name": "John",
+			"nickname": "",
+			"profile": ""
+		},
+		"03_Sabrina": {
+			"name": "Sabrina",
+			"nickname": "",
+			"profile": ""
+		}
+	},
+	"Armors": {
+		"01_Kozenebrneni": {
+			"description": "",
+			"name": "Leather armor"
+		},
+		"02_Kozenacapka": {
+			"description": "",
+			"name": "Leather cap"
+		},
+		"03_Tunika": {
+			"description": "",
+			"name": "Tunic"
+		},
+		"04_PrstenUniku": {
+			"description": "",
+			"name": "Ring of Evasion"
+		},
+		"05_Supinovebrneni": {
+			"description": "",
+			"name": "Scale armor"
+		},
+		"06_Supinovacapka": {
+			"description": "",
+			"name": "Scale cap"
+		},
+		"07_Drevenystit": {
+			"description": "",
+			"name": "Wooden shield"
+		},
+		"08_PrstenRegenerace": {
+			"description": "",
+			"name": "Ring of Regeneration"
+		},
+		"09_Krouzkovebrneni": {
+			"description": "",
+			"name": "Chainmail armor"
+		},
+		"10_Krouzkovacapka": {
+			"description": "",
+			"name": "Chainmail cap"
+		},
+		"11_Kyrys": {
+			"description": "",
+			"name": "Cuirass"
+		},
+		"12_Zeleznahelma": {
+			"description": "",
+			"name": "Iron helmet"
+		},
+		"13_Kouzelnebrneni": {
+			"description": "",
+			"name": "Enchanted armor"
+		},
+		"14_Kouzelnacapka": {
+			"description": "",
+			"name": "Enchanted cap"
+		},
+		"15_Kovovystit": {
+			"description": "",
+			"name": "Iron shield"
+		},
+		"16_Rytirskystit": {
+			"description": "",
+			"name": "Knight's shield"
+		},
+		"17_Kouzelnakoruna": {
+			"description": "",
+			"name": "Enchanted crown"
+		}
+	},
+	"Classes": {
+		"01_Hrdina": {
+			"name": "Hero"
+		},
+		"02_Lesnik": {
+			"name": "Ranger"
+		},
+		"03_Kouzelnice": {
+			"name": "Sorceress"
+		}
+	},
+	"CommonEvents": {
+		"001_BlackKnightBattle": {
+			"dialog_000": [
+				"Another adventurer. Just come, there are",
+				"at least a hundred like you I intend to kill today.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"This is how I will die here. I won't help the princess this way.",
+				"I must retreat.",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Coward, stay and fight. Your task",
+				"is to die for your princess,",
+				"so fulfill it.",
+				""
+			]
+		},
+		"003_LvlUp": {
+			"dialog_002": [
+				"In guardian training, they also taught us the basics",
+				"of magic. Maybe it's time to try it out",
+				"in practice?",
+				""
+			],
+			"dialog_010": [
+				"Training in combat pays off.",
+				"I think I've learned a new trick.",
+				"",
+				""
+			]
+		},
+		"005_TentacleBattle": {
+			"dialog_007": [
+				"Purple swamp. Of course, with tentacles.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Okay, not this time.",
+				"",
+				"",
+				""
+			]
+		},
+		"006_VillageShop": {
+			"dialog_000": [
+				"Can I help you with something? We're open.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"I have a free room upstairs.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Rest has restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_026": [
+				"I met Mark and John, and I'm a bit confused about them.",
+				"Can you tell me something about them?",
+				"",
+				""
+			],
+			"dialog_032": [
+				"I'll pretend I'm not here.",
+				"",
+				"",
+				""
+			],
+			"dialog_039": [
+				"What to say. They're brothers. John is kind of",
+				"more of a loner, but otherwise they get along.",
+				"Mark takes care of the lighthouse and boatyard, and John",
+				"supplies the village with wood."
+			],
+			"dialog_046": [
+				"Katherine is your mayor, right?",
+				"What's she like?",
+				"",
+				""
+			],
+			"dialog_051": [
+				"Katherine is great and fair.",
+				"Whatever she says is true, she's trustworthy.",
+				"She's been our mayor for the second year",
+				"and we have nothing to complain about."
+			],
+			"dialog_058": [
+				"About that swamp, what can you tell me?",
+				"Can you advise me on what I'll find where?",
+				"And can you remind me of those verses",
+				"that unlock the gate?"
+			],
+			"dialog_063": [
+				"Well, when you pass through the gate, the swamp divides",
+				"to the west towards the goblin camp and",
+				"to the north towards the graveyard. Be careful, some",
+				"parts of the swamp are poisonous."
+			],
+			"dialog_068": [
+				"It's said that in the middle of the swamp hides",
+				"an ancient portal, but the only one who ever",
+				"showed more interest in it was some royal",
+				"archeologist, I think his name was Peter."
+			],
+			"dialog_073": [
+				"As for the verses, I remember them like this:",
+				"1) Gate of ivy,",
+				"2) Along the paths,",
+				"3) Lanterns."
+			],
+			"dialog_080": [
+				"People talk about the graveyard and the shaman's tomb.",
+				"Do you know what's being said about it?",
+				"",
+				""
+			],
+			"dialog_085": [
+				"Well, I've heard that the shaman's tomb, sort of",
+				"a crypt, is guarded by three dead guardians.",
+				"But I don't know what that means, maybe that you can",
+				"encounter three spirits there."
+			],
+			"dialog_090": [
+				"Otherwise, the graveyard itself is in the swamp,",
+				"if you head north, beyond the poisonous",
+				"swamp and even farther.",
+				""
+			],
+			"dialog_097": [
+				"I actually arrived in the swamp by accident",
+				"through an old portal. And I met",
+				"an archaeologist named Peter there, so let",
+				"someone know he's still alive."
+			],
+			"dialog_102": [
+				"That's great news, thanks.",
+				"I'll alert the city guard, maybe they'll",
+				"send someone to help him.",
+				""
+			],
+			"dialog_111": [
+				"We have equipment and weapons.",
+				"We also buy if you want to sell.",
+				"",
+				""
+			],
+			"dialog_143": [
+				"Goodbye.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Rest",
+				"Information",
+				"Trade",
+				"I'll go"
+			],
+			"option_024": [
+				"Mark and John",
+				"Katherine",
+				"Swamp",
+				"Graveyard",
+				"Archaeologist"
+			],
+			"option_116": [
+				"Equipment",
+				"Weaponry",
+				"I need to sell"
+			]
+		},
+		"007_JournalShowText": {
+			"scroll_001": [
+				"This is the guard's logbook,",
+				"",
+				"write down everything crucial here,",
+				"so we don't embarrass ourselves on duty."
+			],
+			"scroll_009": [
+				"Don't go on duty without a weapon.",
+				"",
+				"Look \\C[10]in the closet\\C[0], take a sword from it.",
+				"",
+				"When something happens,",
+				"have your sword ready and \\C[10]not in your backpack\\C[0]."
+			],
+			"scroll_019": [
+				"I fled from the Black Knight who was guarding",
+				"the princess's room. What was happening inside,",
+				"I can only imagine with horror. I must go back there.",
+				"",
+				"But I fell through some kind of portal and now I'm",
+				"on the Island of the Boatman's Corner, about 50 miles away.",
+				"I met archaeologist Peter. He said there's a village here,",
+				"maybe they'll help me there."
+			],
+			"scroll_031": [
+				"I have to go through the swamp.",
+				"Archaeologist Peter seems interested in some \\C[10]yellow",
+				"fruits\\C[0] that supposedly grow here in the swamp.",
+				"I overcame a cave where it was enough to follow",
+				"the sound of dripping water.",
+				"",
+				"It's said to be good to have a \\C[10]map\\C[0] for the second cave, which is in Peter's",
+				"old camp, and to enter through an \\C[10]old well\\C[0]."
+			],
+			"scroll_043": [
+				"I met John, a ranger who lives in the swamp.",
+				"He said if I want to get out of the swamp, I have to find",
+				"all \\C[10]three pieces of the spell\\C[0] that opens the gate,",
+				"and recite them in the correct order at the gate.",
+				"",
+				"One is supposedly by an old \\C[10]gnarled tree\\C[0] to the north",
+				"of the ranger's house."
+			],
+			"scroll_054": [
+				"Let your lanterns shine beyond the wall,",
+				"Gate of ivy, open now!",
+				"",
+				"I want to go along the dark paths today,",
+				"I won't be afraid of the swamp's mysteries.",
+				"",
+				"Gate of ivy, I challenge you,",
+				"Magical power, awaken your might."
+			],
+			"scroll_066": [
+				"Boatman Marek is happy to help me,",
+				"but he doesn't have any wood.",
+				"His \\C[10]brother John\\C[0] can supply him with that.",
+				"I already know him. He lives in seclusion",
+				"\\C[10]to the west of the swamp\\C[0].",
+				"",
+				"John apparently needs help",
+				"with the lighthouse, which stands to the north of the swamp."
+			],
+			"scroll_078": [
+				"The mayor, Katherine, also asked for help from me.",
+				"She said to \\C[10]stop the shaman's curse\\C[0].",
+				"",
+				"The shaman's tomb is \\C[10]to the north of the purple swamp\\C[0].",
+				"First, it's necessary to \\C[10]defeat three guardians\\C[0]. ",
+				"Then, even the shaman's spirit itself."
+			],
+			"scroll_088": [
+				"I'm leaving from Oak Valley with John.",
+				"We're heading to the nearby town of Silver Estuary.",
+				"",
+				"Hopefully, we'll find transportation there",
+				"by the river to the capital city."
+			],
+			"scroll_097": [
+				"In front of the gates of Silver Estuary",
+				"is a pirate siedge camp.",
+				"",
+				"We have to sneak through it",
+				"if we want to get to the city.",
+				"",
+				"It's said that you can get through the walls through a sewer,",
+				"which leads under an old tree by the walls."
+			],
+			"scroll_109": [
+				"There's a problem with accommodation in the city.",
+				"",
+				"Innkeeper Georgia advised us that",
+				"the shopkeeper will let us stay with her.",
+				"",
+				"But first, we need to ingratiate ourselves to her.",
+				"It's a house on the \\C[10]southern side\\C[0] of the city,",
+				"the one with \\C[10]all the windows closed\\C[0].",
+				"The key is hidden in front of the entrance under a flowerpot."
+			],
+			"scroll_122": [
+				"Guard Commander Vaughn has a problem,",
+				"none of his scouts returned from the pirate camp.",
+				"And we need to do him a favor.",
+				"",
+				"So, we'll go through the camp for him and \\C[11]peek into all",
+				"the tents\\C[0] they have.",
+				"\\C[17]So far, we've been through \\V[12]\\C[0].",
+				"And we won't get caught doing it."
+			],
+			"scroll_134": [
+				"Annette supposedly has an idea",
+				"how to get us further onto the ship.",
+				"",
+				"But she needs to verify something",
+				"in the library in the palace.",
+				"",
+				"She has a spare key hidden in",
+				"her \\C[10]shop by the eastern gate\\C[0].",
+				"Be careful, there are thieves wandering there.",
+				"",
+				"Once we have the key, we're supposed to meet her",
+				"at the gate to the palace garden."
+			],
+			"scroll_150": [
+				"According to the baron's notes,",
+				"the pirate leader Camilla",
+				"is in the city's prison.",
+				"",
+				"Who commands the pirate siege?",
+				"And why?",
+				"",
+				"That could be revealed to us by \\C[10]Camilla\\C[0] herself,",
+				"if \\C[10]Vaughn lets us\\C[0] go to her.",
+				"We have no choice but to go ask him."
+			],
+			"scroll_164": [
+				"If we want a pass to the pirate",
+				"in prison, we must help the guards.",
+				"",
+				"They need scouts to",
+				"find the lost convoy.",
+				"",
+				"The guard at the eastern gate",
+				"will let us out of the city once we are",
+				"ready to leave."
+			],
+			"scroll_177": [
+				"The farmer told us he saw the convoy.",
+				"Apparently, bandits attacked it and took it to their hideout.",
+				"",
+				"It's in the ruins of the castle",
+				"in the northeast part of the forest",
+				"and can be reached from the south",
+				"by a forest path.",
+				"",
+				"Once we explore it,",
+				"we'll return to Vaughn."
+			],
+			"scroll_191": [
+				"We need to go to prison and talk",
+				"with the former pirate captain \\C[10]Camilla\\C[0].",
+				"",
+				"Maybe she'll help us figure out how to get rid of",
+				"the pirate siege.",
+				"",
+				"The prison is a stone building in the city center.",
+				"On the square north of the big tower.",
+				"It has a shield with a sword displayed."
+			],
+			"scroll_204": [
+				"The pirate captain \\C[10]Camilla\\C[0]",
+				"was reportedly deposed because she didn't defend",
+				"the pirate cove from the \\C[10]fishfolk\\C[0].",
+				"",
+				"We need to clear the cove from the fishfolk.",
+				"If she can claim credit for it,",
+				"the pirates will start listening to her",
+				"again.",
+				"",
+				"Then she'll take them away from the city."
+			],
+			"scroll_218": [
+				"We're in the cove, and a bit away from us",
+				"a whole tribe of fishfolk resides.",
+				"",
+				"Fortunately, they stay in the \\C[10]Main Cave\\C[0].",
+				"So we won't go there.",
+				"We need to explore this place first.",
+				"",
+				"We'll start by setting up \\C[10]at least 6 campsites\\C[0].",
+				"So far, we have \\V[12].",
+				"We need \\C[10]Wood\\C[0] for each campsite."
+			],
+			"scroll_232": [
+				"We already know our way around the caves.",
+				"We fought with the fishfolk and",
+				"avoid the \\C[10]Main Cave\\C[0].",
+				"",
+				"Sabrina and John proposed a plan.",
+				"Make life difficult for the fishfolk to make them leave the cave.",
+				"",
+				"We'll start by setting fire to their camp.",
+				"We'll take more \\C[10]Wood for burning\\C[0] and",
+				"use it on the \\C[10]tents in the Back Chambers\\C[0].",
+				"Now \\V[12] out of 4 are burning."
+			],
+			"scroll_247": [
+				"The fishfolk's camps are on fire.",
+				"Now you can't walk through the Back Chambers.",
+				"And our next target is their \\C[10]supplies",
+				"in the Storage Chambers\\C[0].",
+				"",
+				"Sabrina wants to pour",
+				"\\C[10]bait for rats\\C[0] into them.",
+				"To make it,",
+				"she needs \\C[10]3 pink flowers\\C[0]."
+			],
+			"scroll_260": [
+				"We have the bait for the rats now.",
+				"Now to set it up.",
+				"",
+				"There are \\C[10]4 piles of supplies\\C[0]",
+				"in the Storage Chambers.",
+				"We'll distribute it to each of them.",
+				"So far, we've placed \\V[12]."
+			],
+			"scroll_271": [
+				"The final step of the plan.",
+				"We'll defeat the leaders of the fishfolk.",
+				"",
+				"The council resides in a tent",
+				"in the \\C[10]northern part of the Great Hall\\C[0].",
+				"",
+				"But you can't go through the Great Hall,",
+				"there are simply too many fishfolk there.",
+				"",
+				"But if we come to the Great Hall",
+				"\\C[10]from the Storage Chambers\\C[0],",
+				"we could simplify that problem",
+				"a lot."
+			],
+			"scroll_288": [
+				"The pirate den is free again.",
+				"Pirates can end the blockade",
+				"and return home.",
+				"",
+				"If someone tells them.",
+				"Now it's up to us \\C[10]to negotiate with Camilla",
+				"and Vaughn\\C[0], to have Camilla released",
+				"and able to command",
+				"the pirates again."
+			],
+			"scroll_301": [
+				"You've arrived at Sun Castle,",
+				"the capital of the kingdom.",
+				"",
+				"The city seems to be on edge.",
+				"Soldiers patrol the streets, nobody",
+				"is going out. It seems that the evil that attacked",
+				"the palace is still there.",
+				"",
+				"We set up camp at Jakob's",
+				"brother \\C[10]Robert's\\C[0].",
+				"",
+				"Sabrina suggested we explore the house",
+				"of her master in the \\C[10]lower town to the Northeast\\C[0].",
+				"",
+				"Meanwhile, Jan disconnected and went to explore",
+				"the surroundings of the castle."
+			],
+			"scroll_321": [
+				"Sabrina's master's house is completely ruined.",
+				"Obviously, the master is gone, but it's still our",
+				"best chance to explore here.",
+				"",
+				"The master has a \\C[10]hidden study\\C[0], which was accessed",
+				"from the library at the end of the hallway.",
+				"",
+				"If there's any clue to what happened,",
+				"it's there.",
+				"",
+				"Once we get there, Sabrina will know",
+				"\\C[10]how to open the study\\C[0]."
+			],
+			"scroll_337": [
+				"The secret study opens",
+				"with an alchemical spell.",
+				"",
+				"If we find both tinctures, which",
+				"are somewhere \\C[10]in the bedroom or reading room\\C[0],",
+				"then we can open it.",
+				"",
+				"Just pour the \\C[10]blue tincture into the right",
+				"and the red into the left\\C[0] pool in the library",
+				"and say the right incantation."
+			],
+			"scroll_351": [
+				"We have what we came for. Although we don't know",
+				"what happened to the master, we know",
+				"he figured out how to pass through the barrier",
+				"to the castle.",
+				"",
+				"We'll meet John \\C[10]at Robert's\\C[0].",
+				"",
+				"Then we'll head to find the \\C[10]portal rift\\C[0],",
+				"which is located in the old corridor beneath the town.",
+				"",
+				"The entrance to the corridors is",
+				"in the \\C[10]northwest part\\C[0] of the town."
+			],
+			"scroll_367": [
+				"We're inside the enchantment.",
+				"We're stuck halfway between life",
+				"and death in the enchantment surrounding the castle.",
+				"",
+				"The tower in the middle of the labyrinth symbolizes",
+				"our way out. We need to help",
+				"Sabrina find \\C[10]the four pyramids\\C[0].",
+				"",
+				"Apparently, there's an amulet in each pyramid,",
+				"and when we have all four,",
+				"Sabrina will break this spell,",
+				"unlock that tower, and we...",
+				"",
+				"We'll get into the castle."
+			]
+		},
+		"008_JournalControl": {
+			"dialog_004": [
+				"You're on page \\V[8] of \\V[9]",
+				"",
+				"",
+				""
+			],
+			"option_009": [
+				"To the beginning",
+				"One page back",
+				"Read again",
+				"One page forward",
+				"To the end",
+				"Close the journal"
+			]
+		},
+		"010_CapturedbyPirates": {
+			"dialog_003": [
+				"And we've got you, intruders.",
+				"",
+				"",
+				""
+			]
+		},
+		"011_CitySewersGuard": {
+			"dialog_000": [
+				"Hey, stop.",
+				"Identify yourselves.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Scouting party.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"We need to pass through the sewers.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"But be careful.",
+				"The rats are quite hungry today.",
+				"",
+				""
+			],
+			"dialog_025": [
+				"We're heading into the town.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"So announce yourselves at the inn by the guard post.",
+				"And watch out, there aren't many guards,",
+				"so someone might rob you on the way.",
+				""
+			],
+			"option_010": [
+				"To the sewers",
+				"To the town"
+			]
+		},
+		"012_CityInnGuard": {
+			"dialog_000": [
+				"Who's there! Identify yourself.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"It's just us.",
+				"We're passing through.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Will you let us into the tavern?",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"If the commander is conducting any negotiations there,",
+				"try not to disturb him too much. And don't make a mess.",
+				"",
+				""
+			],
+			"dialog_025": [
+				"We've got a task in the town.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"So watch out for pickpockets.",
+				"",
+				"",
+				""
+			],
+			"dialog_037": [
+				"We're looking for accommodation for some guests.",
+				"Do you know where they could stay?",
+				"",
+				""
+			],
+			"dialog_042": [
+				"The inn is full, especially now that we have",
+				"the main camp here. And people are afraid, so no,",
+				"I don't know.",
+				""
+			],
+			"option_010": [
+				"To the Inn",
+				"To the Town",
+				"Accommodation"
+			]
+		},
+		"014_CityShopkeep": {
+			"dialog_000": [
+				"Welcome.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"We'll rest.",
+				"See you tomorrow.",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Goodnight.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Rest has restored your strength.",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"We need to hire a ship and sail",
+				"to the capital. But that probably won't happen",
+				"without the captain's permission, right?",
+				""
+			],
+			"dialog_033": [
+				"If it were only about him.",
+				"In my opinion, you'll have to win his favor",
+				"and help him get rid of those pirates.",
+				"Otherwise, you won't budge from here."
+			],
+			"dialog_038": [
+				"And how do we do that?",
+				"",
+				"",
+				""
+			],
+			"dialog_043": [
+				"I don't know. You'll probably have to figure that out.",
+				"I suggest starting by hanging around",
+				"in the tavern; maybe you'll hear",
+				"what the soldiers need and can help."
+			],
+			"dialog_048": [
+				"Say hello to Georgia for me.",
+				"",
+				"",
+				""
+			],
+			"dialog_056": [
+				"So, imagine this: we're supposed to go",
+				"to the pirates' camp to gather information.",
+				"The guard commander needs to know how they're",
+				"doing with supplies."
+			],
+			"dialog_061": [
+				"Hmm, interesting. Just be careful. And don't",
+				"get caught by that monster",
+				"in the sewer.",
+				""
+			],
+			"dialog_069": [
+				"Good morning.",
+				"",
+				"",
+				""
+			],
+			"dialog_075": [
+				"Now we need to pass through the gate",
+				"to the west from here to the palace and get",
+				"to the library.",
+				""
+			],
+			"dialog_082": [
+				"Annette came up with a plan to get us out of the city,",
+				"but she needs to verify something.",
+				"She needs to get into the palace.",
+				"She has the key, but we need to help her find it."
+			],
+			"dialog_087": [
+				"Ah... and how?",
+				"",
+				"",
+				""
+			],
+			"dialog_092": [
+				"First, we need to go to her closed",
+				"shop and fetch her the key; I know where it is.",
+				"That shop is by the eastern gate.",
+				"We'll meet Annette at the castle gate then."
+			],
+			"dialog_103": [
+				"Hi. We're really tense,",
+				"what were you actually looking for there?",
+				"",
+				""
+			],
+			"dialog_108": [
+				"The baron had secret dealings with the pirates.",
+				"And the pirates never attacked the city.",
+				"So I thought there might be a clue",
+				"as to what happened."
+			],
+			"dialog_113": [
+				"And was there? This is exciting!",
+				"",
+				"",
+				""
+			],
+			"dialog_118": [
+				"There was. According to the baron, the pirates are led",
+				"by a woman, some \\C[10]Camilla\\C[0]. But...",
+				"she's currently in the city's prison according to the book.",
+				"So who commands the pirates?"
+			],
+			"dialog_123": [
+				"So I recommend you go see Vaughn,",
+				"so he'll let you talk to her, and maybe",
+				"you'll figure it out.",
+				""
+			],
+			"dialog_132": [
+				"So we're all set with Vaughn.",
+				"We're going to find the convoy that got lost",
+				"in the forest north of the city.",
+				""
+			],
+			"dialog_137": [
+				"It's swarming with bandits there. But relax,",
+				"they mostly hang out in their camps.",
+				"Avoid the camps, and you'll be fine.",
+				"And watch out for trolls under the bridge."
+			],
+			"dialog_145": [
+				"We found the convoy, defeated the bandits.",
+				"",
+				"",
+				""
+			],
+			"dialog_150": [
+				"It was really quite a fun time.",
+				"",
+				"",
+				""
+			],
+			"dialog_155": [
+				"I'm glad you're okay.",
+				"Does Vaughn know about this? Go see him.",
+				"",
+				""
+			],
+			"dialog_163": [
+				"So, have you been to the prison to see",
+				"that pirate captain Camilla?",
+				"The prison is the building on the square",
+				"above the big tower."
+			],
+			"dialog_171": [
+				"Hi Annette,",
+				"we need to borrow a boat so we can",
+				"sail along the coast to the pirate",
+				"cove."
+			],
+			"dialog_176": [
+				"The guard at the gate could advise you on that.",
+				"As far as I know, the patrol has a few boats",
+				"hidden outside the walls.",
+				""
+			],
+			"dialog_185": [
+				"It's time to go do something useful.",
+				"",
+				"",
+				""
+			],
+			"dialog_190": [
+				"So, then good luck.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Rest",
+				"What's next",
+				"Let's go"
+			]
+		},
+		"015_CityGetMagician": {
+			"dialog_015": [
+				"What was that?",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Bandits again?",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Over there, behind the statue, it's like I saw something.",
+				"",
+				"",
+				""
+			],
+			"dialog_033": [
+				"And again!",
+				"",
+				"",
+				""
+			],
+			"dialog_041": [
+				"And again.",
+				"Jakob, someone's following us,",
+				"I'm not kidding.",
+				""
+			],
+			"dialog_049": [
+				"I'm telling you, I saw someone.",
+				"",
+				"",
+				""
+			],
+			"dialog_054": [
+				"Shh, shh.",
+				"",
+				"",
+				""
+			],
+			"dialog_062": [
+				"Over there, in the window of that house",
+				"with the red roof.",
+				"",
+				""
+			],
+			"dialog_067": [
+				"Hey you! Stop!",
+				"Why are you following us?",
+				"",
+				""
+			],
+			"dialog_072": [
+				"Alright, you caught me.",
+				"",
+				"",
+				""
+			],
+			"dialog_077": [
+				"Who are you, what do you want from us?",
+				"",
+				"",
+				""
+			],
+			"dialog_082": [
+				"I'm Sabrina. Annette asked me",
+				"to keep an eye on you.",
+				"She said an extra sorcerer's hand",
+				"could come in handy for you."
+			],
+			"dialog_087": [
+				"We won't refuse help, but what we're doing",
+				"could be dangerous.",
+				"",
+				""
+			],
+			"dialog_092": [
+				"I know. And you're doing it because you need",
+				"to get to the capital. I need to go there too.",
+				"So, we actually have a common goal.",
+				""
+			]
+		},
+		"018_CityInnShop": {
+			"dialog_000": [
+				"Would you like something from the bar?",
+				"",
+				"",
+				""
+			]
+		},
+		"019_CityCommander": {
+			"dialog_001": [
+				"Welcome, I've been looking for you.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Hi. I'm Jakob, this is John and",
+				"Sabrina. We would need your permission",
+				"to visit a prisoner.",
+				""
+			],
+			"dialog_011": [
+				"Interesting. And which prisoner would that be?",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Well, supposedly you have a pirate in prison.",
+				"She could be the key to breaking",
+				"the blockade.",
+				""
+			],
+			"dialog_021": [
+				"Alright, why not.",
+				"But first I need a job from you.",
+				"We have a convoy with supplies on the way.",
+				"I'm afraid something might have happened to them."
+			],
+			"dialog_026": [
+				"They should have arrived long ago and so far no",
+				"news. Find out what you can and",
+				"I will arrange the pass for you.",
+				""
+			],
+			"dialog_031": [
+				"Agreed.",
+				"",
+				"",
+				""
+			],
+			"dialog_036": [
+				"I notified the guard at the eastern gate.",
+				"When you're ready, they'll let you out",
+				"of the city.",
+				""
+			],
+			"dialog_047": [
+				"The guard at the eastern gate will let you through.",
+				"Bring me the information",
+				"about the lost convoy.",
+				""
+			],
+			"dialog_056": [
+				"Ah, you're back. That's good.",
+				"",
+				"",
+				""
+			],
+			"dialog_061": [
+				"We know what happened to your convoy.",
+				"We've eliminated the bandit camp that",
+				"attacked you. We've already told the gate guard",
+				"where their camp was."
+			],
+			"dialog_066": [
+				"Great, I'll have someone take over.",
+				"Thanks for your help.",
+				"You wanted access to the prison as a reward.",
+				"May I ask why?"
+			],
+			"dialog_071": [
+				"We believe you have a former pirate captain",
+				"in there. We want to ask her why she lost",
+				"her command. Maybe she could help you",
+				"with the blockade."
+			],
+			"dialog_076": [
+				"Really? Interesting.",
+				"Alright, I'll let the people in the prison know",
+				"to let you in. Let us know",
+				"if you find out anything."
+			],
+			"dialog_087": [
+				"The prison already knows about you.",
+				"Let me know if you find out anything.",
+				"",
+				""
+			],
+			"dialog_092": [
+				"Our \\C[10]armory\\C[0] is also there, I've told",
+				"the armorer that if you want,",
+				"you can buy something there.",
+				""
+			],
+			"dialog_101": [
+				"The guard already informed me.",
+				"You need a boat and you're going",
+				"to the pirate cove.",
+				""
+			],
+			"dialog_106": [
+				"You're well-informed.",
+				"",
+				"",
+				""
+			],
+			"dialog_111": [
+				"I've let the gate know",
+				"to lend you one.",
+				"",
+				""
+			],
+			"dialog_120": [
+				"The guard already informed me.",
+				"How did it go in the pirate hideout?",
+				"",
+				""
+			],
+			"dialog_125": [
+				"It was full of fishfolk, and now",
+				"there isn't a single one left.",
+				"Let's go see that pirate woman",
+				"and discuss what's next."
+			],
+			"dialog_134": [
+				"Hello, Vaughn. So they say if you let Camilla",
+				"come with us to the pirates,",
+				"she will rid you of that siege.",
+				""
+			],
+			"dialog_139": [
+				"Hmm... I don't think we have much to lose",
+				"by trying. Let's give it a shot.",
+				"\\C[10]Take care of what you need in the city\\C[0]",
+				"and then come back, and we'll get started."
+			],
+			"dialog_149": [
+				"Are you ready to go?",
+				"\\C[10](You are leaving the city)\\C[0]",
+				"",
+				""
+			],
+			"dialog_156": [
+				"Hello, Commander.",
+				"So come on, let's spin together",
+				"the wheel of pirate fortune.",
+				""
+			],
+			"option_154": [
+				"Let's do it",
+				"We'll be back"
+			]
+		},
+		"021_ForrestCamp": {
+			"dialog_001": [
+				"Do you want me to make a potion",
+				"out of some of those yellow fruits?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"I'll get on it.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Okay, not for now then.",
+				"",
+				"",
+				""
+			],
+			"dialog_027": [
+				"Should I extract magical salt",
+				"from those flowers?",
+				"",
+				""
+			],
+			"dialog_034": [
+				"With pleasure.",
+				"",
+				"",
+				""
+			],
+			"dialog_043": [
+				"Okay, not for now then.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Yes",
+				"No"
+			],
+			"option_032": [
+				"Yes",
+				"No"
+			]
+		},
+		"023_BayCamp": {
+			"dialog_000": [
+				"Let's take a break.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Do we have any supplies?",
+				"",
+				"",
+				""
+			],
+			"dialog_013": [
+				"I have warm tea and I've spread some bread for us.",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Soup, crackers, a small salad.",
+				"Enjoy your meal.",
+				"",
+				""
+			],
+			"dialog_029": [
+				"I have some dried meat here, and I've made us",
+				"a big salad.",
+				"",
+				""
+			],
+			"dialog_037": [
+				"I caught a fish and it's already roasting over the fire.",
+				"",
+				"",
+				""
+			],
+			"dialog_047": [
+				"So, about the strategy.",
+				"First off, we can't just attack",
+				"their camp recklessly. There are loads of them.",
+				"We need to somehow drive them out."
+			],
+			"dialog_052": [
+				"I've already done a reconnaissance of the area.",
+				"It seems like most of the tribe hangs out",
+				"in the main halls, and in the rest of the corridors",
+				"we only encounter someone here and there."
+			],
+			"dialog_057": [
+				"Alright. Here's my proposal. We need to",
+				"become ghosts of this place. We'll explore",
+				"around here. Set up camps in different",
+				"parts of the cave, and then devise a plan."
+			],
+			"dialog_062": [
+				"Alright, so the first goal will be to get",
+				"oriented here and establish camps in other",
+				"parts of the cave. Let's go get some rest.",
+				""
+			],
+			"dialog_074": [
+				"Alright, so the first goal is to get",
+				"oriented here and establish camps in other",
+				"parts of the cave.",
+				""
+			],
+			"dialog_079": [
+				"We'll need at least 6 of them.",
+				"Right now we have \\V[12].",
+				"",
+				""
+			],
+			"dialog_086": [
+				"Excellent, I think we're quite familiar with",
+				"the place now. Sabrina and I have meanwhile",
+				"been working on the strategy.",
+				""
+			],
+			"dialog_091": [
+				"In my opinion, the local community of fishfolk",
+				"rests on three pillars: a sense of security,",
+				"a supply sufficiency, and Leadership, which assures them",
+				"that they are doing well here."
+			],
+			"dialog_096": [
+				"And we'll gradually undermine all three of them.",
+				"And we'll start with the sense of security.",
+				"They have camps in the Back Halls.",
+				"We plan to sneak in there."
+			],
+			"dialog_101": [
+				"Bring enough wood with us",
+				"and set part of their camp on fire.",
+				"Tomorrow.",
+				""
+			],
+			"dialog_116": [
+				"We're planning to raid their camp",
+				"in the \\C[10]Back Halls\\C[0]. We'll take wood",
+				"for kindling and \\C[10]set their tents on fire\\C[0].",
+				""
+			],
+			"dialog_121": [
+				"There are 4 tents there.",
+				"So far, we've set \\V[12] of them on fire.",
+				"",
+				""
+			],
+			"dialog_128": [
+				"Excellent. Our next goal will be their",
+				"supplies. And we want to approach it through magic.",
+				"I know a potion that can attract rats.",
+				"We'll make it and pour it there for them."
+			],
+			"dialog_133": [
+				"I have all the ingredients except for those",
+				"pink flowers. Fortunately, they grow here and there.",
+				"Please pick at least 3 of them",
+				"and they'll be surprised."
+			],
+			"dialog_149": [
+				"To be able to mix the rat lure,",
+				"I need to gather at least 3 of those",
+				"\\C[10]Pink flowers\\C[0].",
+				"So far, we have \\V[12]."
+			],
+			"dialog_156": [
+				"Alright, that's enough, we have plenty",
+				"of those flowers now. So I'll get started",
+				"preparing the bait for the rats",
+				"and you'll have it by morning."
+			],
+			"dialog_161": [
+				"Next goal will be to sneak into the",
+				"\\C[10]Storage Halls\\C[0] and set up the bait",
+				"there at all supplies they have.",
+				""
+			],
+			"dialog_176": [
+				"The bait for rats needs to be placed",
+				"in the \\C[10]Storage Halls\\C[0].",
+				"There are 4 piles of supplies,",
+				"so far we've marked \\V[12]."
+			],
+			"dialog_183": [
+				"Perfect, all baits are placed.",
+				"They will be surprised in the morning.",
+				"",
+				""
+			],
+			"dialog_188": [
+				"Let's move on to the final step of our plan.",
+				"The command of fishfolk is camping in the northern part",
+				"of the Great Hall. Tomorrow we will sneak",
+				"into their tents and eliminate them."
+			],
+			"dialog_193": [
+				"But beware. It's impossible to pass through the Great",
+				"Hall, there are too many fishfolk. I suggest",
+				"passing through the Storage Halls and coming to",
+				"the Great Hall straight from the north."
+			],
+			"dialog_209": [
+				"We have some flowers again,",
+				"I'll make a smelling salt.",
+				"",
+				""
+			],
+			"dialog_219": [
+				"I've collected some yellow fruits.",
+				"I'll process them into a potion.",
+				"",
+				""
+			],
+			"dialog_235": [
+				"Good night.",
+				"",
+				"",
+				""
+			],
+			"option_044": [
+				"Discuss the strategy.",
+				"Process the ingredients.",
+				"Straight to sleep."
+			]
+		},
+		"024_BayBarrel": {
+			"dialog_000": [
+				"Shall we open it?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"You got food.",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"You got some gold.",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"RATS have emerged.",
+				"",
+				"",
+				""
+			],
+			"dialog_040": [
+				"There are yellow fruits in here.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Yes",
+				"No"
+			]
+		},
+		"025_BayJar": {
+			"dialog_000": [
+				"Shall we open it?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"You got food.",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"You got some gold.",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"You got a potion.",
+				"",
+				"",
+				""
+			],
+			"dialog_040": [
+				"You got a smelling salt.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Yes",
+				"No"
+			]
+		},
+		"029_CapFireplace": {
+			"dialog_000": [
+				"Rest by the fire",
+				"",
+				"",
+				""
+			]
+		},
+		"031_CapBarrel": {
+			"dialog_000": [
+				"Shall we open it?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"You got food.",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"You got a smelling salt.",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"RATS have emerged.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Yes",
+				"No"
+			]
+		},
+		"032_CapJar": {
+			"dialog_000": [
+				"Shall we open it?",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"You got food.",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"You got a smelling salt.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Yes",
+				"No"
+			]
+		},
+		"033_CapnoPass": {
+			"dialog_002": [
+				"That portal won't let us through yet.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"First, we need to activate that passage.",
+				"",
+				"",
+				""
+			],
+			"dialog_018": [
+				"If we entered it now, we would get lost",
+				"in the interdimensional void.",
+				"",
+				""
+			]
+		},
+		"034_CaponCrystals": {
+			"dialog_000": [
+				"What kind of crystal is this?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"That's an activation crystal. I can awaken it",
+				"with a spell and put it back to sleep. I think",
+				"it will be magically linked to some passage,",
+				"or tower in this place."
+			]
+		},
+		"035_CaponTrap": {
+			"dialog_013": [
+				"If I trap myself in here, I'll be stuck",
+				"forever. That won't do, I need",
+				"to think of something else.",
+				""
+			],
+			"dialog_018": [
+				"Or we could go back to our camp",
+				"and call the others, and then we'll figure out",
+				"something together.",
+				""
+			],
+			"dialog_026": [
+				"So who's going inside?",
+				"",
+				"",
+				""
+			],
+			"dialog_034": [
+				"Don't leave me here for long.",
+				"",
+				"",
+				""
+			],
+			"dialog_049": [
+				"I trust you.",
+				"",
+				"",
+				""
+			],
+			"dialog_064": [
+				"Oh well.",
+				"",
+				"",
+				""
+			],
+			"dialog_072": [
+				"Alright then.",
+				"",
+				"",
+				""
+			],
+			"dialog_086": [
+				"Jakob, these are soul traps. One of us will have",
+				"to stay here. When we want to meet again,",
+				"it'll be possible \\C[10]from our campfire\\C[0]",
+				"thanks to my summoning spell."
+			],
+			"dialog_091": [
+				"What do you mean stay?",
+				"",
+				"",
+				""
+			],
+			"dialog_096": [
+				"Well, for this tower to activate,",
+				"one of us will have to lend their soul",
+				"for a while. Don't worry, it's safe...",
+				"well, I think anyway."
+			],
+			"option_001": [
+				"Enter",
+				"Explain"
+			],
+			"option_032": [
+				"John",
+				"Nobody"
+			],
+			"option_047": [
+				"Sabrina",
+				"Nobody"
+			],
+			"option_062": [
+				"John",
+				"Sabrina",
+				"Nobody"
+			]
+		},
+		"036_BlackKnightforreal": {
+			"dialog_000": [
+				"And now he's going. Keep watch!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"Enemies": {
+		"01_Cernyrytir": {
+			"name": "Black Knight"
+		},
+		"02_Obrisrsen": {
+			"name": "Giant Wasp"
+		},
+		"03_Goblin": {
+			"name": "Goblin"
+		},
+		"04_Bilyduch": {
+			"name": "White Ghost"
+		},
+		"05_Vlk": {
+			"name": "Wolf"
+		},
+		"06_Bazinnachapadla": {
+			"name": "Swamp Tentacles"
+		},
+		"07_Rudyduch": {
+			"name": "Red Ghost"
+		},
+		"08_Bazinnaobluda": {
+			"name": "Swamp Monster"
+		},
+		"09_Obristonozka": {
+			"name": "Giant Centipede"
+		},
+		"10_Priserazestoky": {
+			"name": "Sewer Beast"
+		},
+		"11_Hejnokrys": {
+			"name": "Swarm of Rats"
+		},
+		"12_Mestskylupic": {
+			"name": "Urban Bandit"
+		},
+		"13_Zkusenylupic": {
+			"name": "Experienced Bandit"
+		},
+		"14_Nizinnyvlk": {
+			"name": "Lowland Wolf"
+		},
+		"15_LesniGoblin": {
+			"name": "Forest Goblin"
+		},
+		"16_RybakVojak": {
+			"name": "Fishfolk Soldier"
+		},
+		"17_RybakKouzelnik": {
+			"name": "Fishfolk Wizard"
+		},
+		"18_RybakBerserk": {
+			"name": "Fishfolk Berserker"
+		},
+		"19_RybakVelitel": {
+			"name": "Fishfolk Commander"
+		},
+		"20_MalyOhnivyImp": {
+			"name": "Fire Imp Whelp"
+		},
+		"21_MalyLedovyImp": {
+			"name": "Ice Imp Whelp"
+		},
+		"22_OhnivyImp": {
+			"name": "Fire Imp"
+		},
+		"23_LedovyImp": {
+			"name": "Ice Imp"
+		},
+		"24_SampionOhnivychImpu": {
+			"name": "Fire Imp Champion"
+		},
+		"25_SampionLedovychImpu": {
+			"name": "Ice Imp Champion"
+		},
+		"26_Cernyrytir": {
+			"name": "Black Knight"
+		},
+		"27_Cernycarodej": {
+			"name": "Black Sorcerer"
+		},
+		"28_": {
+			"name": ""
+		},
+		"29_": {
+			"name": ""
+		},
+		"30_": {
+			"name": ""
+		}
+	},
+	"Items": {
+		"01_LecivyLektvar": {
+			"description": "Restore health and a bit of mana",
+			"name": "Healing Potion"
+		},
+		"02_ZlutePlody": {
+			"description": "Can be brewed into a healing potion",
+			"name": "Yellow fruits"
+		},
+		"03_Sit": {
+			"description": "Catches an enemy and prevents them from dodging",
+			"name": "Hunting Net"
+		},
+		"04_Kuze": {
+			"description": "Fresh",
+			"name": "Skin"
+		},
+		"05_Svecenavoda": {
+			"description": "For consecrating a grave",
+			"name": "Holy water"
+		},
+		"06_Supiny": {
+			"description": "From some gigant insect",
+			"name": "Scales"
+		},
+		"07_Jidlo": {
+			"description": "Restores half health to party but only outside of combat",
+			"name": "Food"
+		},
+		"08_Dennik": {
+			"description": "Read me, I'll advise you",
+			"name": "Journal"
+		},
+		"09_NahradniKlic": {
+			"description": "From the shopkeeper's cottage",
+			"name": "Spare key"
+		},
+		"10_KlicodZahrady": {
+			"description": "From the garden of the city palace",
+			"name": "Garden key"
+		},
+		"11_Cichacisul": {
+			"description": "Restores magic energy outside of combat",
+			"name": "Sniffing salt"
+		},
+		"12_Ruzovekvety": {
+			"description": "Can be mixed into magical salt",
+			"name": "Pink flowers"
+		},
+		"13_Drevonapodpal": {
+			"description": "Enough to establish one campsite",
+			"name": "Kindling"
+		},
+		"14_KlicodKnihovny": {
+			"description": "From the library in Sabrina's master's house",
+			"name": "Library key"
+		},
+		"15_ModraTinktura": {
+			"description": "Ingredient for alchemical spell",
+			"name": "Blue tincture"
+		},
+		"16_CervenaTinktura": {
+			"description": "Ingredient for alchemical spell",
+			"name": "Red tincture"
+		},
+		"17_TezkaKlada": {
+			"description": "",
+			"name": "Heavy log"
+		},
+		"18_": {
+			"description": "",
+			"name": ""
+		},
+		"19_": {
+			"description": "",
+			"name": ""
+		},
+		"20_": {
+			"description": "",
+			"name": ""
+		}
+	},
+	"Skills": {
+		"01_Seknuti": {
+			"description": "Basic attack on one enemy",
+			"message1": " attacks!",
+			"message2": "",
+			"name": "Slash"
+		},
+		"02_Obrana": {
+			"description": "Basic defense, temporarily increases defense rating.",
+			"message1": " defends.",
+			"message2": "",
+			"name": "Defense"
+		},
+		"03_DvojitySek": {
+			"description": "Attack on two random enemies",
+			"message1": " attacks twice!",
+			"message2": "",
+			"name": "Double Slash"
+		},
+		"04_Streh": {
+			"description": "Increases evasion and temporarily raises both attack and defense",
+			"message1": " takes a defensive stance!",
+			"message2": "",
+			"name": "Vigilance"
+		},
+		"05_DvojitaStrela": {
+			"description": "Shoots at two random enemies",
+			"message1": " shoots twice!",
+			"message2": "",
+			"name": "Double Shot"
+		},
+		"06_Utek": {
+			"description": "",
+			"message1": " flees from battle.",
+			"message2": "",
+			"name": "Escape"
+		},
+		"07_Cekani": {
+			"description": "",
+			"message1": " waits.",
+			"message2": "",
+			"name": "Wait"
+		},
+		"08_MaleUzdraveni": {
+			"description": "Heals one ally",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Minor Healing"
+		},
+		"09_Ohen": {
+			"description": "Fire attack on one enemy",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Fire"
+		},
+		"10_Dotekducha": {
+			"description": "",
+			"message1": " casts %1!",
+			"message2": "",
+			"name": "Spirit Touch"
+		},
+		"11_Kousnuti": {
+			"description": "",
+			"message1": "",
+			"message2": "",
+			"name": "Bite"
+		},
+		"12_CilenaStrela": {
+			"description": "",
+			"message1": " shoots.",
+			"message2": "",
+			"name": "Targeted Shot"
+		},
+		"13_MagickyStit": {
+			"description": "",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Magic Shield"
+		},
+		"14_Blesk": {
+			"description": "Lightning from clear sky",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Lightning"
+		},
+		"15_Ohnivastena": {
+			"description": "Wall of fire hitting all enemies",
+			"message1": " casts %1!",
+			"message2": "",
+			"name": "Fire Wall"
+		},
+		"16_DvojiteKousnuti": {
+			"description": "Bite from enemy",
+			"message1": " attacks twice!",
+			"message2": "",
+			"name": "Double Bite"
+		},
+		"17_Strela": {
+			"description": "Basic shot on one enemy",
+			"message1": " attacks!",
+			"message2": "",
+			"name": "Shot"
+		},
+		"18_Uder": {
+			"description": "Basic attack on one enemy",
+			"message1": " attacks!",
+			"message2": "",
+			"name": "Strike"
+		},
+		"19_Bodnuti": {
+			"description": "Advanced attack on one enemy",
+			"message1": " attacks!",
+			"message2": "",
+			"name": "Stab"
+		},
+		"20_SilnyUder": {
+			"description": "Basic attack on one enemy",
+			"message1": " attacks!",
+			"message2": "",
+			"name": "Strong Strike"
+		},
+		"21_DvojityUder": {
+			"description": "Attack on two random enemies",
+			"message1": " attacks twice!",
+			"message2": "",
+			"name": "Double Strike"
+		},
+		"22_OhniveSeknuti": {
+			"description": "Magical attack on one enemy",
+			"message1": " attacks wih fire!",
+			"message2": "",
+			"name": "Fiery Slash"
+		},
+		"23_LedovySip": {
+			"description": "Magical shot on one enemy",
+			"message1": " attacks with ice!",
+			"message2": "",
+			"name": "Icy Arrow"
+		},
+		"24_BleskovyUder": {
+			"description": "Magical attack on one enemy",
+			"message1": " attacks with thunder!",
+			"message2": "",
+			"name": "Thunder Strike"
+		},
+		"25_BojovyTanec": {
+			"description": "Increases evasion and temporarily raises both attack and defense, heals",
+			"message1": " takes a defensive stance!",
+			"message2": "",
+			"name": "Battle Dance"
+		},
+		"26_KrytiSpojence": {
+			"description": "Increases ally's evasion and temporarily raises both attack and defense",
+			"message1": " takes a defensive stance!",
+			"message2": "",
+			"name": "Ally Cover"
+		},
+		"27_Soustredeni": {
+			"description": "Restores health and stamina",
+			"message1": "",
+			"message2": "",
+			"name": "Focus"
+		},
+		"28_Veleni": {
+			"description": "Raises attack and defense of the entire team",
+			"message1": "",
+			"message2": "",
+			"name": "Command"
+		},
+		"29_ObrannaFormace": {
+			"description": "Raises defense and stamina of the entire team",
+			"message1": "",
+			"message2": "",
+			"name": "Defensive Formation"
+		},
+		"30_BojoveLeceni": {
+			"description": "Heals and restores stamina of the entire team",
+			"message1": "",
+			"message2": "",
+			"name": "Combat Healing"
+		},
+		"31_KulovyBlesk": {
+			"description": "Lightning hitting all enemies",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Ball Lightning"
+		},
+		"32_Ledovastrela": {
+			"description": "Shot of pure frost",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Ice Shot"
+		},
+		"33_Ledovaboure": {
+			"description": "Frosty storm hitting all enemies",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Ice Storm"
+		},
+		"34_VelkeUzdraveni": {
+			"description": "Heals one ally, also restores stamina",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Major Healing"
+		},
+		"35_PlosneUzdraveni": {
+			"description": "Heals all allies, also restores stamina",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Area Healing"
+		},
+		"36_Regenerace": {
+			"description": "Triggers life and stamina regeneration of one ally",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Regeneration"
+		},
+		"37_PlosnaRegenerace": {
+			"description": "Triggers life and stamina regeneration of allies",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Area Regeneration"
+		},
+		"38_Oziveni": {
+			"description": "Completely revives a knocked-out ally",
+			"message1": " invokes %1!",
+			"message2": "",
+			"name": "Revive Ally"
+		},
+		"39_ZurivyUtok": {
+			"description": "Exhausting attack on one enemy.\nYou need full stamina for it.",
+			"message1": " attacks!",
+			"message2": "",
+			"name": "Furious Strike"
+		}
+	},
+	"States": {
+		"01_Knockout": {
+			"message1": " has fallen!",
+			"message2": " has been defeated!",
+			"message3": "",
+			"message4": " has been revived!",
+			"name": "Knocked Out"
+		},
+		"02_Obranna": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": "Defense"
+		},
+		"03_Immortal": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": "Immortal"
+		},
+		"04_Poison": {
+			"message1": " is poisoned!",
+			"message2": " is poisoned!",
+			"message3": "",
+			"message4": " is no longer poisoned!",
+			"name": "Poison"
+		},
+		"05_Blind": {
+			"message1": " is blinded!",
+			"message2": " is blinded!",
+			"message3": "",
+			"message4": " is no longer blinded!",
+			"name": "Blindness"
+		},
+		"06_Silence": {
+			"message1": " is silenced!",
+			"message2": " is silenced!",
+			"message3": "",
+			"message4": " is no longer silenced!",
+			"name": "Silence"
+		},
+		"07_Rage": {
+			"message1": " is enraged!",
+			"message2": " is enraged!",
+			"message3": "",
+			"message4": " is no longer enraged!",
+			"name": "Fury"
+		},
+		"08_Confusion": {
+			"message1": " is confused!",
+			"message2": " is confused!",
+			"message3": "",
+			"message4": " is no longer confused!",
+			"name": "Confusion"
+		},
+		"09_Fascination": {
+			"message1": " is fascinated!",
+			"message2": " is fascinated!",
+			"message3": "",
+			"message4": " is no longer fascinated!",
+			"name": "Fascination"
+		},
+		"10_Sleep": {
+			"message1": " falls asleep!",
+			"message2": " falls asleep!",
+			"message3": " is asleep.",
+			"message4": " wakes up!",
+			"name": "Sleep"
+		},
+		"11_Chycen": {
+			"message1": " is trapped!",
+			"message2": " is trapped!",
+			"message3": " is trapped.",
+			"message4": " breaks free!",
+			"name": "Trap"
+		},
+		"12_Hori": {
+			"message1": " has caught fire!",
+			"message2": " has caught fire!",
+			"message3": " is on fire!",
+			"message4": " is extinguished.",
+			"name": "On Fire"
+		},
+		"13_Obrannystreh": {
+			"message1": " is on guard.",
+			"message2": " is on guard.",
+			"message3": "",
+			"message4": " cancels guard.",
+			"name": "Defensive stance"
+		},
+		"14_MagickyStit": {
+			"message1": " is shielded.",
+			"message2": " is shielded.",
+			"message3": "",
+			"message4": " has lost the shield.",
+			"name": "Magic shield"
+		},
+		"15_Zmrznuti": {
+			"message1": " has frozen.",
+			"message2": " has frozen.",
+			"message3": " is frozen.",
+			"message4": " has thawed.",
+			"name": "Frozen"
+		},
+		"16_Motivace": {
+			"message1": " is on alert.",
+			"message2": " is on alert.",
+			"message3": "",
+			"message4": " has lost the focus.",
+			"name": "Motivation"
+		},
+		"17_ElektrickaParalyza": {
+			"message1": " has been struck by lightning.",
+			"message2": " has been struck by lightning.",
+			"message3": " has been paralyzed by lightning.",
+			"message4": "",
+			"name": "Electrical paralysis"
+		},
+		"18_Regenerace": {
+			"message1": " is regenerating.",
+			"message2": " is regenerating.",
+			"message3": " is regenerating.",
+			"message4": "",
+			"name": "Regeneration"
+		},
+		"19_": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": ""
+		},
+		"20_": {
+			"message1": "",
+			"message2": "",
+			"message3": "",
+			"message4": "",
+			"name": ""
+		}
+	},
+	"System": {
+		"armorTypes": {
+			"0": "Clothing",
+			"1": "Enchanted armor",
+			"2": "Light armor",
+			"3": "Heavy armor",
+			"4": "Small shield",
+			"5": "Large shield"
+		},
+		"currency": "G",
+		"elements": {
+			"0": "Physical",
+			"1": "Fire",
+			"2": "Ice",
+			"3": "Lightning",
+			"4": "Water",
+			"5": "Earth",
+			"6": "Wind",
+			"7": "Light",
+			"8": "Darkness"
+		},
+		"equipTypes": {
+			"0": "Weapon",
+			"1": "Shield",
+			"2": "Head",
+			"3": "Body",
+			"4": "Jewelry"
+		},
+		"gameTitle": "Crown Guardian",
+		"messages": {
+			"actionFailure": "%1: Effect failed!",
+			"actorDamage": "%1 received a hit for %2!",
+			"actorDrain": "%1 lost %2 %3 by leaching!",
+			"actorGain": "%1 gained %2 %3!",
+			"actorLoss": "%1 lost %2 %3!",
+			"actorNoDamage": "%1 escaped without injury.",
+			"actorNoHit": "Missed! %1 escaped without injury!",
+			"actorRecovery": "%1 healed %2 %3!",
+			"alwaysDash": "Always flee",
+			"bgmVolume": "Battle volume 1",
+			"bgsVolume": "Battle volume 2",
+			"buffAdd": "%1 gained buff %2!",
+			"buffRemove": "%1: Status %2 ended!",
+			"commandRemember": "Remember the command",
+			"counterAttack": "%1 counterattacked!",
+			"criticalToActor": "That hurt a lot!!",
+			"criticalToEnemy": "Great hit!!",
+			"debuffAdd": "%1 gained debuff %2!",
+			"defeat": "%1 was defeated.",
+			"emerge": "You met %1",
+			"enemyDamage": "%1 got injured for %2!",
+			"enemyDrain": "%1 lost %2 %3 by leaching!",
+			"enemyGain": "%1 gained %2 %3!",
+			"enemyLoss": "%1 lost %2 %3!",
+			"enemyNoDamage": "%1 escaped without injury.",
+			"enemyNoHit": "Missed! %1 escaped without injury!",
+			"enemyRecovery": "%1 restored %2 %3!",
+			"escapeFailure": "But the retreat failed.",
+			"escapeStart": "%1 attempts to retreat!",
+			"evasion": "%1 dodged the attack!",
+			"expNext": "Missing %1",
+			"expTotal": "Now %1",
+			"file": "Slot",
+			"levelUp": "%1 is now %2 %3!",
+			"loadMessage": "Load from slot?",
+			"magicEvasion": "%1 neutralized the spell's effect!",
+			"magicReflection": "%1 reflected the spell!",
+			"meVolume": "Volume 1",
+			"obtainExp": "You gained %1 %2.",
+			"obtainGold": "You found %1\\G.",
+			"obtainItem": "You found %1.",
+			"obtainSkill": "Now you can %1!",
+			"partyName": "%1 and party",
+			"possession": "Ownership",
+			"preemptive": "%1 now has the upper hand!",
+			"saveMessage": "Save position?",
+			"seVolume": "Volume 2",
+			"substitute": "%1 protected %2!",
+			"surprise": "%1 was unpleasantly surprised!",
+			"useItem": "%1 used %2!",
+			"victory": "%1 won the battle."
+		},
+		"skillTypes": {
+			"0": "Spell",
+			"1": "Special",
+			"2": "Attack"
+		},
+		"terms": {
+			"basic": {
+				"0": "Level",
+				"1": "Lvl",
+				"2": "Lives",
+				"3": "Hp",
+				"4": "Magic",
+				"5": "Mp",
+				"6": "Stamina",
+				"7": "St",
+				"8": "Experience",
+				"9": "Exp"
+			},
+			"commands": {
+				"0": "Fight",
+				"1": "Flee",
+				"10": "Game Over",
+				"11": "Settings",
+				"12": "Weapon",
+				"13": "Armor",
+				"14": "Key Item",
+				"15": "Use",
+				"16": "Optimize",
+				"17": "None",
+				"18": "New Game",
+				"19": "Continue",
+				"2": "Attack",
+				"20": "Game Over",
+				"21": "Back",
+				"22": "Buy",
+				"23": "Sell",
+				"3": "Protection",
+				"4": "Item",
+				"5": "Skill",
+				"6": "Equip",
+				"7": "Status",
+				"8": "Formation",
+				"9": "Save"
+			},
+			"params": {
+				"0": "Max Hp",
+				"1": "Max Mp",
+				"2": "Attack",
+				"3": "Defense",
+				"4": "Magic Attack",
+				"5": "Magic Defence",
+				"6": "Agility",
+				"7": "Luck",
+				"8": "Hit Rate",
+				"9": "Dodge Rate"
+			}
+		},
+		"weaponTypes": {
+			"0": "Short sword",
+			"1": "Long sword",
+			"10": "Spear",
+			"2": "Chain weapon",
+			"3": "Axe",
+			"4": "Whip",
+			"5": "Staff",
+			"6": "Bow",
+			"7": "Crossbow",
+			"8": "Firearm",
+			"9": "Claws"
+		}
+	},
+	"Troops": {
+		"027_Velenirybaku_pg0": {
+			"dialog_000": [
+				"Ha! Who are you! We'll call the guards!",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Get them! Let's finish them off!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m01_CastleChambers": {
+		"ev01_GuardDoor_pg0": {
+			"dialog_002": [
+				"Oh yeah, before I leave the guardhouse,",
+				"I should \\C[10]open the Journal\\C[0] and check",
+				"what I forgot to do.",
+				""
+			],
+			"dialog_010": [
+				"Whenever you're unsure, remember,",
+				"\\C[10]checking the Journal\\C[0] helps.",
+				"",
+				""
+			]
+		},
+		"ev02_SuspiciousNoises_pg1": {
+			"dialog_000": [
+				"What's that noise? It's coming from",
+				"the princess's chambers. I have to check it out.",
+				"",
+				""
+			]
+		},
+		"ev07_Sword_pg0": {
+			"dialog_000": [
+				"Ha, a sword. I know, don't put it",
+				"in the backpack, keep it in hand.",
+				"",
+				""
+			]
+		}
+	},
+	"m02_SwampIsland": {
+		"ev03_Archeologist_pg0": {
+			"dialog_003": [
+				"Hello. Well, I've never seen activating",
+				"that old portal like that before. Are you okay?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Phew. Thanks, barely. My name is Jakob, and",
+				"I didn't even know there was a portal there,",
+				"let alone where it leads. Where am I actually?",
+				""
+			],
+			"dialog_013": [
+				"I'm Peter, an archaeologist.",
+				"I've been studying that old portal here for a few days now.",
+				"You're on the island of Sailor's Corner,",
+				"a few miles from the capital."
+			],
+			"dialog_022": [
+				"Welcome back, Jakob.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"I smell, I smell and I smell yellow fruits.",
+				"I'll mix you a healing potion from them. Interrested?",
+				"",
+				""
+			],
+			"dialog_042": [
+				"Can I rest by your fire?",
+				"I've had a lot on my plate lately,",
+				"and a little sleep would do me good.",
+				""
+			],
+			"dialog_053": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_061": [
+				"In the Swamp on Sailor's Corner Island.",
+				"About 50 miles from the capital.",
+				"There's an old magical portal and a village here.",
+				""
+			],
+			"dialog_069": [
+				"I have a map, I'll enter the well and go",
+				"through the Ghost Cave.",
+				"Do you have any idea what awaits me next?",
+				""
+			],
+			"dialog_074": [
+				"Next is the territory of goblins,",
+				"just don't wander into their camp.",
+				"And then you'll encounter a magic gate.",
+				""
+			],
+			"dialog_079": [
+				"Goblins. Right.",
+				"Gate. Uh... what gate?",
+				"How do I open it?",
+				""
+			],
+			"dialog_084": [
+				"The gate that protects the village from",
+				"goblin raids. It opens with the correct",
+				"recitation of a spell. You must first",
+				"find all 3 verses."
+			],
+			"dialog_089": [
+				"From what I know, they're in the swamp,",
+				"in the territory of the goblins.",
+				"Just find them and arrange them correctly.",
+				""
+			],
+			"dialog_097": [
+				"I've also prepared a hunting net for you.",
+				"You complained about the giant insects there.",
+				"Throw this, and it should slow them down.",
+				""
+			],
+			"dialog_109": [
+				"I found an old tent a mile to the north.",
+				"But two goblins have camped in it.",
+				"",
+				""
+			],
+			"dialog_114": [
+				"My old tent? My equipment? My map!",
+				"I didn't want to deal with this for a few",
+				"more weeks, but if you take care of it,",
+				"I'll reward you."
+			],
+			"dialog_119": [
+				"What equipment and map?",
+				"",
+				"",
+				""
+			],
+			"dialog_124": [
+				"Well, when I came here, I knew I was",
+				"going to pass through the Ghost Cave. But I bought",
+				"a map in the village.",
+				"Then my camp was raided by goblins."
+			],
+			"dialog_129": [
+				"From this side, enter a dried-up well,",
+				"the normal cave is on the other side.",
+				"",
+				""
+			],
+			"dialog_134": [
+				"Ah, so if I want to go to the village myself,",
+				"I'll need that map.",
+				"",
+				""
+			],
+			"dialog_144": [
+				"There's a cave to the north. It seem passable",
+				"but is it really? Do you know it?",
+				"",
+				""
+			],
+			"dialog_149": [
+				"I know that one. What's interesting is that",
+				"when you want to go through to the other side,",
+				"just follow the sound of dripping water.",
+				""
+			],
+			"dialog_158": [
+				"Have you looked around as I advised?",
+				"Let me know if you find something interesting.",
+				"",
+				""
+			],
+			"dialog_166": [
+				"I need to get back to my castle,",
+				"do you know how to get from here?",
+				"",
+				""
+			],
+			"dialog_171": [
+				"Kid, you're in such a hurry. Alright, I know",
+				"there's a village somewhere around here.",
+				"Maybe they'll help you there.",
+				"Look around here."
+			],
+			"option_039": [
+				"Rest",
+				"Where am I",
+				"How to get from here"
+			]
+		}
+	},
+	"m03_MainIntro": {
+		"ev01_Intro_pg0": {
+			"dialog_002": [
+				"Sunset over the battlefield.",
+				"Beautiful landscape, different every month,",
+				"bleeding because it was we who came.",
+				""
+			],
+			"dialog_009": [
+				"",
+				"",
+				"Perhaps that's how a poet can describe the life",
+				"of a soldier, who goes from battle to battle."
+			],
+			"dialog_020": [
+				"Evenings are then spent with his brothers",
+				"by the victorious fires. Or not.",
+				"",
+				""
+			],
+			"dialog_025": [
+				"The more sunsets there are, the more of his brothers",
+				"end up on one of those battlefields.",
+				"",
+				""
+			],
+			"dialog_030": [
+				"And then, the more people here are for him just",
+				"strangers he happened to meet tonight.",
+				"",
+				""
+			],
+			"dialog_037": [
+				"\\C[4]Sometimes I walk past them unnoticed",
+				"and sometimes I fail in that.\\C[0]",
+				"",
+				""
+			],
+			"dialog_042": [
+				"\\C[4]Especially when suddenly She appears.\\C[0]",
+				"",
+				"",
+				""
+			],
+			"dialog_049": [
+				"\\C[27]Hey! Jakob! Why do you walk around like a ghost again?\\C[0]",
+				"",
+				"",
+				""
+			],
+			"dialog_056": [
+				"Soldiers kneel down to bow.",
+				"\\C[27]Princess Suzan\\C[0] appears as a ghost",
+				"and glides between us. Still in her armor,",
+				"smeared with the same mud as we are."
+			],
+			"dialog_061": [
+				"No one remembers ever having",
+				"a princess who goes to war with her",
+				"army, but now we have one.",
+				""
+			],
+			"dialog_068": [
+				"\\C[27]I asked why you walk here like a ghost?",
+				"Don't you want to celebrate our victory? Come,",
+				"for my most loyal there is always",
+				"plenty room at my table\\C[0]."
+			],
+			"dialog_073": [
+				"\\C[4]Thank you, my lady. It's the first evening after the battle.\\C[0]",
+				"",
+				"",
+				""
+			],
+			"dialog_078": [
+				"\\C[4]You know I'm glad to be at your table, but tonight",
+				"I want to be with the soldiers. If I visit more campfires today,",
+				"I'll know tomorrow how much courage that battle",
+				"cost them.\\C[0]"
+			],
+			"dialog_085": [
+				"She smiles, waves her hand at me, and with her",
+				"graceful step, she disappears into the evening darkness.",
+				"Soldiers just stare as I turn around and sit",
+				"down by their fire."
+			],
+			"dialog_092": [
+				"At first, speechless. But gradually they become bolder",
+				"and the same questions gets out as many times before.",
+				"When I answer a few basics,",
+				"they pull a story out of me."
+			],
+			"dialog_098": [
+				"Today it's this one. How the son of an ordinary hunter",
+				"became the personal guardian of the princess.",
+				"",
+				""
+			],
+			"dialog_108": [
+				"The story took place about ten years ago.",
+				"",
+				"",
+				""
+			],
+			"dialog_115": [
+				"My father was a hunter, and we had a house near the port.",
+				"",
+				"I was the fourth son and couldn't rely",
+				"on my father's trade to support me."
+			],
+			"dialog_120": [
+				"And that's when I joined the palace guard.",
+				"",
+				"",
+				""
+			],
+			"dialog_131": [
+				"Father hoped it would be an easy service and maybe",
+				"the court work would change my life.",
+				"",
+				""
+			],
+			"dialog_136": [
+				"He was right. One day the unthinkable happened.",
+				"And I happened to be on guard duty.",
+				"",
+				""
+			],
+			"dialog_145": [
+				"And my life changed very, very much.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m04_SwampOverworld": {
+		"ev02_DarkCave_pg0": {
+			"dialog_002": [
+				"Alright, I won't be scared anymore.",
+				"I'm going to check it out.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"It wasn't as terrifying as I imagined.",
+				"But I didn't find the way here.",
+				"Maybe my grandpa will advise me.",
+				""
+			],
+			"dialog_019": [
+				"No. Definitely not. I'm scared. I'll try to",
+				"look around first and maybe",
+				"gather more courage.",
+				""
+			]
+		},
+		"ev02_DarkCave_pg1": {
+			"dialog_000": [
+				"I said I'd go ask",
+				"that archaeologist, right?",
+				"",
+				""
+			]
+		},
+		"ev02_DarkCave_pg2": {
+			"dialog_000": [
+				"So let's do it.",
+				"Follow the sound of dripping water.",
+				"",
+				""
+			]
+		},
+		"ev05_FloversA_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev07_FloversB_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev08_FloversC_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev09_FloversD_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Tent_pg0": {
+			"dialog_000": [
+				"Hmm... there are two goblins wandering",
+				"around the tent. I won't engage with them",
+				"until I know why I'm doing it.",
+				""
+			]
+		},
+		"ev10_Tent_pg1": {
+			"dialog_000": [
+				"Maybe the archaeologist",
+				"would be interested.",
+				"",
+				""
+			]
+		},
+		"ev10_Tent_pg2": {
+			"dialog_000": [
+				"Alright... the map. I understand.",
+				"But those goblins are still here,",
+				"I'll probably have to defeat them.",
+				""
+			],
+			"dialog_010": [
+				"Ha, now I have the map.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Phew... I escaped at the last moment.",
+				"But I need that map.",
+				"I'll patch up, goether some strength,",
+				"and try again."
+			],
+			"option_005": [
+				"Go fight the goblins",
+				"Withdraw for now"
+			]
+		},
+		"ev10_Tent_pg3": {
+			"dialog_000": [
+				"There's nothing else useful here.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Tent_pg4": {
+			"dialog_001": [
+				"Hey Jakob, the lighthouse we're looking",
+				"for is north of the Ghost Cave.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Hey Jakob, shall we set up a camp?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"I see you have yellow fruits.",
+				"I'll brew you a healing potion from them.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"You don't have any yellow fruits.",
+				"Bring some, and I'll brew you the potion.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Yes, I'll buy leather from you.",
+				"I can make a helmet or armor from it.",
+				"Interested?",
+				""
+			],
+			"dialog_055": [
+				"You have 5 leather, I can make",
+				"leather armor for you.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"You have 2 leather, I can make",
+				"a leather cap for you. Interested?",
+				"",
+				""
+			],
+			"option_016": [
+				"Rest",
+				"Yellow fruits",
+				"Leather",
+				"Nothing for now"
+			],
+			"option_060": [
+				"Yes, thank you.",
+				"And what about the leather cap?",
+				"I don't want anything."
+			],
+			"option_081": [
+				"Yes, thank you.",
+				"I don't want anything."
+			]
+		},
+		"ev11_HutwithAxe_pg0": {
+			"dialog_004": [
+				"Alright. Now I can search around here undisturbed.",
+				"Hey, an axe, that'll come in handy.",
+				"",
+				""
+			],
+			"option_000": [
+				"Search the hut",
+				"No"
+			]
+		},
+		"ev12_GhostCave_pg0": {
+			"dialog_000": [
+				"A dried-up well? Well, I can try throwing",
+				"a stone in there.",
+				"One... two... three...",
+				""
+			],
+			"dialog_005": [
+				"Bom.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev12_GhostCave_pg1": {
+			"dialog_001": [
+				"Alright, let's do this.",
+				"Just be careful of the ghosts.",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Phew, that was way too spooky.",
+				"",
+				"",
+				""
+			],
+			"dialog_023": [
+				"I have the map, I found the well. But still",
+				"don't know what to do next. I should go see",
+				"the grandpa again and ask.",
+				""
+			]
+		},
+		"ev13_GhostCaveBack_pg0": {
+			"dialog_000": [
+				"Alright, let's do this.",
+				"Just be careful of the ghosts.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Phew, that was way too spooky.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev14_GoblinCamp_pg0": {
+			"dialog_000": [
+				"It's probably not wise to hang around",
+				"the goblin camp.",
+				"",
+				"To avoid getting caught by the patrol."
+			]
+		},
+		"ev15_GoblinCamp_pg0": {
+			"dialog_000": [
+				"It's probably not wise to hang around",
+				"the goblin camp.",
+				"",
+				"To avoid getting caught by the patrol."
+			]
+		},
+		"ev16_FloversE_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev17_FloversF_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_FloversG_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_FloversH_pg0": {
+			"dialog_000": [
+				"You picked yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev20_VerseA_pg0": {
+			"dialog_000": [
+				"There's something scratched here, it's probably",
+				"the first piece of that spell to open the gate.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Along dark paths I want to go today,",
+				"of the swamp's mystery I won't be afraid.",
+				"",
+				"Hmm... is this even the beginning?"
+			]
+		},
+		"ev21_VerseB_pg0": {
+			"dialog_000": [
+				"There's something scratched here, it's probably",
+				"the second piece of that spell to open the gate.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Let your lanterns shine on it all.",
+				"Gate of Ivy, open the wall!",
+				"",
+				"Hmm... well, alright."
+			]
+		},
+		"ev22_VerseC_pg0": {
+			"dialog_000": [
+				"There's something scratched here, it's probably",
+				"the third piece of that spell to open the gate.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Gate of Ivy, I call you right,",
+				"Magical power, awaken your might.",
+				"",
+				"Interesting."
+			]
+		},
+		"ev23_SwampTower_pg0": {
+			"dialog_004": [
+				"So let's do this.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Let your lanterns shine on it all.",
+				"Gate of ivy, open the wall!",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Gate of Ivy, I call you right,",
+				"Magical power, awaken your might.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Along dark paths I want to go today,",
+				"of the swamp's mystery I won't be afraid.",
+				"",
+				""
+			],
+			"dialog_055": [
+				"Alright, it worked.",
+				"",
+				"",
+				""
+			],
+			"dialog_068": [
+				"Hm, nothing happened.",
+				"Did I arrange it wrong?",
+				"",
+				""
+			],
+			"dialog_082": [
+				"I don't have all the verses of the spell yet.",
+				"",
+				"",
+				""
+			],
+			"option_011": [
+				"Let your lanterns shine on it all...",
+				"Gate of Ivy, I call you right...",
+				"Along dark paths I want to go today..."
+			]
+		},
+		"ev24_TraderHouse_pg1": {
+			"dialog_001": [
+				"Hey Jakob, the lighthouse we're looking for",
+				"is north of the ghost cave.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Hey Jakob, shall we set up camp?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"I see you have yellow fruits.",
+				"I'll brew you a healing potion from them.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"You don't have any yellow fruits.",
+				"Bring some, and I'll brew you the potion.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Yes, I'll buy leather from you.",
+				"I can make a helmet or armor from it.",
+				"Interested?",
+				""
+			],
+			"dialog_055": [
+				"You have 5 leather, I can make",
+				"leather armor for you.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"You have 2 leather, I can make",
+				"a leather cap for you. Interested?",
+				"",
+				""
+			],
+			"option_016": [
+				"Rest",
+				"Yellow fruits",
+				"Leather",
+				"Nothing for now"
+			],
+			"option_060": [
+				"Yes, thank you.",
+				"And what about the leather cap?",
+				"I don't want anything."
+			],
+			"option_081": [
+				"Yes, thank you.",
+				"I don't want anything."
+			]
+		},
+		"ev25_BridgeR_pg0": {
+			"dialog_000": [
+				"This tower controls the bridge.",
+				"If I defeat the patrol, I can use it.",
+				"",
+				""
+			]
+		},
+		"ev25_BridgeR_pg1": {
+			"dialog_000": [
+				"Ha. Shortcut across the bridge.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev27_BridgeL_pg0": {
+			"dialog_000": [
+				"The other tower controls the bridge, I have to go there.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev27_BridgeL_pg1": {
+			"dialog_000": [
+				"Ha. Shortcut across the bridge.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev28_Taboriste_pg0": {
+			"dialog_000": [
+				"Abandoned campsite, I can rest here.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Rest",
+				"No, thank you."
+			]
+		},
+		"ev28_Taboriste_pg1": {
+			"dialog_001": [
+				"Hey Jakob, the lighthouse we're looking for is",
+				"north of the ghost cave.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Hey Jakob, shall we set up camp?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"I see you have yellow fruits.",
+				"I'll brew you a healing potion from them.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"You don't have any yellow fruits.",
+				"Bring some, and I'll brew you the potion.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Yes, I'll buy leather from you.",
+				"I can make a helmet or armor from it.",
+				"Interested?",
+				""
+			],
+			"dialog_055": [
+				"You have 5 leather, I can make",
+				"leather armor for you.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"You have 2 leather, I can make",
+				"a leather cap for you. Interested?",
+				"",
+				""
+			],
+			"option_016": [
+				"Rest",
+				"Yellow fruits",
+				"Leather",
+				"Nothing for now"
+			],
+			"option_060": [
+				"Yes, thank you.",
+				"And what about the leather cap?",
+				"I don't want anything."
+			],
+			"option_081": [
+				"Yes, thank you.",
+				"I don't want anything."
+			]
+		},
+		"ev29_Taboriste_pg0": {
+			"dialog_000": [
+				"Abandoned campsite, I can rest here.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Rest",
+				"No, thank you."
+			]
+		},
+		"ev29_Taboriste_pg1": {
+			"dialog_001": [
+				"Hey Jakob, the lighthouse we're looking for is",
+				"north of the ghost cave.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Hey Jakob, shall we set up camp?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"I see you have yellow fruits.",
+				"I'll brew you a healing potion from them.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"You don't have any yellow fruits.",
+				"Bring some, and I'll brew you the potion.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Yes, I'll buy leather from you.",
+				"I can make a helmet or armor from it.",
+				"Interested?",
+				""
+			],
+			"dialog_055": [
+				"You have 5 leather, I can make",
+				"leather armor for you.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"You have 2 leather, I can make",
+				"a leather cap for you. Interested?",
+				"",
+				""
+			],
+			"option_016": [
+				"Rest",
+				"Yellow fruits",
+				"Leather",
+				"Nothing for now"
+			],
+			"option_060": [
+				"Yes, thank you.",
+				"And what about the leather cap?",
+				"I don't want anything."
+			],
+			"option_081": [
+				"Yes, thank you.",
+				"I don't want anything."
+			]
+		},
+		"ev41_Watchtower_pg0": {
+			"dialog_000": [
+				"So here we are. Let's clean this place",
+				"and then we can ignite the lighthouse.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Good job. Thanks for your help.",
+				"The lighthouse will shine again.",
+				"Let's go find Mark.",
+				""
+			],
+			"dialog_015": [
+				"Alright, it didn't work the first time.",
+				"I'll rest and we'll try again.",
+				"",
+				""
+			]
+		},
+		"ev42_Taboriste_pg0": {
+			"dialog_000": [
+				"Abandoned campsite, I can rest here.",
+				"",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Rest",
+				"No, thank you."
+			]
+		},
+		"ev42_Taboriste_pg1": {
+			"dialog_001": [
+				"Hey Jakob, the lighthouse we're looking for is",
+				"north of the ghost cave.",
+				"",
+				""
+			],
+			"dialog_008": [
+				"Hey Jakob, shall we set up camp?",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"I see you have yellow fruits.",
+				"I'll brew you a healing potion from them.",
+				"",
+				""
+			],
+			"dialog_039": [
+				"You don't have any yellow fruits.",
+				"Bring some, and I'll brew you the potion.",
+				"",
+				""
+			],
+			"dialog_048": [
+				"Yes, I'll buy leather from you.",
+				"I can make a helmet or armor from it.",
+				"Interested?",
+				""
+			],
+			"dialog_055": [
+				"You have 5 leather, I can make",
+				"leather armor for you.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"You have 2 leather, I can make",
+				"a leather cap for you. Interested?",
+				"",
+				""
+			],
+			"option_016": [
+				"Rest",
+				"Yellow fruits",
+				"Leather",
+				"Nothing for now"
+			],
+			"option_060": [
+				"Yes, thank you.",
+				"And what about the leather cap?",
+				"I don't want anything."
+			],
+			"option_081": [
+				"Yes, thank you.",
+				"I don't want anything."
+			]
+		},
+		"ev45_BonyardGate_pg0": {
+			"dialog_000": [
+				"I definitely won't go there",
+				"without a serious reason.",
+				"",
+				""
+			]
+		},
+		"ev45_BonyardGate_pg1": {
+			"dialog_000": [
+				"Goblin graveyard.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev46_FloversI_pg0": {
+			"dialog_000": [
+				"You picked up some yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev47_GraveyardTower_pg0": {
+			"dialog_000": [
+				"So here we are. I must admit I've never been",
+				"here before, so I have no idea what's next.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Well, first, we need to get through these",
+				"doors. Can you read them?",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Yeah, it's the local dialect. It says something about",
+				"\\C[10]3 guardians\\C[0] who guard even",
+				"after death the tomb of their shaman.",
+				""
+			],
+			"dialog_015": [
+				"I hate to say it, but we should probably",
+				"check out the graves around here.",
+				"",
+				""
+			]
+		},
+		"ev47_GraveyardTower_pg1": {
+			"dialog_000": [
+				"The doors are open. Should I go in?",
+				"",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Victory. Few times, I didn't even dare to hope.",
+				"",
+				"",
+				""
+			],
+			"dialog_014": [
+				"I'll go deal with the holy water,",
+				"so we can put this behind us.",
+				"",
+				""
+			],
+			"option_005": [
+				"Let's do it",
+				"Better not yet"
+			]
+		},
+		"ev47_GraveyardTower_pg2": {
+			"dialog_000": [
+				"We're done here.",
+				"And besides, I've run out of holy water anyway.",
+				"Let's go see the mayor.",
+				""
+			]
+		},
+		"ev48_GoblinGraveEmpty_pg1": {
+			"dialog_000": [
+				"So what now?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Well, there's nothing here.",
+				"Well, almost nothing.",
+				"",
+				""
+			],
+			"option_005": [
+				"Dig",
+				"Retreat"
+			]
+		},
+		"ev49_GoblinGrave_pg1": {
+			"dialog_000": [
+				"So what now?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Looks like there's one of them.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"That makes three. Hopefully, the gate",
+				"from the tower will release now.",
+				"",
+				""
+			],
+			"option_005": [
+				"Dig",
+				"Retreat"
+			]
+		},
+		"ev50_GoblinGrave_pg1": {
+			"dialog_000": [
+				"So what now?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Looks like there's one of them.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"That makes three. Hopefully, the gate",
+				"from the tower will release now.",
+				"",
+				""
+			],
+			"option_005": [
+				"Dig",
+				"Retreat"
+			]
+		},
+		"ev51_GoblinGrave_pg1": {
+			"dialog_000": [
+				"So what now?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Looks like there's one of them.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"That makes three. Hopefully, the gate",
+				"from the tower will release now.",
+				"",
+				""
+			],
+			"option_005": [
+				"Dig",
+				"Retreat"
+			]
+		},
+		"ev52_GoblinGraveEmpty_pg1": {
+			"dialog_000": [
+				"So what now?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Well, there's nothing here.",
+				"Well, almost nothing.",
+				"",
+				""
+			],
+			"option_005": [
+				"Dig",
+				"Retreat"
+			]
+		},
+		"ev53_GoblinGraveEmpty_pg1": {
+			"dialog_000": [
+				"So what now?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Well, there's nothing here.",
+				"Well, almost nothing.",
+				"",
+				""
+			],
+			"option_005": [
+				"Dig",
+				"Retreat"
+			]
+		},
+		"ev54_EV054_pg0": {
+			"dialog_009": [
+				"A little bit of gold and a new bow.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev55_SwampMonserDen_pg0": {
+			"dialog_001": [
+				"A cave. And I can hear slurping coming from it.",
+				"I wouldn't go there even by accident.",
+				"",
+				""
+			]
+		},
+		"ev55_SwampMonserDen_pg1": {
+			"dialog_001": [
+				"They say there's some monster living in it.",
+				"If we're smart, we won't go there.",
+				"",
+				""
+			]
+		},
+		"ev55_SwampMonserDen_pg2": {
+			"dialog_001": [
+				"They say there's some monster living in it.",
+				"But enough, surely that's the cave",
+				"Theresa talked about.",
+				"Shall we go?"
+			],
+			"dialog_010": [
+				"Honestly, for a moment there,",
+				"I thought it was over for us.",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Alright, we're outside.",
+				"",
+				"",
+				""
+			],
+			"dialog_024": [
+				"Did you see that pile of bones?",
+				"That should be enough information",
+				"for Theresa, don't you think?",
+				""
+			],
+			"dialog_029": [
+				"Hopefully.",
+				"If her brother went inside, he couldn't",
+				"have ended up anywhere else but on that pile.",
+				""
+			],
+			"dialog_037": [
+				"That's a relief.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Let's go inside",
+				"Maybe not for now"
+			]
+		},
+		"ev55_SwampMonserDen_pg3": {
+			"dialog_001": [
+				"Do you think there are more in there?",
+				"I definitely won't go in there a second time.",
+				"",
+				""
+			]
+		}
+	},
+	"m05_SwampTrader": {
+		"ev01_Woodsman_pg0": {
+			"dialog_000": [
+				"Welcome. Are you alright? Not many",
+				"people come to the swamp often.",
+				"I'm John and I live here.",
+				""
+			],
+			"dialog_005": [
+				"I'm Jakob. I need to get to the village.",
+				"I know I have to find pieces of a spell.",
+				"Can you help me? Do you know them?",
+				""
+			],
+			"dialog_010": [
+				"Well, I know that one of the verses you're",
+				"looking for is carved on an old fallen",
+				"tree to the north of here.",
+				"If you need anything, just come here."
+			]
+		},
+		"ev01_Woodsman_pg1": {
+			"dialog_000": [
+				"Hello Jakob, welcome back.",
+				"",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Can I rest at your place?",
+				"I've had a lot going on lately and",
+				"a bit of sleep would help me.",
+				""
+			],
+			"dialog_020": [
+				"Rest restores part of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_029": [
+				"I see you have yellow fruits.",
+				"I'll make you a healing potion from them.",
+				"",
+				""
+			],
+			"dialog_038": [
+				"You don't have any yellow fruits.",
+				"Bring some and I'll make you a potion.",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Yes, I'll buy skins from you.",
+				"I can make a helmet or armor from them.",
+				"Do you want?",
+				""
+			],
+			"dialog_054": [
+				"You have 5 skins, I can make you",
+				"leather armor.",
+				"",
+				""
+			],
+			"dialog_075": [
+				"You have 2 skins, I can make you",
+				"a leather cap. Do you want?",
+				"",
+				""
+			],
+			"option_006": [
+				"Rest",
+				"Yellow fruits",
+				"Skins",
+				"Nothing now"
+			],
+			"option_059": [
+				"Yes, thank you.",
+				"And what about that leather cap?",
+				"I don't want anything."
+			],
+			"option_080": [
+				"Yes, thank you.",
+				"I don't want anything."
+			]
+		},
+		"ev01_Woodsman_pg2": {
+			"dialog_000": [
+				"Hello Jakob, welcome back.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Hello John, I have an important question for you.",
+				"I met Mark and he said that if I want",
+				"a boat from him, he needs wood from you.",
+				"Could you help me?"
+			],
+			"dialog_010": [
+				"That's not so easy, I argued with my brother",
+				"because his last boat",
+				"sank due to a broken lighthouse here",
+				"in the swamp. I won't go back to him."
+			],
+			"dialog_015": [
+				"And if I helped you repair that lighthouse?",
+				"Would you help me then?",
+				"",
+				""
+			],
+			"dialog_020": [
+				"You're a nice person. Okay, I'll help you.",
+				"Let's start with the lighthouse and see",
+				"how far we can go together.",
+				""
+			]
+		}
+	},
+	"m06_SwampWillage": {
+		"ev08_Guard_pg0": {
+			"dialog_002": [
+				"Welcome stranger to Oak Valley.",
+				"I'm David and I'm on duty today.",
+				"Whatever you come for, behave towards people",
+				"nicely, so I don't have trouble with you."
+			],
+			"dialog_007": [
+				"Hi. I'm Jakob and I traveled through",
+				"the swamp. I need help getting off",
+				"the island. Can you advise me?",
+				""
+			],
+			"dialog_012": [
+				"Our shipbuilder could probably help you with that,",
+				"his name is Mark and he lives by the dock.",
+				"If you need anything, my cousin Theresa runs",
+				"the store."
+			]
+		},
+		"ev08_Guard_pg1": {
+			"dialog_002": [
+				"Remember, Shipbuilder Mark lives by the water.",
+				"Merchant Theresa, first house on the right.",
+				"Mayor Katherine, house on the left.",
+				"Behave."
+			],
+			"dialog_007": [
+				"I understand.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev09_Shipwright_pg0": {
+			"dialog_002": [
+				"Hello, are you Mark? My name is Jakob",
+				"and I would need a boat",
+				"to get off the island.",
+				"Could you help me?"
+			],
+			"dialog_007": [
+				"That's me. I'd like to, but it's not possible.",
+				"My last boat is gone, and to make a new one,",
+				"I need the right wood, which only the forester",
+				"John can supply me with."
+			],
+			"dialog_012": [
+				"Alright, I'll go see him then.",
+				"Would you help me after that?",
+				"",
+				""
+			],
+			"dialog_017": [
+				"I would. But it won't be easy. I had",
+				"a falling out with John, and he ran off into",
+				"the swamp. I don't know if you can persuade him.",
+				""
+			],
+			"dialog_022": [
+				"Funny enough, I've already met him.",
+				"He didn't seem too angry.",
+				"So I'll go after him.",
+				""
+			]
+		},
+		"ev09_Shipwright_pg1": {
+			"dialog_002": [
+				"I need to bring John.",
+				"Mark can't help me until John",
+				"supplies him with wood for construction.",
+				""
+			]
+		},
+		"ev09_Shipwright_pg2": {
+			"dialog_002": [
+				"Hello Mark, we're here.",
+				"I hope everything goes well now.",
+				"Can I help you with the construction?",
+				""
+			],
+			"dialog_007": [
+				"Hello brother. So we fixed the lighthouse.",
+				"I promised to be here",
+				"for Jakob for a few days.",
+				""
+			],
+			"dialog_012": [
+				"Hello John, I'm just glad you're back safe.",
+				"Unfortunately, Katherine forbade me",
+				"from making a boat for you, she said she",
+				"wants to talk to Jakob first."
+			]
+		},
+		"ev09_Shipwright_pg3": {
+			"dialog_002": [
+				"Please resolve this with Katherine,",
+				"I can't go against the decision",
+				"of our mayor.",
+				""
+			]
+		},
+		"ev09_Shipwright_pg4": {
+			"dialog_002": [
+				"I docked the boat at the pier.",
+				"Good luck and John, return safely.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"When I come back, I'll tell you stories.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_Sign_pg0": {
+			"dialog_000": [
+				"=== Our Oak Valley ===",
+				"Do not steal, Do not damage",
+				"         Be polite",
+				""
+			]
+		},
+		"ev12_Mayor_pg0": {
+			"dialog_002": [
+				"Hello, I'm Jakob, I'm looking for a way",
+				"to get off the island.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"I'm Katherine, the mayor of Oak Valley.",
+				"We have boats, our shipbuilder is named Mark.",
+				"Have you spoken to him yet?",
+				""
+			]
+		},
+		"ev12_Mayor_pg1": {
+			"dialog_002": [
+				"If you need advice, go see Mark, who lives",
+				"by the water. If you need supplies, go see",
+				"Theresa, she runs the store.",
+				""
+			]
+		},
+		"ev12_Mayor_pg2": {
+			"dialog_002": [
+				"I've heard that you're skilled and you",
+				"need our help. I'd also like your help",
+				"in return for the village.",
+				""
+			],
+			"dialog_007": [
+				"Does it really have to be? I just need to leave.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"If we don't take advantage of your presence",
+				"here, it will haunt us, who knows for how",
+				"long. Help us and the boat will be yours.",
+				""
+			],
+			"dialog_017": [
+				"When the goblin shaman was dying, he cursed",
+				"our village, drawing wolves from",
+				"the surrounding area to us. Pour this holy",
+				"water over his grave and the troubles will be over."
+			],
+			"dialog_022": [
+				"There must be a catch to this.",
+				"",
+				"",
+				""
+			],
+			"dialog_027": [
+				"Yeah. The graveyard is deep in the swamp",
+				"and the area around the shaman's grave is teeming with",
+				"spirits. But don't worry, I'll go with you.",
+				"It's to the north of the purple swamp."
+			]
+		},
+		"ev12_Mayor_pg3": {
+			"dialog_002": [
+				"If you want to help, help the village first.",
+				"Pour the grave of the Goblin Shaman with this",
+				"holy water and we'll be even.",
+				""
+			],
+			"dialog_007": [
+				"Yeah. The graveyard is deep in the swamp",
+				"and the area around the shaman's grave is teeming",
+				"with spirits. But don't worry, I'll go with you.",
+				"It's \\C[10]to the north of the purple swamp\\C[0]."
+			]
+		},
+		"ev12_Mayor_pg4": {
+			"dialog_002": [
+				"Thank you a thousand times.",
+				"As promised, the boat is already",
+				"waiting for you at the pier.",
+				""
+			]
+		},
+		"ev13_VillageBoat_pg1": {
+			"dialog_002": [
+				"For the adventure.",
+				"",
+				"",
+				""
+			],
+			"option_000": [
+				"Leaving the island",
+				"Not leaving yet"
+			]
+		},
+		"ev14_Inn_pg0": {
+			"dialog_002": [
+				"Hi. I'm Theresa, I run the inn and the shop.",
+				"I don't know you yet, are you new here?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Hi. I'm Jakob and yes, it's my first time here.",
+				"Do you know where Mark the shipwreight lives?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Over there across the street. You can't",
+				"miss it, we're a small village.",
+				"",
+				""
+			]
+		},
+		"ev14_Inn_pg1": {
+			"dialog_002": [
+				"Hi Jakob, I wanted to ask you for help.",
+				"But it's dangerous.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Well, okay. Tell me.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"If you ever travel through",
+				"the Poisonous Marsh, there's a cave there.",
+				"My younger brother disappeared in it once.",
+				"Could you see what happened to him?"
+			],
+			"dialog_017": [
+				"I've been there before. The marsh is full of monsters.",
+				"He probably won't be alive. But if I can,",
+				"I'll search that cave.",
+				""
+			],
+			"dialog_022": [
+				"If he's not alive, he's not alive, but",
+				"I would like to know. Thank you, be careful.",
+				"",
+				""
+			]
+		},
+		"ev14_Inn_pg2": {
+			"dialog_002": [
+				"Hi Jakob, I'm reminding you of the cave in",
+				"the Poisonous Marsh. If you can, please",
+				"look for my brother.",
+				""
+			],
+			"dialog_008": [
+				"Full of monsters. We'll probably only find bones",
+				"and something gnawing on them.",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Information is enough.",
+				"Of course, I offer a reward.",
+				"",
+				""
+			]
+		},
+		"ev14_Inn_pg3": {
+			"dialog_002": [
+				"So I've been there.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"In that cave? I'm glad you came back",
+				"safely. Did you find anything?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"A monster, as I predicted.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Unfortunately. A monster and a den full of human",
+				"remains. Your brother wasn't the only one",
+				"devoured over the years.",
+				""
+			],
+			"dialog_022": [
+				"It's okay. I knew it would be like this.",
+				"Still, thank you and here's your promised",
+				"reward.",
+				""
+			]
+		},
+		"ev14_Inn_pg4": {
+			"dialog_002": [
+				"Hi Jakob.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m07_City": {
+		"ev03_Init_pg0": {
+			"dialog_013": [
+				"So that's it. What now?",
+				"",
+				"",
+				""
+			],
+			"dialog_018": [
+				"Now we'll go see that pirate",
+				"\\C[10]Camilla\\C[0] in prison.",
+				"And we'll see what comes of it.",
+				""
+			]
+		},
+		"ev08_DoorShop_pg0": {
+			"dialog_000": [
+				"We're in the right place.",
+				"Shh, now quietly.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Just come in.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Okay, that went a little differently",
+				"than I expected, but it's also okay.",
+				"Hey, I have the key.",
+				""
+			]
+		},
+		"ev11_DoorShopkeeper_pg1": {
+			"dialog_000": [
+				"We need to find the key first.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_DoorShopkeeper_pg2": {
+			"dialog_000": [
+				"The key fits.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Shall we go on then?",
+				"",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Is anyone home?",
+				"Anybody home? Hello!?",
+				"",
+				""
+			],
+			"dialog_018": [
+				"This is my home. Get out immediately,",
+				"or I'll call the guards.",
+				"",
+				""
+			],
+			"dialog_023": [
+				"We apologize, the innkeeper, Mrs. Georgia,",
+				"advised us that if we need shelter for a few",
+				"nights, we could try you. Don't be angry.",
+				""
+			],
+			"dialog_028": [
+				"If Georgia sent you, she must have had",
+				"a decent opinion of you. Okay, but only for",
+				"a few nights. My name is Annette. And you?",
+				""
+			],
+			"dialog_033": [
+				"Thank you. I'm Jakob and this is John.",
+				"",
+				"",
+				""
+			],
+			"option_010": [
+				"Let's go",
+				"Better not"
+			]
+		},
+		"ev11_DoorShopkeeper_pg4": {
+			"dialog_004": [
+				"Finally, I've got you.",
+				"",
+				"",
+				""
+			],
+			"dialog_009": [
+				"Gentlemen, let me introduce you to Sabrina.",
+				"She's my acquaintance and she's also looking",
+				"for a way to the capital city.",
+				"So I recommended you to her."
+			],
+			"dialog_014": [
+				"I assume having an enchanter in the party",
+				"will be useful to you.",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Honestly, we'll be grateful for any help.",
+				"And if Annette recommends you, that's",
+				"enough for us. So welcome.",
+				""
+			]
+		},
+		"ev16_DoorPrison_pg0": {
+			"dialog_000": [
+				"Hello, is anyone there?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"This is the prison. If you don't have a pass,",
+				"you have no business here.",
+				"And you don't have a pass.",
+				""
+			]
+		},
+		"ev16_DoorPrison_pg1": {
+			"dialog_000": [
+				"Hello, is anyone there? We have a pass",
+				"from the commander.",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Yeah, we've been told about you.",
+				"So come on in.",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Here she is.",
+				"Our famous prisoner.",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Visitors. Come in,",
+				"wait, I'll get my porcelain",
+				"service ready.",
+				""
+			],
+			"dialog_026": [
+				"Excuse me?",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"Oh, I forgot, I'm actually the prisoner here.",
+				"Well then, you'll have to bring the porcelain",
+				"yourself. What do you want from me anyway?",
+				""
+			],
+			"dialog_036": [
+				"We came to negotiate with you.",
+				"According to the records, as a former leader,",
+				"you might know a lot about",
+				"why the pirates suddenly blockaded the city."
+			],
+			"dialog_041": [
+				"Someone did their homework here.",
+				"Of course, I know. But",
+				"telling you won't benefit me.",
+				""
+			],
+			"dialog_046": [
+				"Tell me what you want, and maybe we'll",
+				"help you. We just want to get on a ship out",
+				"of the city. If you come up with a plan,",
+				"we'll help you execute it."
+			],
+			"dialog_051": [
+				"Interesting. So listen up. The pirates have",
+				"a hideout in the cove south of the city.",
+				"And that place was taken over by a clan of fish people.",
+				"My deputy declared it my fault"
+			],
+			"dialog_056": [
+				"and ousted me.",
+				"He informed the fleet commanders that when",
+				"the fishfolk took our base, the pirates",
+				"would take the city."
+			],
+			"dialog_061": [
+				"Aha! So when you come back with the news that",
+				"your base is yours again, they'll restore your",
+				"rank, and the pirates will withdraw home.",
+				""
+			],
+			"dialog_066": [
+				"That sounds like quite a bit of work,",
+				"but nothing we can't handle.",
+				"Maybe.",
+				""
+			],
+			"dialog_071": [
+				"If you manage it, let me know.",
+				"I'll make time for you",
+				"in my busy schedule.",
+				""
+			],
+			"dialog_077": [
+				"The commander said I should allow you access",
+				"to the armory. Do you want to go there?",
+				"",
+				""
+			],
+			"option_082": [
+				"Yes, gladly.",
+				"Not now."
+			]
+		},
+		"ev16_DoorPrison_pg2": {
+			"dialog_000": [
+				"Hello, is anyone there?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"You can't go to the prison for today,",
+				"but I can still let you into the armory.",
+				"",
+				""
+			],
+			"option_012": [
+				"Yes, gladly",
+				"Not now"
+			]
+		},
+		"ev16_DoorPrison_pg3": {
+			"dialog_000": [
+				"Hello, is anyone there? Can we",
+				"visit the prisoner again?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Then come on in.",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"Don't bother too much with her.",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"You're back? What a pleasant surprise.",
+				"",
+				"",
+				""
+			],
+			"dialog_026": [
+				"We are, and we bring good news.",
+				"Your lair has been cleared of the fishfolk.",
+				"",
+				""
+			],
+			"dialog_031": [
+				"That's... amazing news.",
+				"If I were to bring this news to the",
+				"pirate camp now, the blockade",
+				"would be gone by evening."
+			],
+			"dialog_036": [
+				"Let's go to \\C[10]Vaughn\\C[0] and see",
+				"if he'll believe us and let you go.",
+				"",
+				""
+			],
+			"dialog_041": [
+				"Thanks, I'm rooting for you.",
+				"",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Do you need to go to the armory?",
+				"",
+				"",
+				""
+			],
+			"option_052": [
+				"Yes, gladly",
+				"Not now"
+			]
+		},
+		"ev16_DoorPrison_pg4": {
+			"dialog_000": [
+				"Hello, is anyone there?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"You can't go to the prison for today,",
+				"but I can still let you into the armory.",
+				"",
+				""
+			],
+			"option_012": [
+				"Yes, gladly",
+				"Not now"
+			]
+		},
+		"ev18_DoorGarden_pg0": {
+			"dialog_000": [
+				"This is the gate to the castle garden.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_DoorGarden_pg1": {
+			"dialog_000": [
+				"Do you have the key? Excellent. Then come on in.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"And onwards to the spookiest place",
+				"in the city.",
+				"",
+				""
+			],
+			"dialog_026": [
+				"Where are we going?",
+				"",
+				"",
+				""
+			],
+			"dialog_031": [
+				"To the library. The Baron hid his",
+				"secret records there, and now I need to",
+				"look into them.",
+				""
+			],
+			"dialog_036": [
+				"And how will we find his secret records?",
+				"I assume it won't be the display case",
+				"in the middle of the library, right?",
+				""
+			],
+			"dialog_041": [
+				"No, it won't. And I also hope nothing",
+				"will eat us while we search.",
+				"It's really quite spooky",
+				"in there without people."
+			],
+			"dialog_049": [
+				"Wait a moment, we'll be right back.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"To the garden",
+				"Just wait a little"
+			]
+		},
+		"ev20_WhereIsInn_pg0": {
+			"dialog_000": [
+				"Welcome to Silver Estuary.",
+				"You don't know where the tavern is?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"No. It's my first time here and I'm relying",
+				"on your excellent sense of direction.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Then head north, to the harbor.",
+				"It's a big building with a flag.",
+				"",
+				""
+			]
+		},
+		"ev23_ThePot_pg1": {
+			"dialog_000": [
+				"Oh yeah, there's the key.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev24_CityPriest_pg1": {
+			"dialog_002": [
+				"You look like your body could use",
+				"some care. Would you like it?",
+				"Our nurses will take care of you.",
+				""
+			],
+			"dialog_009": [
+				"Thank you, we'll be grateful for that.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"The priest's intervention partially healed you.",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"You're kind, priest, but we're in a hurry.",
+				"We can handle it.",
+				"",
+				""
+			],
+			"option_007": [
+				"Thank you.",
+				"No, thank you"
+			]
+		},
+		"ev25_GateGuard_pg0": {
+			"dialog_000": [
+				"You're the new patrol, right?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Yes, that's us.",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"They say you'll let us out of the city.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Oh yes, I have you on the list",
+				"of permitted persons. Good luck.",
+				"",
+				""
+			],
+			"option_010": [
+				"We need to go out",
+				"We'll come back later"
+			]
+		},
+		"ev25_GateGuard_pg1": {
+			"dialog_000": [
+				"Hi, off to the wilderness again?",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"We need to borrow a boat and paddle",
+				"along the coast for a bit.",
+				"",
+				""
+			],
+			"dialog_012": [
+				"Alright, we have a few ready",
+				"for such occasion.",
+				"So take one.",
+				""
+			],
+			"option_005": [
+				"We need a boat",
+				"Not yet"
+			]
+		}
+	},
+	"m08_SwampIntro": {
+		"ev01_TheIntro_pg0": {
+			"dialog_001": [
+				"It seems I've escaped.",
+				"Was I ever here in this corridor?",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Just to make sure he doesn't catch me.",
+				"Ouch... and so I don't kill myself.",
+				"It's so dark here.",
+				""
+			],
+			"dialog_011": [
+				"And what's this?",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m09_CityIntro": {
+		"ev01_OnEnter_pg0": {
+			"dialog_000": [
+				"That's it. Our town Silver Estuary.",
+				"But something's not right.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"You're right, the town is quite dark.",
+				"And there are fires around it, almost",
+				"as if there's an army camp there.",
+				""
+			],
+			"dialog_010": [
+				"I know someone in a cove nearby.",
+				"Instead of in the city, we better anchor",
+				"with him and find out what's going on.",
+				""
+			]
+		}
+	},
+	"m10_CityCove": {
+		"ev04_Fisherman_pg0": {
+			"dialog_000": [
+				"Smoke is coming from the chimney.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev04_Fisherman_pg1": {
+			"dialog_000": [
+				"John? Welcome, it's been a few months",
+				"since I last saw you.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Hi Andrew, you're right, I should come",
+				"more often. Now that we have our lighthouse",
+				"working again, it should be easier.",
+				"This is Jakob. We need to get into town."
+			],
+			"dialog_010": [
+				"You didn't choose a good time.",
+				"The local pirates have gone mad and occupied",
+				"the suburbs. You can sneak through their camp,",
+				"if you don't get caught."
+			],
+			"dialog_015": [
+				"But it's not easy.",
+				"The old sewer path is clear for now.",
+				"Under the \\C[10]Oak by the slope\\C[0], remember?",
+				"Of course, watch out for the vermin down there."
+			]
+		},
+		"ev04_Fisherman_pg2": {
+			"dialog_000": [
+				"You better go now, my children are sleeping.",
+				"So don't wake them up.",
+				"",
+				""
+			]
+		},
+		"ev05_Exit_pg0": {
+			"dialog_000": [
+				"First, I should talk",
+				"to that \\C[10]fisherman\\C[0].",
+				"",
+				""
+			]
+		},
+		"ev05_Exit_pg1": {
+			"dialog_000": [
+				"So let's head to the pirate camp.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m11_CityCamp": {
+		"ev01_Init_pg0": {
+			"dialog_002": [
+				"Watch out for guards and extra watch out for",
+				"the guard dogs. If they catch us, we'll be",
+				"in trouble.",
+				""
+			],
+			"dialog_007": [
+				"If anything happens, we can always try to escape.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev02_PirateDog2_pg0": {
+			"dialog_004": [
+				"Woof! Woof!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev07_SafeHaven_pg0": {
+			"dialog_004": [
+				"We're safe here, hopefully.",
+				"If the dogs threaten to track us down,",
+				"we'll try to escape here.",
+				""
+			]
+		},
+		"ev09_PirateDog9_pg0": {
+			"dialog_004": [
+				"Woof! Woof!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_PirateDog13_pg0": {
+			"dialog_004": [
+				"Woof! Woof!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev14_Thorns_pg0": {
+			"dialog_002": [
+				"Ouch, thorns",
+				"",
+				"",
+				""
+			]
+		},
+		"ev15_Thorns_pg0": {
+			"dialog_002": [
+				"Ouch, that hurts. If I hadn't been sneaking,",
+				"I'd scream out loud.",
+				"",
+				""
+			]
+		},
+		"ev16_Thorns_pg0": {
+			"dialog_002": [
+				"Tomorrow I'll be still pulling the thorns.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_ToSewers_pg0": {
+			"dialog_002": [
+				"And down into the sewer.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m12_CitySewers": {
+		"ev01_ToCamp_pg0": {
+			"dialog_004": [
+				"So how are we doing with those tents?",
+				"We've searched \\V[12] so far.",
+				"",
+				""
+			],
+			"dialog_011": [
+				"We've already searched them all.",
+				"We should go see the captain of the guard.",
+				"",
+				""
+			],
+			"dialog_020": [
+				"We haven't searched any tent yet.",
+				"",
+				"",
+				""
+			],
+			"dialog_027": [
+				"Do you want to go through it,",
+				"or is it clear what we need to do?",
+				"",
+				""
+			],
+			"dialog_034": [
+				"Search all the tents.",
+				"Don't get caught.",
+				"I understand.",
+				""
+			],
+			"dialog_041": [
+				"Above are 4 tents. We have to approach",
+				"each one without getting caught.",
+				"When we're at the tent, even from behind,",
+				"I'll sneak in and explore it."
+			],
+			"dialog_046": [
+				"Once we've explored them all, we'll",
+				"come back here, put together our notes,",
+				"and return to the guard post.",
+				""
+			],
+			"dialog_051": [
+				"I think I understand.",
+				"\\C[10]To explore the four tents\\C[0].",
+				"",
+				""
+			],
+			"dialog_060": [
+				"So, are we going up to the camp?",
+				"",
+				"",
+				""
+			],
+			"option_032": [
+				"I understand",
+				"Tell me"
+			],
+			"option_065": [
+				"Alright, let's go",
+				"First, let's rest",
+				"Ee... not now"
+			]
+		},
+		"ev02_Init_pg0": {
+			"dialog_007": [
+				"We've already explored all of them.",
+				"So, how are we doing?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"There's plenty of alcohol here, hardly any food.",
+				"Something here, there were supplies but no food.",
+				"and here was something, enough for a few days.",
+				""
+			],
+			"dialog_017": [
+				"Looks like they don't have much.",
+				"Well, it's time to report back",
+				"to the guard commander.",
+				""
+			],
+			"dialog_024": [
+				"Not yet, right? We still have",
+				"to search the four tents.",
+				"So far, we've searched \\V[12].",
+				""
+			]
+		},
+		"ev03_ToCity_pg0": {
+			"dialog_000": [
+				"Shall we climb up the ladder to the town?",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Let's do it",
+				"Not yet"
+			]
+		},
+		"ev04_Amfora_pg0": {
+			"dialog_000": [
+				"Old Amphora.",
+				"Should I break it?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"I found some money among the remains.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Alright",
+				"Better not"
+			]
+		},
+		"ev05_Barrel_pg0": {
+			"dialog_000": [
+				"Old barrel.",
+				"Should I break it?",
+				"",
+				""
+			],
+			"dialog_008": [
+				"I found some money among the remains.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Alright",
+				"Better not"
+			]
+		},
+		"ev06_BarrelwithCetrip_pg0": {
+			"dialog_000": [
+				"Old rotting barrel.",
+				"Should I break it?",
+				"",
+				""
+			],
+			"dialog_009": [
+				"I found some money among the remains.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Alright",
+				"Better not"
+			]
+		},
+		"ev07_AmforawithRats_pg0": {
+			"dialog_000": [
+				"A few amphorae.",
+				"Should I break them?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Rats... rats!!",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Alright",
+				"Better not"
+			]
+		},
+		"ev08_Rats_pg0": {
+			"dialog_000": [
+				"Rats... rats!!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev09_Amforawithtrap_pg0": {
+			"dialog_000": [
+				"Rats... rats!!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_SewerMonster_pg0": {
+			"dialog_000": [
+				"Are you sure you want to go there?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"No. But that crystal looks important.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Well, I heard something about",
+				"a tentacled monster in the sewer.",
+				"Do you think it's this way?",
+				""
+			],
+			"dialog_020": [
+				"Oh, damn.",
+				"",
+				"",
+				""
+			],
+			"option_018": [
+				"Touch the crystal",
+				"Leave"
+			]
+		}
+	},
+	"m13_CityCapturedPirates": {
+		"ev01_MainEvent_pg0": {
+			"dialog_002": [
+				"Now you're in trouble.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"We just need to pass through.",
+				"Can we come to some agreement?",
+				"",
+				""
+			],
+			"dialog_013": [
+				"For 20 gold.",
+				"And you can go.",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Get lost, so we don't catch you again.",
+				"",
+				"",
+				""
+			],
+			"dialog_034": [
+				"We don't have that much.",
+				"",
+				"",
+				""
+			],
+			"dialog_041": [
+				"Get rid of them.",
+				"",
+				"",
+				""
+			],
+			"option_018": [
+				"Pay",
+				"We won't pay"
+			]
+		}
+	},
+	"m14_CityInn": {
+		"ev06_InnPersonA_pg0": {
+			"dialog_002": [
+				"Hey handsome, does any of you",
+				"want to invite me to dance?",
+				"",
+				""
+			],
+			"dialog_007": [
+				"We'd love to, but we're a bit busy now.",
+				"We need some advice.",
+				"Do you happen to know where one",
+				"could stay in the city?"
+			],
+			"dialog_012": [
+				"Hmm... boring and they want something on top of it.",
+				"When you want something, arrange it yourself.",
+				"",
+				""
+			]
+		},
+		"ev07_InnPersonA_pg0": {
+			"dialog_002": [
+				"Hey handsome, you look lost.",
+				"Would you like to buy the lady a drink?",
+				"",
+				""
+			],
+			"dialog_011": [
+				"A drink for the lady, please.",
+				"Could you help us? We're looking for",
+				"a place to stay.",
+				""
+			],
+			"dialog_016": [
+				"Well, probably not here.",
+				"The soldiers have taken over the whole inn.",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Unfortunately, not now. Could you",
+				"please advise us where we can stay?",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Well, probably not here.",
+				"The soldiers have taken over the whole inn.",
+				"",
+				""
+			],
+			"dialog_037": [
+				"Unfortunately, not now. Could you",
+				"please advise us where we can stay?",
+				"",
+				""
+			],
+			"dialog_042": [
+				"Well, probably not here.",
+				"The soldiers have taken over the whole inn.",
+				"",
+				""
+			],
+			"option_008": [
+				"Here you go",
+				"Unfortunately not"
+			]
+		},
+		"ev12_InnGuard_pg0": {
+			"dialog_000": [
+				"This area is reserved for the city",
+				"guard. So, you're not allowed in.",
+				"",
+				""
+			]
+		},
+		"ev12_InnGuard_pg1": {
+			"dialog_000": [
+				"Can we talk to Vaughn?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"The commander is inside, feel free to go in.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_Innkeeper_pg0": {
+			"dialog_000": [
+				"New face, welcome to Silver Estuary.",
+				"I'm Georgia, and I run the inn.",
+				"We have seating available,",
+				"but unfortunately no free rooms."
+			],
+			"dialog_008": [
+				"Hello. Thank you, but we really",
+				"need accommodation.",
+				"Please, we will take anything.",
+				""
+			],
+			"dialog_013": [
+				"I would like to, but the soldiers have",
+				"really taken over all rooms. After",
+				"the pirates settled outside the walls,",
+				"the local nobility packed up and fled."
+			],
+			"dialog_018": [
+				"Only the guard commander remained, and he",
+				"set up his headquarters here by me.",
+				"So, I'm sorry.",
+				""
+			],
+			"dialog_025": [
+				"We've been through a lot, with the pirate",
+				"camp and the sewer. We just",
+				"need a place to rest.",
+				"We don't want it for free."
+			],
+			"dialog_034": [
+				"Please, advise.",
+				"",
+				"",
+				""
+			],
+			"dialog_042": [
+				"Well, if you don't mind work for it?",
+				"I have a pile of wood behind the inn",
+				"that could use some attention.",
+				""
+			],
+			"dialog_051": [
+				"Well, you don't exactly look like",
+				"you have money to throw around.",
+				"",
+				""
+			],
+			"dialog_056": [
+				"If you don't mind work for it?",
+				"I have a pile of wood behind the inn",
+				"that could use some attention.",
+				""
+			],
+			"dialog_067": [
+				"After some very tiring work.",
+				"",
+				"",
+				""
+			],
+			"dialog_087": [
+				"Alright, here's my advice. No one in town",
+				"will willingly open up for you. But there's",
+				"the shopkeeper. She lives in that house",
+				"with \\C[10]all the windows closed\\C[0]."
+			],
+			"dialog_092": [
+				"Near her door, there's a flowerpot",
+				"under which she hides a spare key.",
+				"If you knock on her door and tell her",
+				"that I sent you, she might help."
+			],
+			"option_006": [
+				"Jacob is negotiating",
+				"John is negotiating",
+				"Shop"
+			],
+			"option_031": [
+				"Pay",
+				"Don't pay"
+			],
+			"option_063": [
+				"Help with work",
+				"Hesitate"
+			]
+		},
+		"ev13_Innkeeper_pg2": {
+			"dialog_000": [
+				"Hey guys. So, have you moved in with Annette",
+				"yet? Or did she kick you out? I won't give you",
+				"rooms, just so you know.",
+				""
+			],
+			"dialog_005": [
+				"Everything's fine, thanks for the tip.",
+				"But we have a different problem, and Annette",
+				"said that you could help.",
+				""
+			],
+			"dialog_010": [
+				"No.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"Pretty please.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Alright, spill it.",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"We need to get acquainted with the guard commander.",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"His name is Vaughn, and he's fair and square.",
+				"So I hope you won't deceive him.",
+				"",
+				""
+			],
+			"dialog_035": [
+				"No. We need help from him",
+				"to get on a ship and sail away.",
+				"",
+				""
+			],
+			"dialog_040": [
+				"And so we need to get",
+				"his attention first.",
+				"",
+				""
+			],
+			"dialog_045": [
+				"Alright. Sit here, I'll bring you",
+				"something to drink to speed things up.",
+				"",
+				""
+			],
+			"dialog_051": [
+				"After spending some time in the bar.",
+				"",
+				"",
+				""
+			],
+			"dialog_056": [
+				"That won't work. We need to know how things stand.",
+				"Our whole plan depends on it.",
+				"",
+				""
+			],
+			"dialog_061": [
+				"Ha, this looks like it could be",
+				"our chance.",
+				"",
+				""
+			],
+			"dialog_066": [
+				"Shh, listen.",
+				"",
+				"",
+				""
+			],
+			"dialog_071": [
+				"I understand, Commander, but no scout",
+				"has returned from there yet.",
+				"",
+				""
+			],
+			"dialog_076": [
+				"And do we know why? Is it so impossible",
+				"to sneak into the camp and",
+				"summarize their supplies?",
+				""
+			],
+			"dialog_081": [
+				"Well, we've tried three times so far.",
+				"No one returned, and when they caught",
+				"the last scout, they saw him from the walls.",
+				""
+			],
+			"dialog_086": [
+				"So they need to know how the pirates are",
+				"doing with their supplies. Alright.",
+				"We'll make an expedition",
+				"to the \\C[10]pirate camp\\C[0]."
+			],
+			"dialog_091": [
+				"I was afraid you'd say that.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_Innkeeper_pg3": {
+			"dialog_001": [
+				"You're back! That's great. How did it go?",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"We have the information. We wrote it",
+				"down with John. Could you please pass",
+				"it on to Vaughn with our regards?",
+				""
+			],
+			"dialog_011": [
+				"Sure thing. I'll get on it.",
+				"",
+				"",
+				""
+			],
+			"dialog_017": [
+				"They say you bring information about pirate",
+				"supplies. Should I ask how you got it?",
+				"",
+				""
+			],
+			"dialog_022": [
+				"Feel free to. I've made a few new acquaintances",
+				"in town. They know their stuff. And they're",
+				"looking to book passage",
+				"on a ship to the capital."
+			],
+			"dialog_027": [
+				"So thank them for the information.",
+				"Unfortunately, as you can see, as long as",
+				"we're besieged, no ship will leave the port.",
+				""
+			],
+			"dialog_032": [
+				"I understand. Well, they can't leave until",
+				"that's resolved. So if you need them,",
+				"they'll be at your service.",
+				""
+			],
+			"dialog_037": [
+				"I'll keep that in mind. Please pass on my thanks.",
+				"",
+				"",
+				""
+			],
+			"dialog_045": [
+				"Go rest. He says thank you and if he",
+				"needs anything, he'll let you know.",
+				"",
+				""
+			],
+			"dialog_053": [
+				"So, did you find out anything interesting?",
+				"",
+				"",
+				""
+			],
+			"dialog_058": [
+				"Yeah. They're looking for information about",
+				"the supplies the pirates have left, and are",
+				"having trouble getting it. So we'll try to help.",
+				""
+			],
+			"option_063": [
+				"Shop",
+				"Nothing for now"
+			]
+		},
+		"ev13_Innkeeper_pg4": {
+			"dialog_007": [
+				"Go rest. Vaughn thanks you and",
+				"if he needs anything, he'll let you know.",
+				"",
+				""
+			],
+			"option_000": [
+				"Shop",
+				"Nothing for now"
+			]
+		},
+		"ev13_Innkeeper_pg5": {
+			"dialog_000": [
+				"Hi. How can I help?",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"We need to talk to Vaughn, can you",
+				"help us again?",
+				"",
+				""
+			],
+			"dialog_016": [
+				"You don't need me for that anymore, he wants to",
+				"talk to you too. Just tell the guard over there.",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Well, see you later for now.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Shop",
+				"We need Vaughn",
+				"Nothing for now"
+			]
+		}
+	},
+	"m15_CityLibrary": {
+		"ev02_Init_pg0": {
+			"dialog_001": [
+				"So. As little noise as possible, as much",
+				"searching as possible. I think there's a secret",
+				"compartment here somewhere.",
+				""
+			]
+		},
+		"ev06_SecretValut_pg1": {
+			"dialog_001": [
+				"Great, here it is.",
+				"Well done, crew. You've excelled.",
+				"Let's go, I'll study it at home.",
+				""
+			]
+		},
+		"ev07_Monsters_pg0": {
+			"dialog_006": [
+				"Th-they're coming!",
+				"",
+				"",
+				""
+			],
+			"dialog_013": [
+				"Hey, did you notice that those",
+				"statues can be moved?",
+				"",
+				""
+			],
+			"dialog_021": [
+				"Hmm, four statues.",
+				"Could that be some sort of code?",
+				"",
+				""
+			],
+			"dialog_029": [
+				"Is there anything else four times here?",
+				"",
+				"",
+				""
+			],
+			"dialog_037": [
+				"Well, maybe those books on the tables.",
+				"I tried flipping through one once, and",
+				"there's nothing interesting written in it.",
+				""
+			],
+			"dialog_045": [
+				"Isn't it interesting that they're four",
+				"COMPLETELY IDENTICAL books?",
+				"",
+				""
+			],
+			"dialog_053": [
+				"And what if it's not about what's in them.",
+				"What if it's more about",
+				"how they're arranged on the tables?",
+				""
+			]
+		}
+	},
+	"m16_CityForrestRoad": {
+		"ev07_FloversA_pg0": {
+			"dialog_000": [
+				"You picked up yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev08_Taboriste_pg0": {
+			"dialog_000": [
+				"We could probably rest here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Rest",
+				"No, thank you"
+			]
+		},
+		"ev09_FloversB_pg0": {
+			"dialog_000": [
+				"You picked up yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_FloversC_pg0": {
+			"dialog_000": [
+				"You picked up yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_FloversD_pg0": {
+			"dialog_000": [
+				"You picked up yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev12_FloversE_pg0": {
+			"dialog_000": [
+				"You picked up yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_FloversF_pg0": {
+			"dialog_000": [
+				"You picked up yellow fruits.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev14_Taboriste_pg0": {
+			"dialog_000": [
+				"We could probably rest here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Rest",
+				"No, thank you"
+			]
+		},
+		"ev15_Farmer_pg0": {
+			"dialog_000": [
+				"Hello. Do you need any help?",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Good day.",
+				"We're tracking carts with supplies. They haven't",
+				"arrived at their destination. Have you seen them by any chance?",
+				""
+			],
+			"dialog_011": [
+				"A few days ago, local bandits clashed",
+				"with soldiers over the carts here.",
+				"The whole gang pounced on them.",
+				""
+			],
+			"dialog_016": [
+				"And do you happen to know where those",
+				"carts might have been taken?",
+				"",
+				""
+			],
+			"dialog_021": [
+				"But of course I do.",
+				"To the east of the forest, the bandits have",
+				"a hideout in the ruins of an old castle.",
+				"But you won't get there by the usual route."
+			],
+			"dialog_026": [
+				"They have many guards there. But there's also",
+				"a forest path along the stream from the south.",
+				"You could try that route.",
+				""
+			],
+			"dialog_036": [
+				"Could we rest here, please?",
+				"",
+				"",
+				""
+			],
+			"dialog_047": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_042": [
+				"Rest",
+				"We'll go right away"
+			]
+		},
+		"ev16_Boat_pg0": {
+			"dialog_000": [
+				"Hello.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Hey fisherman, could you ferry us",
+				"to the other side?",
+				"",
+				""
+			],
+			"dialog_012": [
+				"And will you pay me for it?",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Sure, here's 10 gold coins.",
+				"",
+				"",
+				""
+			],
+			"dialog_064": [
+				"Thank you.",
+				"",
+				"",
+				""
+			],
+			"dialog_071": [
+				"Sorry, not right now.",
+				"",
+				"",
+				""
+			],
+			"dialog_080": [
+				"Sorry, not right now.",
+				"",
+				"",
+				""
+			],
+			"dialog_089": [
+				"Hello fisherman.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Ferry us across",
+				"Nothing today"
+			],
+			"option_018": [
+				"We'll give you 10 gold coins",
+				"We can't"
+			]
+		},
+		"ev17_Taboriste_pg0": {
+			"dialog_001": [
+				"Welcome to the Hollow Oak.",
+				"My name is Thomas, and I run",
+				"the shop and tavern here.",
+				""
+			],
+			"dialog_006": [
+				"Are you alright? The area around the village",
+				"is full of bandits. Do you need accommodation?",
+				"",
+				""
+			],
+			"dialog_014": [
+				"Welcome back.",
+				"How can I assist you this time?",
+				"",
+				""
+			],
+			"dialog_026": [
+				"5 gold coins please.",
+				"",
+				"",
+				""
+			],
+			"dialog_035": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"dialog_044": [
+				"5 gold coins please.",
+				"",
+				"",
+				""
+			],
+			"dialog_049": [
+				"Sure, but we're a bit short on funds right now.",
+				"",
+				"",
+				""
+			],
+			"dialog_054": [
+				"I'll let you spend the night at least",
+				"in the hayloft behind the tavern.",
+				"",
+				""
+			],
+			"dialog_060": [
+				"Poor rest didn't do you much good.",
+				"",
+				"",
+				""
+			],
+			"dialog_072": [
+				"Hello Thomas.",
+				"You locals surely have enough",
+				"experience dealing with bandits.",
+				"Could you give us some advice?"
+			],
+			"dialog_077": [
+				"Of course, miss. To the west of the forest is",
+				"an old tower. And from there, a secret forest",
+				"path leads. But it's not entirely safe there",
+				"either. So please be careful."
+			],
+			"option_023": [
+				"Rest",
+				"Advice",
+				"Shop",
+				"Goodbye"
+			]
+		},
+		"ev18_ThugTower_pg0": {
+			"dialog_000": [
+				"Some old tower,",
+				"we better not get too close to it.",
+				"",
+				""
+			]
+		},
+		"ev18_ThugTower_pg1": {
+			"dialog_000": [
+				"The shortcut should be around here somewhere.",
+				"Hopefully, we're in the right place.",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Ha! Easy prey.",
+				"Get them, guys.",
+				"",
+				""
+			],
+			"dialog_014": [
+				"Cleared out. Let's go.",
+				"",
+				"",
+				""
+			],
+			"dialog_023": [
+				"Phew, we barely escaped.",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Next time we need to be better prepared.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_Towerback_pg0": {
+			"dialog_000": [
+				"It's easy, now that we know",
+				"the way.",
+				"",
+				""
+			]
+		},
+		"ev20_MainCamp_pg0": {
+			"dialog_000": [
+				"Here's the path the farmer",
+				"mentioned.",
+				"",
+				""
+			],
+			"dialog_006": [
+				"We've already dealt with",
+				"everything we needed there.",
+				"Now we need to return to the city.",
+				""
+			],
+			"dialog_014": [
+				"Shall we do it?",
+				"",
+				"",
+				""
+			],
+			"dialog_024": [
+				"Watch out, enemy patrol!",
+				"",
+				"",
+				""
+			],
+			"dialog_030": [
+				"And now let's get them before they recover.",
+				"",
+				"",
+				""
+			],
+			"dialog_038": [
+				"That's it.",
+				"The convoy is here, we've taken out",
+				"the bandit leaders. We'll tell Vaughn",
+				"where they should pickup their carts."
+			]
+		},
+		"ev21_Taboriste_pg0": {
+			"dialog_000": [
+				"We could probably rest here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Rest restored some of your health.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Rest",
+				"No, thank you"
+			]
+		},
+		"ev22_ToCity_pg0": {
+			"dialog_000": [
+				"So back to Vaughn's place.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev23_Sign_pg0": {
+			"dialog_000": [
+				"This one is all scratched out.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev24_Sign_pg0": {
+			"dialog_000": [
+				"North: Windy Plains",
+				"East: Miller's Lake",
+				"South: Silver Estuary",
+				""
+			]
+		},
+		"ev25_Sign_pg0": {
+			"dialog_000": [
+				"East: Windy Plains",
+				"West: Fisherman",
+				"South: Silver Estuary",
+				""
+			]
+		},
+		"ev26_Sign_pg0": {
+			"dialog_000": [
+				"North: Windy Plains",
+				"East: Littleton",
+				"South: Silver Estuary",
+				""
+			]
+		},
+		"ev27_FloversG_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev28_FloversVC_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev29_FloversVA_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev30_FloversVB_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev31_FloversH_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev32_Aboutcollectables_pg0": {
+			"dialog_006": [
+				"Looks like we have yellow fruits again.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"And I spotted some pink flowers here.",
+				"If we pick them, I could",
+				"extract some magic from them.",
+				""
+			]
+		},
+		"ev33_BridgeGoblins_pg0": {
+			"dialog_000": [
+				"What's this? Watch out, goblins!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m17_BayNarrowCorridors": {
+		"ev02_Init_pg0": {
+			"dialog_006": [
+				"You entered the Narrow Passages.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev12_CampFire_pg0": {
+			"dialog_017": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		},
+		"ev13_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev14_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev15_FloversC_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m18_BayEntrance": {
+		"ev05_Init_pg0": {
+			"dialog_008": [
+				"You entered the Harbor.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev13_FireUp_pg0": {
+			"dialog_010": [
+				"If we're going to manage this place,",
+				"we'll need to prepare campsites",
+				"so we always have somewhere to rest.",
+				""
+			],
+			"dialog_022": [
+				"Alright, we have our first campsite.",
+				"Whenever you need to rest",
+				"or discuss, we'll handle it",
+				"by the fire and dinner."
+			]
+		},
+		"ev15_Driftwood_pg0": {
+			"dialog_000": [
+				"See that wood over there?",
+				"We could probably use it",
+				"to establish another camp.",
+				""
+			]
+		},
+		"ev16_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev17_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		}
+	},
+	"m19_BayTrainingHalls": {
+		"ev08_Init_pg0": {
+			"dialog_006": [
+				"You entered the Training Halls.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev15_CampFire_pg0": {
+			"dialog_017": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		},
+		"ev21_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev22_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev24_FloversD_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev25_Hole_pg0": {
+			"dialog_002": [
+				"Ouch, watch out here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Oh, come on. Ouch.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Tricky pits. Ouch.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev26_Hole_pg0": {
+			"dialog_002": [
+				"Ouch, watch out here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Oh, come on. Ouch.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Tricky pits. Ouch.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev27_Hole_pg0": {
+			"dialog_002": [
+				"Ouch, watch out here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Oh, come on. Ouch.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Tricky pits. Ouch.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev28_Hole_pg0": {
+			"dialog_002": [
+				"Ouch, watch out here.",
+				"",
+				"",
+				""
+			],
+			"dialog_011": [
+				"Oh, come on. Ouch.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"Tricky pits. Ouch.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev29_Bucket_pg0": {
+			"dialog_002": [
+				"Do you know how hard it is to cast",
+				"spells with wet shoes?",
+				"",
+				""
+			]
+		},
+		"ev30_Bucket_pg0": {
+			"dialog_002": [
+				"Do you know how hard it is to cast",
+				"spells with wet shoes?",
+				"",
+				""
+			]
+		}
+	},
+	"m20_BayCraftmansHalls": {
+		"ev01_Init_pg0": {
+			"dialog_006": [
+				"You entered the Craftsmen's Halls.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev08_CampFire_pg0": {
+			"dialog_017": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		},
+		"ev09_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev10_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev11_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev12_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev13_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev14_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		},
+		"ev20_FloversA_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m21_BayEntangeledPaths": {
+		"ev09_Init_pg0": {
+			"dialog_006": [
+				"You entered the Twisting Corridors.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_FloversB_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev20_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll know",
+				"that it's here."
+			]
+		},
+		"ev27_CampFire_pg0": {
+			"dialog_017": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		}
+	},
+	"m22_BayRearHalls": {
+		"ev03_Init_pg0": {
+			"dialog_006": [
+				"You entered the Rear Halls.",
+				"",
+				"",
+				""
+			],
+			"dialog_015": [
+				"We can't set those tents on fire,",
+				"we don't have any wood with us.",
+				"",
+				""
+			]
+		},
+		"ev10_CampFire_pg0": {
+			"dialog_017": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		}
+	},
+	"m23_BayStoreHalls": {
+		"ev01_Init_pg0": {
+			"dialog_006": [
+				"You entered the Storage Halls.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev11_CampFire_pg0": {
+			"dialog_014": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		}
+	},
+	"m24_BaySprings": {
+		"ev01_Init_pg0": {
+			"dialog_011": [
+				"You entered the Cave Spring.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev29_CampFire_pg0": {
+			"dialog_017": [
+				"Here we could set up camp,",
+				"if we have enough wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up camp",
+				"Save the wood"
+			]
+		},
+		"ev38_FloversF_pg0": {
+			"dialog_000": [
+				"You picked up pink flowers.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev39_FireWood_pg0": {
+			"dialog_001": [
+				"We have enough wood now.",
+				"We can't carry everything with us.",
+				"But when we run out again, we'll",
+				"know that it's here."
+			]
+		}
+	},
+	"m25_BayLargeHall": {
+		"ev01_Init_pg0": {
+			"dialog_001": [
+				"You entered the Main Hall.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Jakob, be really careful here.",
+				"If we stay here too long, the fishfolk",
+				"will catch us, and it'll be over for us.",
+				""
+			]
+		},
+		"ev30_Fishfolkleaders_pg0": {
+			"dialog_000": [
+				"We've done it.",
+				"The fishfolk leaders are in this tent.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Let's go for them. Once we get rid",
+				"of them, there won't be anyone left",
+				"who would want to stay here.",
+				""
+			],
+			"dialog_016": [
+				"Let's get out of here.",
+				"The leaders are gone, I don't want to be",
+				"here when they start packing up the whole camp.",
+				""
+			],
+			"dialog_021": [
+				"And things moved quickly.",
+				"As our party was leaving, the fishfolk were already",
+				"loading the first boats. The plan worked.",
+				""
+			]
+		}
+	},
+	"m26_PreTitle": {
+		"ev04_Picture_pg0": {
+			"dialog_001": [
+				"",
+				"",
+				"",
+				"You can skip by pressing [SPACE]"
+			]
+		}
+	},
+	"m27_BayCaptured": {
+		"ev01_Init_pg0": {
+			"dialog_000": [
+				"Ha! Intruders.",
+				"Take them for interrogation.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"But we never returned from there.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m28_CityCapturedThugs": {
+		"ev01_MainEvent_pg0": {
+			"dialog_000": [
+				"Some scouts.",
+				"Get them, eliminate them.",
+				"",
+				""
+			]
+		}
+	},
+	"m29_CapitalIntro": {
+		"ev01_Intro_pg0": {
+			"dialog_000": [
+				"With the help of our party, Camilla got into",
+				"the pirates' camp. When she described to everyone",
+				"how she drove the evil fishfolk out of their lair,",
+				"they cheered for her and elected her their leader again."
+			],
+			"dialog_005": [
+				"Camilla kept her word, and the pirate",
+				"siege ended the same day.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"Thank you, my friends, for your help.",
+				"I'll head to the capital in the morning;",
+				"it was nice meeting you.",
+				""
+			],
+			"dialog_015": [
+				"Not so fast, handsome.",
+				"Firstly, as I said, I'm going there too.",
+				"And secondly, I won't take my eyes off you",
+				"until I'm sure you're home and safe."
+			],
+			"dialog_020": [
+				"That's right, Jakob.",
+				"We're going with you until the end.",
+				"Even if it just means making sure",
+				"you've arrived safely."
+			],
+			"dialog_025": [
+				"I'm speechless, thank you. Of course,",
+				"I'll gladly have your company.",
+				"So let's go to Vaughn, then",
+				"to arrange the ship."
+			],
+			"dialog_030": [
+				"In the morning, Vaughn sent a courier ship",
+				"to the capital. For news and necessary supplies.",
+				"We all set sail on its deck.",
+				""
+			],
+			"dialog_035": [
+				"After a few days of journeying down the river,",
+				"we arrived at the capital.",
+				"The city was in chaos,",
+				"and soldiers filled the streets."
+			]
+		}
+	},
+	"m30_Capital": {
+		"ev04_Init_pg0": {
+			"dialog_002": [
+				"This doesn't look good.",
+				"All the windows are shut, and so many guards.",
+				"It's as if the city is afraid of something.",
+				""
+			],
+			"dialog_007": [
+				"Do you think that mysterious knight",
+				"is still in your palace?",
+				"Should we ask the guards?",
+				""
+			],
+			"dialog_012": [
+				"I'd rather not. The last thing",
+				"we need now is a nervous soldier",
+				"aiming a weapon at us.",
+				""
+			],
+			"dialog_017": [
+				"Agreed.",
+				"Let's try to avoid the soldiers",
+				"and first find out what's going on.",
+				""
+			],
+			"dialog_022": [
+				"That house at the western end of the port.",
+				"My father lives there in that passage.",
+				"Maybe we'll learn something there.",
+				""
+			],
+			"dialog_031": [
+				"The Master lives in the northeast part of the city.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev22_LibraryDoor_pg0": {
+			"dialog_000": [
+				"My Master lives there. But we",
+				"don't need anything from there now.",
+				"",
+				""
+			]
+		},
+		"ev22_LibraryDoor_pg1": {
+			"dialog_000": [
+				"I don't remember this house being like this.",
+				"Do you see its condition?",
+				"",
+				""
+			]
+		},
+		"ev22_LibraryDoor_pg2": {
+			"dialog_000": [
+				"We're done here. Where to next?",
+				"Back to Robert's?",
+				"",
+				""
+			]
+		},
+		"ev24_ShopDoor_pg1": {
+			"dialog_011": [
+				"Hi, Jakob. Robert said you might stop by.",
+				"Come in.",
+				"",
+				""
+			],
+			"dialog_017": [
+				"Hello, Matthew. Long time no see.",
+				"Thanks for opening up for us.",
+				"",
+				""
+			],
+			"dialog_022": [
+				"No problem. Glad to help. So, what do you need?",
+				"",
+				"",
+				""
+			],
+			"dialog_039": [
+				"Feel free to drop by again.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev25_ToSewers_pg0": {
+			"dialog_001": [
+				"Let's get to it then.",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Adventure awaits.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m31_CapCaptured": {
+		"ev01_Init_pg0": {
+			"dialog_000": [
+				"Ha! Intruders.",
+				"Take them in for questioning.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"They questioned us for a few days. When they found out",
+				"who I was, they assigned us to defend the city.",
+				"",
+				""
+			],
+			"dialog_010": [
+				"But for the princess, it was too late.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m32_CapHome": {
+		"ev02_Discussion_pg0": {
+			"dialog_001": [
+				"Hey, brother.",
+				"",
+				"",
+				""
+			],
+			"dialog_007": [
+				"Jakob!",
+				"Welcome back, that's amazing,",
+				"we were afraid we'd never see you again.",
+				""
+			],
+			"dialog_012": [
+				"Robert, I just arrived by a ship",
+				"from Silver Estuary. It's a long",
+				"story. Is father here?",
+				""
+			],
+			"dialog_017": [
+				"Father is out hunting. He won't be back",
+				"for at least a few days. They say the palace",
+				"was hit by some magic, we were afraid it got",
+				"you too. Soldiers are guarding the city now."
+			],
+			"dialog_022": [
+				"I'll explain everything to you when we have",
+				"a little more time. If the palace is still under",
+				"the magic, I must act first.",
+				""
+			],
+			"dialog_027": [
+				"Jakob, if there's magic involved, my",
+				"master might advise us. He lives here",
+				"in the city, I know where.",
+				""
+			],
+			"dialog_032": [
+				"Alright, let's go see him first then.",
+				"Can we use you as a temporary base,",
+				"brother? So we have somewhere to stay?",
+				""
+			],
+			"dialog_037": [
+				"Of course, but be careful. If your master",
+				"is a wizard, he's probably in trouble.",
+				"At the beginning, soldiers went after",
+				"anyone they knew had magical powers."
+			],
+			"dialog_042": [
+				"Jakob, you go with Sabrina and I'll",
+				"check out the palace in the meantime.",
+				"I'll be more sneaky on my own and maybe I'll find out more.",
+				""
+			],
+			"dialog_066": [
+				"Better go out through the side entrance",
+				"so the guards don't catch you.",
+				"",
+				""
+			]
+		},
+		"ev02_Discussion_pg1": {
+			"dialog_001": [
+				"So we're back, brother.",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"So I'm here too. How did it go?",
+				"",
+				"",
+				""
+			],
+			"dialog_026": [
+				"We have a plan to get into the palace.",
+				"If we manage to find the entrance",
+				"to the old tunnels under the city.",
+				""
+			],
+			"dialog_031": [
+				"I saw one in the northwest",
+				"part of the city, by the moat.",
+				"",
+				""
+			],
+			"dialog_036": [
+				"So it's settled then.",
+				"We'll use Sabrina's master's notes",
+				"and infiltrate the palace.",
+				""
+			],
+			"dialog_041": [
+				"If you want, rest first.",
+				"I'm boiling water for tea. Oh, I also",
+				"arranged with our neighbor who runs",
+				"the shop that you can drop by there."
+			],
+			"dialog_046": [
+				"If you find your way into the palace,",
+				"you might \\C[10]not be able to return\\C[0].",
+				"So rest before you go.",
+				""
+			],
+			"dialog_057": [
+				"Go out through the side entrance again,",
+				"so the guards don't catch you.",
+				"",
+				""
+			]
+		}
+	},
+	"m33_CapLibrary": {
+		"ev02_LRDoor_pg0": {
+			"dialog_017": [
+				"Be careful!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev04_LRDoor_pg0": {
+			"dialog_017": [
+				"Ha, someone's in the kitchen!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev06_LRDoor_pg0": {
+			"dialog_017": [
+				"Look, a fireplace. We could",
+				"rest here if needed.",
+				"",
+				""
+			]
+		},
+		"ev09_LRDoor_pg0": {
+			"dialog_001": [
+				"Locked. Do you know where the key could be?",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Well, I know that the housekeeper kept spare keys",
+				"hidden in the kitchen. Those are the first",
+				"doors on the right by the entrance to the house.",
+				""
+			]
+		},
+		"ev09_LRDoor_pg2": {
+			"dialog_001": [
+				"I think we have what we need.",
+				"Let's get out of here. We'll go to Robert's, meet",
+				"up with John, and make a plan.",
+				""
+			]
+		},
+		"ev10_Exit_pg0": {
+			"dialog_005": [
+				"We're not done here yet.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Exit_pg1": {
+			"dialog_000": [
+				"Alright, back to Robert's.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev16_Init_pg0": {
+			"dialog_001": [
+				"Hm. Looks like they had some unwelcome guests here.",
+				"Do you think your master is still around?",
+				"",
+				""
+			],
+			"dialog_006": [
+				"There's a chance, but slim. He-ll-oo!",
+				"Probably not. Still, search it here",
+				"is our best chance.",
+				""
+			],
+			"dialog_011": [
+				"The cellar is on the left, the kitchen on the right.",
+				"But we should probably just go straight to",
+				"the library at the end of the hallway.",
+				""
+			],
+			"dialog_016": [
+				"My master had a secret entrance to his",
+				"study in the library. If we can find any clues,",
+				"they're likely there.",
+				""
+			],
+			"dialog_022": [
+				"Watch out!",
+				"",
+				"",
+				""
+			],
+			"dialog_028": [
+				"Alright, that was an Imp. There might be",
+				"more of them here. We should be cautious.",
+				"",
+				""
+			],
+			"dialog_033": [
+				"Imp. Like those magical creatures from hell",
+				"our parents scared us with? Surely not.",
+				"",
+				""
+			],
+			"dialog_038": [
+				"Well, more like a dimensional fire elemental,",
+				"no hell included, but yes. Imp.",
+				"",
+				""
+			],
+			"dialog_043": [
+				"Dime- what? Never mind. It seems like slicing",
+				"with a sword didn't bother them much, and they",
+				"were just having fun with fire.",
+				""
+			]
+		},
+		"ev17_Battle1_pg0": {
+			"dialog_000": [
+				"To the left is the master's study and bedroom.",
+				"To the right is the dining room. The library is",
+				"straight ahead.",
+				""
+			],
+			"dialog_005": [
+				"Watch out, unwelcome guests!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev18_Battle2_pg0": {
+			"dialog_000": [
+				"Watch out, more guests!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev19_Battle3_pg0": {
+			"dialog_000": [
+				"These are the stairs to the upper floor",
+				"balconies. And straight ahead",
+				"are the library doors.",
+				""
+			],
+			"dialog_005": [
+				"And a welcoming committee too!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev20_LibraryKey_pg0": {
+			"dialog_000": [
+				"This is where the housekeeper hides the spare keys.",
+				"I'll take the key from the library.",
+				"",
+				""
+			]
+		},
+		"ev21_Battle4_pg0": {
+			"dialog_000": [
+				"Ha, they're in the library too. Get them!",
+				"",
+				"",
+				""
+			],
+			"dialog_006": [
+				"Hmm. Looks like the entrance to the study",
+				"is closed. Alright, it opens with",
+				"an alchemical spell. And for that,",
+				"we need red and blue tincture."
+			],
+			"dialog_011": [
+				"Most of the time, the master keeps them",
+				"in his bedroom or in the study. Those",
+				"are the rooms on the left. When we find them,",
+				"I'll explain what to do with them."
+			]
+		},
+		"ev23_FlaskA_pg0": {
+			"dialog_000": [
+				"Excellent, that's one of the tinctures.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"So we have both.",
+				"Now we can go back to the library.",
+				"",
+				""
+			]
+		},
+		"ev24_Loot_pg0": {
+			"dialog_000": [
+				"Hmm, the master's war crown.",
+				"Do you think I can take it?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Well, we're finding out what happened to him,",
+				"so yes. Feel free to take it, just return",
+				"it to him when we find him, if it suits you.",
+				""
+			]
+		},
+		"ev25_Loot_pg0": {
+			"dialog_000": [
+				"Hmm, free food is not to be sniffed at.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev26_FlaskA_pg0": {
+			"dialog_000": [
+				"Excellent, that's one of the tinctures.",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"So we have both.",
+				"Now we can go back to the library.",
+				"",
+				""
+			]
+		},
+		"ev27_EV027_pg0": {
+			"dialog_008": [
+				"Decent sum of money. Should we borrow it?",
+				"",
+				"",
+				""
+			],
+			"dialog_016": [
+				"But we'll return it once we",
+				"find the master. Clear?",
+				"",
+				""
+			],
+			"option_013": [
+				"Yes",
+				"No"
+			]
+		},
+		"ev28_Loot_pg0": {
+			"dialog_009": [
+				"Beautiful bow. John will love this one.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev30_LeftPool_pg1": {
+			"dialog_001": [
+				"So which one should I pour here?",
+				"",
+				"",
+				""
+			],
+			"dialog_008": [
+				"No! Don't mess it up!",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"This side is done.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Blue",
+				"Red"
+			]
+		},
+		"ev31_TheSpell_pg0": {
+			"dialog_000": [
+				"Alright. See those two pools?",
+				"Pour red into the left one, blue into the right.",
+				"Just pour a little of those tinctures.",
+				"Then I'll say the magic formula."
+			]
+		},
+		"ev32_RightPool_pg1": {
+			"dialog_001": [
+				"So which one should I pour here?",
+				"",
+				"",
+				""
+			],
+			"dialog_012": [
+				"No! Don't mess it up!",
+				"",
+				"",
+				""
+			],
+			"dialog_021": [
+				"This side is done.",
+				"",
+				"",
+				""
+			],
+			"option_006": [
+				"Blue",
+				"Red"
+			]
+		},
+		"ev33_Teleport_pg0": {
+			"dialog_011": [
+				"Let's do this.",
+				"",
+				"",
+				""
+			],
+			"dialog_020": [
+				"And it's done.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev33_Teleport_pg1": {
+			"dialog_000": [
+				"Just don't be afraid. Jump in.",
+				"",
+				"",
+				""
+			],
+			"dialog_014": [
+				"We're here. Well, there's quite a mess here.",
+				"I wonder how we'll find anything.",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Navigating through mess is easier when you know",
+				"how it looked when it was tidy. Then you know",
+				"for example that this thing is new here. Bingo.",
+				""
+			],
+			"dialog_024": [
+				"Looks like research notes. The master",
+				"was studying the barrier surrounding the castle.",
+				"And there's also how to penetrate it.",
+				"Perfect. Let's take the notes and go."
+			]
+		},
+		"ev34_Balcony_pg0": {
+			"dialog_000": [
+				"Here's a good view.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Yeah, I remember we used to come here",
+				"to look at the palace gardens.",
+				"Come on, we have work to do.",
+				""
+			]
+		},
+		"ev35_Smallchest_pg0": {
+			"dialog_009": [
+				"A small chest. And there's some",
+				"money in it. That'll come in handy.",
+				"",
+				""
+			]
+		}
+	},
+	"m34_CapSewers": {
+		"ev05_FireWood_pg0": {
+			"dialog_001": [
+				"We have wood now.",
+				"We can't carry everything with us.",
+				"But when we come back, we'll",
+				"know that it's here."
+			]
+		},
+		"ev06_CampFire_pg0": {
+			"dialog_013": [
+				"We can set up a campsite here,",
+				"if we have wood, that is.",
+				"",
+				""
+			],
+			"option_001": [
+				"Set up a campsite",
+				"Save wood"
+			]
+		},
+		"ev08_GateA_pg0": {
+			"dialog_000": [
+				"I bet we need to go",
+				"to the other side.",
+				"",
+				""
+			],
+			"dialog_005": [
+				"See that lever? Maybe it opens that grate.",
+				"But it's over there and we're here.",
+				"",
+				""
+			]
+		},
+		"ev09_Log_pg1": {
+			"option_000": [
+				"Pick up the log",
+				"Leave it"
+			]
+		},
+		"ev10_ButtonA_pg0": {
+			"dialog_015": [
+				"Alright, so we need to put",
+				"something heavy on it.",
+				"",
+				""
+			],
+			"dialog_020": [
+				"How about that log that was just",
+				"in the side corridor a moment ago?",
+				"",
+				""
+			],
+			"option_001": [
+				"Place the log",
+				"Nothing for now"
+			]
+		},
+		"ev12_ButtonB_pg0": {
+			"dialog_015": [
+				"Don't tell me we need to go",
+				"back for that log.",
+				"",
+				""
+			],
+			"option_001": [
+				"Place the log",
+				"Nothing for now"
+			]
+		},
+		"ev13_CarryLog_pg0": {
+			"dialog_000": [
+				"I'm not going to carry that log",
+				"around forever, am I?",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Well, if you don't want to carry it,",
+				"you can definitely put it down.",
+				"\\C[10](try inventory)\\C[0]",
+				""
+			]
+		},
+		"ev14_GateB_pg0": {
+			"dialog_000": [
+				"Do you think there'll be another lever",
+				"on the other side again?",
+				"",
+				""
+			]
+		},
+		"ev16_GateC_pg0": {
+			"dialog_000": [
+				"And for the third time.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev17_ButtonC_pg0": {
+			"dialog_015": [
+				"Ah, here's the third button.",
+				"",
+				"",
+				""
+			],
+			"option_001": [
+				"Place the log",
+				"Nothing for now"
+			]
+		},
+		"ev18_Portal_pg0": {
+			"dialog_000": [
+				"We did it. We're here.",
+				"Can I start with the spell or",
+				"should I wait a bit longer?",
+				""
+			],
+			"dialog_017": [
+				"And it's done. We can go.",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Cast",
+				"Wait"
+			]
+		},
+		"ev22_FireWood_pg0": {
+			"dialog_001": [
+				"We have wood now.",
+				"We can't carry everything with us.",
+				"But when we come back, we'll",
+				"know that it's here."
+			]
+		},
+		"ev23_BrokenLever_pg0": {
+			"dialog_000": [
+				"Hmm, this lever is broken, it won't budge.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev33_Treasure_pg0": {
+			"dialog_009": [
+				"Chainmail cap!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev34_Treasure_pg0": {
+			"dialog_009": [
+				"Escape ring!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev35_Treasure_pg0": {
+			"dialog_009": [
+				"Regeneration ring!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev37_Treasure_pg0": {
+			"dialog_009": [
+				"Helmet!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m35_CapBetween": {
+		"ev09_Init_pg1": {
+			"dialog_007": [
+				"I'm back.",
+				"",
+				"",
+				""
+			],
+			"dialog_019": [
+				"Completely safe.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev10_Lever1_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev17_Lever2_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev19_Lever3_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev28_CentralCamp_pg0": {
+			"option_011": [
+				"Call back",
+				"Not yet"
+			],
+			"option_023": [
+				"Rest",
+				"Let's keep going"
+			]
+		},
+		"ev36_Lever6_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev42_Lever4_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev43_Lever1_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev44_Lever8_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev54_Lever11_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev63_Lever13_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev64_Lever14_pg0": {
+			"option_000": [
+				"Activate",
+				"Explain"
+			]
+		},
+		"ev68_DialogInit_pg0": {
+			"dialog_000": [
+				"Wow, that was a ride.",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"As far as I can see, the ride isn't over yet.",
+				"Sabrina, this isn't the palace. Where are we?",
+				"",
+				""
+			],
+			"dialog_010": [
+				"It's okay, I expected this. Don't worry.",
+				"In short, we're inside the magic",
+				"that surrounds the palace.",
+				""
+			],
+			"dialog_015": [
+				"The spell is resisting being broken, and it's creating",
+				"a maze of magic for my penetration formulas.",
+				"And what we see is an attempt of my senses",
+				"to understand what surrounds us."
+			],
+			"dialog_020": [
+				"Okay. What do you need from us?",
+				"",
+				"",
+				""
+			],
+			"dialog_025": [
+				"Actually, I'll need your help. In this",
+				"representation, there are four pyramids",
+				"that the spell has hidden from me.",
+				"Four pyramids, each containing an amulet."
+			],
+			"dialog_030": [
+				"If we collect all the amulets, I'll break the spell",
+				"and we'll be in the palace.",
+				"",
+				""
+			],
+			"dialog_035": [
+				"And what about that Tower over here?",
+				"",
+				"",
+				""
+			],
+			"dialog_040": [
+				"That's precisely the symbol of the locked spell.",
+				"Once we have the amulets, we'll come here",
+				"and unlock that tower with them.",
+				"Watch out, imps might also be here."
+			]
+		},
+		"ev69_PyramidA_pg0": {
+			"dialog_001": [
+				"We've got it!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev70_PyramidB_pg0": {
+			"dialog_001": [
+				"Hooray, an amulet!",
+				"",
+				"",
+				""
+			]
+		},
+		"ev71_PyramidC_pg0": {
+			"dialog_001": [
+				"Well, would you look at that. We have the Amulet.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev72_PyramidD_pg0": {
+			"dialog_001": [
+				"Great. We have the Amulet.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev73_CentralTower_pg0": {
+			"dialog_000": [
+				"I'll unlock this tower when we get all",
+				"four amulets. So far, we have \\V[19].",
+				"",
+				""
+			],
+			"dialog_005": [
+				"The amulets are in the pyramids,",
+				"somewhere in this maze.",
+				"",
+				""
+			]
+		},
+		"ev73_CentralTower_pg1": {
+			"dialog_011": [
+				"So we have all the amulets now.",
+				"Are you ready to storm the palace?",
+				"",
+				""
+			],
+			"dialog_028": [
+				"So we have all the amulets now.",
+				"But first, I should call back the party.",
+				"",
+				""
+			],
+			"option_016": [
+				"To attack!",
+				"A moment, please."
+			]
+		}
+	},
+	"m36_CastleChambersFin": {
+		"ev01_GuardDoor_pg0": {
+			"dialog_000": [
+				"Let's do this.",
+				"Across the corridor here is the armory,",
+				"maybe we could quickly stop by.",
+				""
+			]
+		},
+		"ev02_Init_pg0": {
+			"dialog_000": [
+				"So, how awesome am I?",
+				"",
+				"",
+				""
+			],
+			"dialog_005": [
+				"Perfect. This is right next to the princess's",
+				"chambers. Just down the hallway and to the left.",
+				"",
+				""
+			]
+		},
+		"ev05_ArmoryA_pg0": {
+			"dialog_000": [
+				"Magic armor? Take it.",
+				"",
+				"",
+				""
+			]
+		},
+		"ev07_ArmoryB_pg0": {
+			"dialog_000": [
+				"Magic axe? Alright.",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m37_Outro": {
+		"ev01_Init_pg0": {
+			"dialog_000": [
+				"You won!",
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"m38_BattleTest": {
+		"ev01_Battle_pg0": {
+			"dialog_002": [
+				"So, with whom?",
+				"",
+				"",
+				""
+			],
+			"option_007": [
+				"Hornet",
+				"Centrip",
+				"Two Hornets",
+				"Ghost",
+				"Goblin",
+				"Two Goblins"
+			]
+		},
+		"ev02_Shop_pg0": {
+			"dialog_000": [
+				"So what do you need then?",
+				"",
+				"",
+				""
+			],
+			"option_005": [
+				"Money",
+				"Experience",
+				"Equipment",
+				"Weapons and Armor"
+			]
+		},
+		"ev03_Reset_pg0": {
+			"dialog_000": [
+				"Level reset",
+				"",
+				"",
+				""
+			]
+		},
+		"ev04_Give_pg0": {
+			"dialog_003": [
+				"Here you go.",
+				"",
+				"",
+				""
+			]
+		}
+	}
+}
