@@ -1,5 +1,5 @@
 {
-	"Actors": {
+	"ac": {
 		"01_Jakub": {
 			"name": "Jakub",
 			"nickname": "",
@@ -16,7 +16,7 @@
 			"profile": ""
 		}
 	},
-	"Armors": {
+	"ar": {
 		"01_Kozenebrneni": {
 			"description": "",
 			"name": "Kožené brnění"
@@ -86,7 +86,7 @@
 			"name": "Kouzelná koruna"
 		}
 	},
-	"Classes": {
+	"cl": {
 		"01_Hrdina": {
 			"name": "Hrdina"
 		},
@@ -97,7 +97,7 @@
 			"name": "Kouzelnice"
 		}
 	},
-	"CommonEvents": {
+	"ev": {
 		"001_BlackKnightBattle": {
 			"dialog_000": [
 				"Další odvážlivec. Jen pojď, takových",
@@ -1661,7 +1661,7 @@
 			]
 		}
 	},
-	"Enemies": {
+	"en": {
 		"01_Cernyrytir": {
 			"name": "Černý rytíř"
 		},
@@ -1753,7 +1753,7 @@
 			"name": ""
 		}
 	},
-	"Items": {
+	"it": {
 		"01_LecivyLektvar": {
 			"description": "Doplň zdraví i trochu many",
 			"name": "Léčivý lektvar"
@@ -1835,7 +1835,7 @@
 			"name": ""
 		}
 	},
-	"Skills": {
+	"sk": {
 		"01_Seknuti": {
 			"description": "Základní útok na jednoho nepřítele",
 			"message1": " útočí!",
@@ -2071,7 +2071,7 @@
 			"name": "Zuřivý útok"
 		}
 	},
-	"States": {
+	"st": {
 		"01_Knockout": {
 			"message1": " padnul!",
 			"message2": " byl poražený!",
@@ -2213,7 +2213,9 @@
 			"name": ""
 		}
 	},
-	"System": {
+	"s": {
+		"exit": "Exit",
+		"toDesktop": "Na Plochu",
 		"armorTypes": {
 			"0": "Oblečení",
 			"1": "Kouzelná zbroj",
@@ -2222,7 +2224,7 @@
 			"4": "Malý štít",
 			"5": "Velký štít"
 		},
-		"currency": "Zl",
+		"currency": "Zlatých",
 		"elements": {
 			"0": "Fyzický",
 			"1": "Oheň",
@@ -2242,7 +2244,7 @@
 			"4": "Šperk"
 		},
 		"gameTitle": "Strážce koruny",
-		"messages": {
+		"m": {
 			"actionFailure": "%1: Efekt selhal!",
 			"actorDamage": "%1 dostal zásah za %2!",
 			"actorDrain": "%1 ztratil odsátím %2 %3!",
@@ -2300,7 +2302,7 @@
 			"1": "Speciální",
 			"2": "Útok"
 		},
-		"terms": {
+		"t": {
 			"basic": {
 				"0": "Úroveň",
 				"1": "Lv",
@@ -2366,7 +2368,7 @@
 			"9": "Drápy"
 		}
 	},
-	"Troops": {
+	"tr": {
 		"027_Velenirybaku_pg0": {
 			"dialog_000": [
 				"Ha! Kdo jste! Zavoláme stráž!",
@@ -7753,6 +7755,76 @@
 				"",
 				""
 			]
+		}
+	},
+	"wp": {
+		"01_KratkyMec": {
+			"description": "",
+			"name": "Kratky Mec"
+		},
+		"02_Sekera": {
+			"description": "",
+			"name": "Sekera"
+		},
+		"03_UcnovskaHul": {
+			"description": "",
+			"name": "Ucnovska Hul"
+		},
+		"04_KratkyLuk": {
+			"description": "",
+			"name": "Kratky Luk"
+		},
+		"05_Luk": {
+			"description": "",
+			"name": "Luk"
+		},
+		"06_Mec": {
+			"description": "",
+			"name": "Mec"
+		},
+		"07_SirokyMec": {
+			"description": "",
+			"name": "Siroky Mec"
+		},
+		"08_DlouhyMec": {
+			"description": "",
+			"name": "Dlouhy Mec"
+		},
+		"09_KouzelnyMec": {
+			"description": "",
+			"name": "Kouzelny Mec"
+		},
+		"10_DlouhyLuk": {
+			"description": "",
+			"name": "Dlouhy Luk"
+		},
+		"11_ReflexniLuk": {
+			"description": "",
+			"name": "Reflexni Luk"
+		},
+		"12_KouzelnyLuk": {
+			"description": "",
+			"name": "Kouzelny Luk"
+		},
+		"13_AspirantskaHul": {
+			"description": "",
+			"name": "Aspirantska Hul"
+		},
+		"14_MistrovskaHul": {
+			"description": "",
+			"name": "Mistrovska Hul"
+		},
+		"15_Rapir": {
+			"description": "",
+			"name": "Rapir"
+		},
+		"16_ValecnaSekera": {
+			"description": "",
+			"name": "Valecna Sekera"
+		},
+		"17_KouzelnaSekera": {
+			"description": "",
+			"name": "Kouzelna Sekera"
 		}
 	}
 }

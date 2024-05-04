@@ -1,5 +1,5 @@
 {
-	"Actors": {
+	"ac": {
 		"01_Jakub": {
 			"name": "Jakob",
 			"nickname": "",
@@ -16,7 +16,7 @@
 			"profile": ""
 		}
 	},
-	"Armors": {
+	"ar": {
 		"01_Kozenebrneni": {
 			"description": "",
 			"name": "Leather armor"
@@ -86,7 +86,7 @@
 			"name": "Enchanted crown"
 		}
 	},
-	"Classes": {
+	"cl": {
 		"01_Hrdina": {
 			"name": "Hero"
 		},
@@ -97,18 +97,18 @@
 			"name": "Sorceress"
 		}
 	},
-	"CommonEvents": {
+	"ev": {
 		"001_BlackKnightBattle": {
 			"dialog_000": [
 				"Another adventurer. Just come, there are",
-				"at least a hundred like you I intend to kill today.",
-				"",
+				"at least a hundred like you I intend",
+				"to kill today.",
 				""
 			],
 			"dialog_010": [
-				"This is how I will die here. I won't help the princess this way.",
+				"This is how I will die here.",
+				"I won't help the princess this way.",
 				"I must retreat.",
-				"",
 				""
 			],
 			"dialog_015": [
@@ -1661,7 +1661,7 @@
 			]
 		}
 	},
-	"Enemies": {
+	"en": {
 		"01_Cernyrytir": {
 			"name": "Black Knight"
 		},
@@ -1753,7 +1753,7 @@
 			"name": ""
 		}
 	},
-	"Items": {
+	"it": {
 		"01_LecivyLektvar": {
 			"description": "Restore health and a bit of mana",
 			"name": "Healing Potion"
@@ -1835,7 +1835,7 @@
 			"name": ""
 		}
 	},
-	"Skills": {
+	"sk": {
 		"01_Seknuti": {
 			"description": "Basic attack on one enemy",
 			"message1": " attacks!",
@@ -2071,7 +2071,7 @@
 			"name": "Furious Strike"
 		}
 	},
-	"States": {
+	"st": {
 		"01_Knockout": {
 			"message1": " has fallen!",
 			"message2": " has been defeated!",
@@ -2213,7 +2213,9 @@
 			"name": ""
 		}
 	},
-	"System": {
+	"s": {
+		"exit": "Exit",
+		"toDesktop": "To Desktop",
 		"armorTypes": {
 			"0": "Clothing",
 			"1": "Enchanted armor",
@@ -2222,7 +2224,7 @@
 			"4": "Small shield",
 			"5": "Large shield"
 		},
-		"currency": "G",
+		"currency": "Gold",
 		"elements": {
 			"0": "Physical",
 			"1": "Fire",
@@ -2241,8 +2243,8 @@
 			"3": "Body",
 			"4": "Jewelry"
 		},
-		"gameTitle": "Crown Guardian",
-		"messages": {
+		"gameTitle": "Guardian of the Crown",
+		"m": {
 			"actionFailure": "%1: Effect failed!",
 			"actorDamage": "%1 received a hit for %2!",
 			"actorDrain": "%1 lost %2 %3 by leaching!",
@@ -2300,7 +2302,7 @@
 			"1": "Special",
 			"2": "Attack"
 		},
-		"terms": {
+		"t": {
 			"basic": {
 				"0": "Level",
 				"1": "Lvl",
@@ -2316,7 +2318,7 @@
 			"commands": {
 				"0": "Fight",
 				"1": "Flee",
-				"10": "Game Over",
+				"10": "End Game",
 				"11": "Settings",
 				"12": "Weapon",
 				"13": "Armor",
@@ -2366,7 +2368,7 @@
 			"9": "Claws"
 		}
 	},
-	"Troops": {
+	"tr": {
 		"027_Velenirybaku_pg0": {
 			"dialog_000": [
 				"Ha! Who are you! We'll call the guards!",
@@ -2400,8 +2402,8 @@
 		"ev02_SuspiciousNoises_pg1": {
 			"dialog_000": [
 				"What's that noise? It's coming from",
-				"the princess's chambers. I have to check it out.",
-				"",
+				"the princess's chambers. I have to",
+				"check it out.",
 				""
 			]
 		},
@@ -2418,19 +2420,19 @@
 		"ev03_Archeologist_pg0": {
 			"dialog_003": [
 				"Hello. Well, I've never seen activating",
-				"that old portal like that before. Are you okay?",
-				"",
+				"that old portal like that before.",
+				"Are you okay?",
 				""
 			],
 			"dialog_008": [
 				"Phew. Thanks, barely. My name is Jakob, and",
 				"I didn't even know there was a portal there,",
-				"let alone where it leads. Where am I actually?",
-				""
+				"let alone where it leads.",
+				"Where am I actually?"
 			],
 			"dialog_013": [
 				"I'm Peter, an archaeologist.",
-				"I've been studying that old portal here for a few days now.",
+				"I've been studying that old portal here.",
 				"You're on the island of Sailor's Corner,",
 				"a few miles from the capital."
 			],
@@ -2461,8 +2463,8 @@
 			"dialog_061": [
 				"In the Swamp on Sailor's Corner Island.",
 				"About 50 miles from the capital.",
-				"There's an old magical portal and a village here.",
-				""
+				"There's an old magical portal",
+				"and a village here."
 			],
 			"dialog_069": [
 				"I have a map, I'll enter the well and go",
@@ -2550,8 +2552,8 @@
 			],
 			"dialog_158": [
 				"Have you looked around as I advised?",
-				"Let me know if you find something interesting.",
-				"",
+				"Let me know if you find",
+				"something interesting.",
 				""
 			],
 			"dialog_166": [
@@ -2561,10 +2563,10 @@
 				""
 			],
 			"dialog_171": [
-				"Kid, you're in such a hurry. Alright, I know",
-				"there's a village somewhere around here.",
-				"Maybe they'll help you there.",
-				"Look around here."
+				"Kid, you're in such a hurry. Alright,",
+				"I know there's a village somewhere",
+				"around here. Maybe they'll help you.",
+				"Start by looking around."
 			],
 			"option_039": [
 				"Rest",
@@ -2642,16 +2644,16 @@
 				"plenty room at my table\\C[0]."
 			],
 			"dialog_073": [
-				"\\C[4]Thank you, my lady. It's the first evening after the battle.\\C[0]",
-				"",
+				"\\C[4]Thank you, my lady. It's the first evening",
+				"after the battle.\\C[0]",
 				"",
 				""
 			],
 			"dialog_078": [
 				"\\C[4]You know I'm glad to be at your table, but tonight",
-				"I want to be with the soldiers. If I visit more campfires today,",
-				"I'll know tomorrow how much courage that battle",
-				"cost them.\\C[0]"
+				"I want to be with the soldiers. If I visit more",
+				"campfires today, I'll know tomorrow how much courage",
+				"that battle cost them.\\C[0]"
 			],
 			"dialog_085": [
 				"She smiles, waves her hand at me, and with her",
@@ -2678,7 +2680,7 @@
 				""
 			],
 			"dialog_115": [
-				"My father was a hunter, and we had a house near the port.",
+				"Father was a hunter, and we had a house near the port.",
 				"",
 				"I was the fourth son and couldn't rely",
 				"on my father's trade to support me."
@@ -2696,8 +2698,8 @@
 				""
 			],
 			"dialog_136": [
-				"He was right. One day the unthinkable happened.",
-				"And I happened to be on guard duty.",
+				"He was right. One day the unthinkable came.",
+				"And I happened to be on my guard duty.",
 				"",
 				""
 			],
@@ -7753,6 +7755,76 @@
 				"",
 				""
 			]
+		}
+	},
+	"wp": {
+		"01_KratkyMec": {
+			"description": "",
+			"name": "Short Sword"
+		},
+		"02_Sekera": {
+			"description": "",
+			"name": "Axe"
+		},
+		"03_UcnovskaHul": {
+			"description": "",
+			"name": "Apprentice Staff"
+		},
+		"04_KratkyLuk": {
+			"description": "",
+			"name": "Short Bow"
+		},
+		"05_Luk": {
+			"description": "",
+			"name": "Bow"
+		},
+		"06_Mec": {
+			"description": "",
+			"name": "Sword"
+		},
+		"07_SirokyMec": {
+			"description": "",
+			"name": "Broad Sword"
+		},
+		"08_DlouhyMec": {
+			"description": "",
+			"name": "Long Sword"
+		},
+		"09_KouzelnyMec": {
+			"description": "",
+			"name": "Magic Sword"
+		},
+		"10_DlouhyLuk": {
+			"description": "",
+			"name": "Long Bow"
+		},
+		"11_ReflexniLuk": {
+			"description": "",
+			"name": "Reflex Bow"
+		},
+		"12_KouzelnyLuk": {
+			"description": "",
+			"name": "Magic Bow"
+		},
+		"13_AspirantskaHul": {
+			"description": "",
+			"name": "Aspirant Staff"
+		},
+		"14_MistrovskaHul": {
+			"description": "",
+			"name": "Masters Staff"
+		},
+		"15_Rapir": {
+			"description": "",
+			"name": "Rapier"
+		},
+		"16_ValecnaSekera": {
+			"description": "",
+			"name": "Battle Axe"
+		},
+		"17_KouzelnaSekera": {
+			"description": "",
+			"name": "Magic Axe"
 		}
 	}
 }

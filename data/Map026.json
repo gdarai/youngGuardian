@@ -1,1 +1,1206 @@
-{"autoplayBgm":false,"autoplayBgs":false,"battleback1Name":"","battleback2Name":"","bgm":{"name":"yg_town_guitar_intro","pan":0,"pitch":100,"volume":100},"bgs":{"name":"","pan":0,"pitch":100,"volume":90},"data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"disableDashing":false,"displayName":"","encounterList":[],"encounterStep":30,"events":[null,{"id":1,"name":"Credits","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":241,"indent":0,"parameters":[{"name":"yg_town_guitar_intro","pan":0,"pitch":100,"volume":90}]},{"code":230,"indent":0,"parameters":[200]},{"code":231,"indent":0,"parameters":[100,"logo",1,0,408,312,100,100,0,0]},{"code":232,"indent":0,"parameters":[100,0,1,0,408,312,100,100,255,0,60,true]},{"code":121,"indent":0,"parameters":[42,42,0]},{"code":230,"indent":0,"parameters":[200]},{"code":232,"indent":0,"parameters":[100,0,1,0,408,312,100,100,0,0,60,true]},{"code":230,"indent":0,"parameters":[90]},{"code":355,"indent":0,"parameters":["SceneManager.goto(Scene_Title)"]},{"code":214,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":4,"walkAnime":true}],"x":4,"y":6},{"id":2,"name":"Picture","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":122,"indent":0,"parameters":[20,20,0,0,7]},{"code":230,"indent":0,"parameters":[8]},{"code":122,"indent":0,"parameters":[3,3,1,0,1]},{"code":355,"indent":0,"parameters":["const rndInt = v =\u003e Math.floor(Math.random() * v);"]},{"code":655,"indent":0,"parameters":["var x = rndInt(616) + 100;"]},{"code":655,"indent":0,"parameters":["var y = rndInt(424) + 100;"]},{"code":655,"indent":0,"parameters":["var i = $gameVariables.value(3);"]},{"code":655,"indent":0,"parameters":["$gameScreen.erasePicture(i);"]},{"code":655,"indent":0,"parameters":["$gameScreen.showPicture(i, \"Face_\" + i, 1, x, y, 100, 100, 150, 0);"]},{"code":111,"indent":0,"parameters":[1,3,1,20,0]},{"code":122,"indent":1,"parameters":[3,3,0,0,0]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":4,"walkAnime":true},{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":42,"switch1Valid":true,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":122,"indent":0,"parameters":[3,3,0,0,0]},{"code":112,"indent":0,"parameters":[]},{"code":122,"indent":1,"parameters":[3,3,1,0,1]},{"code":355,"indent":1,"parameters":["const id = $gameVariables.value(3);"]},{"code":655,"indent":1,"parameters":["const pic = $gameScreen.picture(id);"]},{"code":655,"indent":1,"parameters":["$gameScreen.movePicture(id, 1, pic._x, pic._y, 50, 50, 0, 0, 60);"]},{"code":111,"indent":1,"parameters":[1,3,1,20,0]},{"code":113,"indent":2,"parameters":[]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":413,"indent":0,"parameters":[]},{"code":214,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":3,"walkAnime":true}],"x":4,"y":4},null,{"id":4,"name":"Picture","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":230,"indent":0,"parameters":[200]},{"code":101,"indent":0,"parameters":["",0,2,2]},{"code":401,"indent":0,"parameters":["#{m26_PreTitle.ev04_Picture_pg0.dialog_001.0}"]},{"code":401,"indent":0,"parameters":["#{m26_PreTitle.ev04_Picture_pg0.dialog_001.1}"]},{"code":401,"indent":0,"parameters":["#{m26_PreTitle.ev04_Picture_pg0.dialog_001.2}"]},{"code":401,"indent":0,"parameters":["#{m26_PreTitle.ev04_Picture_pg0.dialog_001.3}"]},{"code":355,"indent":0,"parameters":["SceneManager.goto(Scene_Title)"]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":4,"walkAnime":true}],"x":2,"y":6}],"height":9,"note":"","parallaxLoopX":false,"parallaxLoopY":false,"parallaxName":"","parallaxShow":true,"parallaxSx":0,"parallaxSy":0,"scrollType":0,"specifyBattleback":false,"tilesetId":1,"width":9}
+{
+	"autoplayBgm": false,
+	"autoplayBgs": false,
+	"battleback1Name": "",
+	"battleback2Name": "",
+	"bgm": {
+		"name": "yg_town_guitar_intro",
+		"pan": 0,
+		"pitch": 100,
+		"volume": 100
+	},
+	"bgs": {
+		"name": "",
+		"pan": 0,
+		"pitch": 100,
+		"volume": 90
+	},
+	"disableDashing": false,
+	"displayName": "",
+	"encounterList": [],
+	"encounterStep": 30,
+	"height": 9,
+	"note": "",
+	"parallaxLoopX": false,
+	"parallaxLoopY": false,
+	"parallaxName": "",
+	"parallaxShow": true,
+	"parallaxSx": 0,
+	"parallaxSy": 0,
+	"scrollType": 0,
+	"specifyBattleback": false,
+	"tilesetId": 1,
+	"width": 9,
+	"data": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"events": [
+		null,
+		{
+			"id": 1,
+			"name": "Credits",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"characterIndex": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"tileId": 0
+					},
+					"list": [
+						{
+							"code": 241,
+							"indent": 0,
+							"parameters": [
+								{
+									"name": "yg_town_guitar_intro",
+									"pan": 0,
+									"pitch": 100,
+									"volume": 90
+								}
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								200
+							]
+						},
+						{
+							"code": 231,
+							"indent": 0,
+							"parameters": [
+								100,
+								"logo",
+								1,
+								0,
+								408,
+								312,
+								100,
+								100,
+								0,
+								0
+							]
+						},
+						{
+							"code": 232,
+							"indent": 0,
+							"parameters": [
+								100,
+								0,
+								1,
+								0,
+								408,
+								312,
+								120,
+								120,
+								255,
+								0,
+								60,
+								true
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								100
+							]
+						},
+						{
+							"code": 121,
+							"indent": 0,
+							"parameters": [
+								42,
+								42,
+								0
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								100
+							]
+						},
+						{
+							"code": 232,
+							"indent": 0,
+							"parameters": [
+								100,
+								0,
+								1,
+								0,
+								408,
+								312,
+								100,
+								100,
+								0,
+								0,
+								60,
+								true
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								90
+							]
+						},
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"SceneManager.goto(Scene_Title)"
+							]
+						},
+						{
+							"code": 214,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 4,
+			"y": 6
+		},
+		{
+			"id": 2,
+			"name": "Picture",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"characterIndex": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"tileId": 0
+					},
+					"list": [
+						{
+							"code": 122,
+							"indent": 0,
+							"parameters": [
+								20,
+								20,
+								0,
+								0,
+								22
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								10
+							]
+						},
+						{
+							"code": 122,
+							"indent": 0,
+							"parameters": [
+								3,
+								3,
+								1,
+								0,
+								1
+							]
+						},
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"const rndInt = v => Math.floor(Math.random() * v);"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 0,
+							"parameters": [
+								"var x = rndInt(616) + 100;"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 0,
+							"parameters": [
+								"var y = rndInt(424) + 100;"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 0,
+							"parameters": [
+								"var i = $gameVariables.value(3);"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 0,
+							"parameters": [
+								"$gameScreen.erasePicture(i);"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 0,
+							"parameters": [
+								"$gameScreen.showPicture(i, \"Face_\" + i, 1, x, y, 100, 100, 150, 0);"
+							]
+						},
+						{
+							"code": 111,
+							"indent": 0,
+							"parameters": [
+								1,
+								3,
+								1,
+								20,
+								0
+							]
+						},
+						{
+							"code": 122,
+							"indent": 1,
+							"parameters": [
+								3,
+								3,
+								0,
+								0,
+								0
+							]
+						},
+						{
+							"code": 0,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 412,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 42,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"characterIndex": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"tileId": 0
+					},
+					"list": [
+						{
+							"code": 122,
+							"indent": 0,
+							"parameters": [
+								3,
+								3,
+								0,
+								0,
+								0
+							]
+						},
+						{
+							"code": 112,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 122,
+							"indent": 1,
+							"parameters": [
+								3,
+								3,
+								1,
+								0,
+								1
+							]
+						},
+						{
+							"code": 355,
+							"indent": 1,
+							"parameters": [
+								"const id = $gameVariables.value(3);"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 1,
+							"parameters": [
+								"const pic = $gameScreen.picture(id);"
+							]
+						},
+						{
+							"code": 655,
+							"indent": 1,
+							"parameters": [
+								"$gameScreen.movePicture(id, 1, pic._x, pic._y, 50, 50, 0, 0, 60);"
+							]
+						},
+						{
+							"code": 111,
+							"indent": 1,
+							"parameters": [
+								1,
+								3,
+								1,
+								20,
+								0
+							]
+						},
+						{
+							"code": 113,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 412,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 413,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 214,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 3,
+					"walkAnime": true
+				}
+			],
+			"x": 4,
+			"y": 4
+		},
+		{
+			"id": 3,
+			"name": "Zoom",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"characterIndex": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"tileId": 0
+					},
+					"list": [
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"Galv.ZOOM.center(3,1);"
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								10
+							]
+						},
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"Galv.ZOOM.center(1,200);"
+							]
+						},
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								500
+							]
+						},
+						{
+							"code": 214,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 4,
+			"y": 5
+		},
+		{
+			"id": 4,
+			"name": "Picture",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"characterIndex": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"tileId": 0
+					},
+					"list": [
+						{
+							"code": 230,
+							"indent": 0,
+							"parameters": [
+								200
+							]
+						},
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								2,
+								2
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"#{m26_PreTitle.ev04_Picture_pg0.dialog_001.0}"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"#{m26_PreTitle.ev04_Picture_pg0.dialog_001.1}"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"#{m26_PreTitle.ev04_Picture_pg0.dialog_001.2}"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"#{m26_PreTitle.ev04_Picture_pg0.dialog_001.3}"
+							]
+						},
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"SceneManager.goto(Scene_Title)"
+							]
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 2,
+			"y": 6
+		}
+	]
+}
